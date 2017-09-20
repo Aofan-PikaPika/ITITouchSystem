@@ -43,3 +43,26 @@ E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.ex
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfoPage.baml
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfoPage.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\StyleDictionary.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\bin\Debug\ITITouch.exe.config
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.exe
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.pdb
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.csprojResolveAssemblyReference.cache
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Controls\ImageScrollView.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Controls\Viewport3DControl.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeInfoPage.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\App.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Controls\ImageScrollView.g.cs
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Controls\Viewport3DControl.g.cs
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeInfoPage.g.cs
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\MainWindow.g.cs
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\App.g.cs
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch_MarkupCompile.cache
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch_MarkupCompile.lref
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\MainWindow.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\StyleDictionary.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.g.resources
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.Properties.Resources.resources
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.csproj.GenerateResource.Cache
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\bin\Debug\ITITouch.exe
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\bin\Debug\ITITouch.pdb

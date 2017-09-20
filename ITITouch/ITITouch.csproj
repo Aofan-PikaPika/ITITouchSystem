@@ -76,6 +76,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Infomation\CollegeProfile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Infomation\CurrentLeaders.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -95,6 +103,12 @@
     <Compile Include="CWeather.cs" />
     <Compile Include="Infomation\CollegeInfoPage.xaml.cs">
       <DependentUpon>CollegeInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Infomation\CollegeProfile.xaml.cs">
+      <DependentUpon>CollegeProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Infomation\CurrentLeaders.xaml.cs">
+      <DependentUpon>CurrentLeaders.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -119,7 +133,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="Properties\Licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
