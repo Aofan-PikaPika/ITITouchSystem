@@ -72,6 +72,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Infomation\CollegeHistory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Infomation\CollegeInfoPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -81,6 +85,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Infomation\CurrentLeaders.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Infomation\PreviousLeaders.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -101,6 +109,9 @@
       <DependentUpon>Viewport3DControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="CWeather.cs" />
+    <Compile Include="Infomation\CollegeHistory.xaml.cs">
+      <DependentUpon>CollegeHistory.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Infomation\CollegeInfoPage.xaml.cs">
       <DependentUpon>CollegeInfoPage.xaml</DependentUpon>
     </Compile>
@@ -109,6 +120,9 @@
     </Compile>
     <Compile Include="Infomation\CurrentLeaders.xaml.cs">
       <DependentUpon>CurrentLeaders.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Infomation\PreviousLeaders.xaml.cs">
+      <DependentUpon>PreviousLeaders.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
