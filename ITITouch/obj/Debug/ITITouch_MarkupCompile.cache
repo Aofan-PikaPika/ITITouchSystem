@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\
 ITITouch
 none
 false
 DEBUG;TRACE
-E:\visual studio 2013\Projects\ITITouch\ITITouch\App.xaml
-3473392467
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\App.xaml
+5399980394
 
-101476520431
+11-389347139
 201619813286
-Controls\ImageScrollView.xaml;Controls\Viewport3DControl.xaml;MainWindow.xaml;
+Controls\ImageScrollView.xaml;Controls\Viewport3DControl.xaml;Infomation\CollegeInfoPage.xaml;MainWindow.xaml;StyleDictionary.xaml;
 
 False
 
