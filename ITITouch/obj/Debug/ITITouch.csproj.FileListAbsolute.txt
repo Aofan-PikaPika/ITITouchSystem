@@ -74,3 +74,17 @@ C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeHi
 C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeProfile.g.cs
 C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CurrentLeaders.g.cs
 C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\PreviousLeaders.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeHistory.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfomation.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CurrentLeaders.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\NaviPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\PreviousLeaders.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\OrganizationPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeHistory.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfomation.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CurrentLeaders.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\NaviPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\PreviousLeaders.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\OrganizationPage.g.cs

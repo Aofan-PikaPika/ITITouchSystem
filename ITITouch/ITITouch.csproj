@@ -76,9 +76,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Infomation\CollegeInfoPage.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Infomation\CollegeInfomation.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Infomation\CollegeProfile.xaml">
       <SubType>Designer</SubType>
@@ -87,6 +87,10 @@
     <Page Include="Infomation\CurrentLeaders.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Infomation\NaviPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Infomation\PreviousLeaders.xaml">
       <SubType>Designer</SubType>
@@ -112,14 +116,17 @@
     <Compile Include="Infomation\CollegeHistory.xaml.cs">
       <DependentUpon>CollegeHistory.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Infomation\CollegeInfoPage.xaml.cs">
-      <DependentUpon>CollegeInfoPage.xaml</DependentUpon>
+    <Compile Include="Infomation\CollegeInfomation.xaml.cs">
+      <DependentUpon>CollegeInfomation.xaml</DependentUpon>
     </Compile>
     <Compile Include="Infomation\CollegeProfile.xaml.cs">
       <DependentUpon>CollegeProfile.xaml</DependentUpon>
     </Compile>
     <Compile Include="Infomation\CurrentLeaders.xaml.cs">
       <DependentUpon>CurrentLeaders.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Infomation\NaviPage.xaml.cs">
+      <DependentUpon>NaviPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Infomation\PreviousLeaders.xaml.cs">
       <DependentUpon>PreviousLeaders.xaml</DependentUpon>
@@ -128,12 +135,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Organization\OrganizationPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="StyleDictionary.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Organization\OrganizationPage.xaml.cs">
+      <DependentUpon>OrganizationPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -228,7 +242,6 @@
     <Folder Include="Education\" />
     <Folder Include="Faculty\" />
     <Folder Include="Map\" />
-    <Folder Include="Organization\" />
     <Folder Include="Scientific\" />
     <Folder Include="Website\" />
     <Folder Include="WechatQRCode\" />
