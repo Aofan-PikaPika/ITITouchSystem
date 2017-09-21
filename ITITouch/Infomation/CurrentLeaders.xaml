@@ -3,67 +3,67 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      mc:Ignorable="d" d:DesignHeight="1080" d:DesignWidth="1500" ShowsNavigationUI="False" >    
+      mc:Ignorable="d" d:DesignHeight="1080" d:DesignWidth="1500" ShowsNavigationUI="False" >
 
     <Grid Background="White">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="150"/>
-                <ColumnDefinition Width="1200"/>
-                <ColumnDefinition Width="150"/>
-            </Grid.ColumnDefinitions>
-            <Grid Grid.Column="1">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="1200"/>
+            <ColumnDefinition Width="150"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="270"/>
                 <RowDefinition Height="270"/>
                 <RowDefinition Height="270"/>
                 <RowDefinition Height="270"/>
             </Grid.RowDefinitions>
-                <StackPanel Grid.Row="0" Height="270" Width="470"  HorizontalAlignment="Left" VerticalAlignment="Center">
-                    <Image Source="/ITITouch;component/Resources/商植桐工作照小版.jpg"  Width="350" Height="260" HorizontalAlignment="Left" Stretch="Fill"  />
-                     </StackPanel>
-                <StackPanel Height="270" Width="720" HorizontalAlignment="Right">
-                    <Label Content="商植桐" HorizontalAlignment="Left" FontSize="34" Foreground="Black"  VerticalAlignment="Top" Width="720"/>
-                    <Label Content="党委书记" HorizontalAlignment="Left" FontSize="25" Foreground="Gray"  VerticalAlignment="Top" Width="720"/>
-                    <Label MaxWidth="720" HorizontalAlignment="Left" FontSize="16" Foreground="Gray"  VerticalAlignment="Top"  Width="720" >
-                        <TextBlock TextWrapping="Wrap"
-                                   Text="商植桐，男，汉族，1967年9月生，河北省大城县人，教授，硕士生导师。河北工学院电气技术专业毕业，天津市委党校经济学研究生，河北工业大学高级工商管理硕士。1990年6月加入中国共产党，1990年7月留校参加工作，先后任河北工业大学节能办公室主任，后勤管理处副处长兼饮食中心主任等职，2005年4月任纪委副书记、监察处处长，2016年1月任计算机科学与软件学院党委书记。兼任河北工业大学廉育研究所副所长，天津市纪检监察学会理事。主要研究方向为党史党建，廉政建设，文化建设等。2011年以来，发表各类学术论文30余篇，主持省级和厅级课题十余项，以第二主编参编教材一部。" />
-                    </Label>
-                 </StackPanel>
-            <StackPanel Grid.Row="1" Height="270" Width="470"  HorizontalAlignment="Right" VerticalAlignment="Bottom" >
-                <Image Source="/ITITouch;component/Resources/于明院长工作照小版.jpg"  Width="350" Height="260" HorizontalAlignment="Right" Stretch="Fill" Margin="0,10,0,0" />
+            <StackPanel Grid.Row="0" Height="270" Width="400"  HorizontalAlignment="Left" VerticalAlignment="Center">
+                <Image Source="/ITITouch;component/Resources/商植桐工作照小版.jpg"  Width="350" Height="240" HorizontalAlignment="Left" Stretch="UniformToFill" Margin="0,10,0,0"  />
             </StackPanel>
-            <StackPanel  Height="270" Width="720"  Grid.Row="1" HorizontalAlignment="Left" >
-                <Label Content="于明" HorizontalAlignment="Left" FontSize="34" Foreground="Black"  VerticalAlignment="Top" Width="720"/>
-                <Label Content="院长" HorizontalAlignment="Left" FontSize="25" Foreground="Gray"  VerticalAlignment="Top" Width="720"/>
-                <Label MaxWidth="720" HorizontalAlignment="Left" FontSize="16" Foreground="Gray"  VerticalAlignment="Top"  Width="720" >
+            <StackPanel Height="250" Width="800" HorizontalAlignment="Right">
+                <Label Content="商植桐" HorizontalAlignment="Left" FontSize="30" Foreground="Black"  VerticalAlignment="Top" Width="800"/>
+                <Label Content="党委书记" HorizontalAlignment="Left" FontSize="22" Foreground="Gray"  VerticalAlignment="Top" Width="800"/>
+                <Label MaxWidth="800" HorizontalAlignment="Left" FontSize="16" Foreground="Gray"  VerticalAlignment="Top"  Width="800" >
+                    <TextBlock TextWrapping="Wrap"
+                                   Text="商植桐，男，汉族，1967年9月生，河北省大城县人，教授，硕士生导师。河北工学院电气技术专业毕业，天津市委党校经济学研究生，河北工业大学高级工商管理硕士。1990年6月加入中国共产党，1990年7月留校参加工作，先后任河北工业大学节能办公室主任，后勤管理处副处长兼饮食中心主任等职，2005年4月任纪委副书记、监察处处长，2016年1月任计算机科学与软件学院党委书记。兼任河北工业大学廉育研究所副所长，天津市纪检监察学会理事。主要研究方向为党史党建，廉政建设，文化建设等。2011年以来，发表各类学术论文30余篇，主持省级和厅级课题十余项，以第二主编参编教材一部。" />
+                </Label>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Height="270" Width="400"  HorizontalAlignment="Right" VerticalAlignment="Bottom" >
+                <Image Source="/ITITouch;component/Resources/于明院长工作照小版.jpg"  Width="350" Height="240" HorizontalAlignment="Right" Stretch="Fill" Margin="0,10,0,0" />
+            </StackPanel>
+            <StackPanel  Height="270" Width="800"  Grid.Row="1" HorizontalAlignment="Left" >
+                <Label Content="于明" HorizontalAlignment="Left" FontSize="30" Foreground="Black"  VerticalAlignment="Bottom" Width="800" Height="45"/>
+                <Label Content="院长" HorizontalAlignment="Left" FontSize="22" Foreground="Gray"  VerticalAlignment="Top" Width="800"/>
+                <Label MaxWidth="800" HorizontalAlignment="Left" FontSize="16" Foreground="Gray"  VerticalAlignment="Top"  Width="800" >
                     <TextBlock TextWrapping="Wrap"
                                    Text="于明，男，教授、博士生导师。1964年7月生，1987年加入中国共产党。1982年9月至1986年7月，北京邮电学院电信工程专业学习；1986年9月至1989年3月，河北工学院通信与信息系统专业学习；1996年3月至1999年4月，北京理工大学通信与信息系统专业攻读博士学位；2000年4月至2000年8月，德国慕尼黑应用技术大学电气工程系访问学者。1989年3月至1995年5月，在河北工学院计算中心任教，1995年5月至1999年9月，在河北工业大学电子工程系任教，历任电子工程系副主任、电气信息学院副院长；1999年9月至2002年7月，任现代化教学中心主任；2002年7月至2011年12月，任计算机科学与软件学院院长。2012年1月-2016年1月任国际合作与交流处处长兼国际教育学院党总支书记。2016年1月-2017年3月任国际合作与交流处处长。现任计算机科学与软件学院院长。" />
                 </Label>
             </StackPanel>
-            <StackPanel Grid.Row="2" Height="270" Width="470"  HorizontalAlignment="Left" VerticalAlignment="Center">
-                <Image Source="/ITITouch;component/Resources/王轩工作照小版.jpg"  Width="350" Height="260" HorizontalAlignment="Left" Margin="0,10,0,0" Stretch="Fill" />
+            <StackPanel Grid.Row="2" Height="270" Width="400"  HorizontalAlignment="Left" VerticalAlignment="Center">
+                <Image Source="/ITITouch;component/Resources/王轩工作照小版.jpg"  Width="350" Height="240" HorizontalAlignment="Left" Margin="0,10,0,0" Stretch="Fill" />
             </StackPanel>
-            <StackPanel Grid.Row="2" Height="270" Width="720" HorizontalAlignment="Right" Margin="0,10,0,0" >
-                <Label Content="王轩" HorizontalAlignment="Left" FontSize="34" Foreground="Black"  VerticalAlignment="Top" Width="720"/>
-                <Label Content="党委副书记、副院长" HorizontalAlignment="Left" FontSize="25" Foreground="Gray"  VerticalAlignment="Top" Width="720"/>
-                <Label MaxWidth="720" HorizontalAlignment="Left" FontSize="16" Foreground="Gray"  VerticalAlignment="Top"  Width="720" >
+            <StackPanel Grid.Row="2" Height="270" Width="800" HorizontalAlignment="Right" Margin="0,10,0,0" >
+                <Label Content="王轩" HorizontalAlignment="Left" FontSize="30" Foreground="Black"  VerticalAlignment="Top" Width="800"/>
+                <Label Content="党委副书记、副院长" HorizontalAlignment="Left" FontSize="22" Foreground="Gray"  VerticalAlignment="Top" Width="800"/>
+                <Label MaxWidth="800" HorizontalAlignment="Left" FontSize="16" Foreground="Gray"  VerticalAlignment="Top"  Width="800" >
                     <TextBlock TextWrapping="Wrap"
                                    Text="王轩，女，汉族，1980年12月生，河北省定州市人。北方民族大学法学专业毕业，河北工业大学管理学院技术经济及管理专业研究生。2001年12月加入中国共产党，2004年10月到校参加工作，曾先后在河北工业大学北辰校区管理委员会、学校办公室秘书科、城市学院等部门工作。2012年11月任城市学院学生工作部主任，2014年8月任城市学院组织人事部主任，2016年8月至今担任计算机科学与软件学院党委副书记兼副院长。曾获天津市首届青年管理干部基本功竞赛一等奖、河北省法学会劳动法学研究会优秀论文奖、河北省&quot;体验省情·服务群众&quot;主题实践活动优秀指导教师等奖项。兼任天津津鼎律师事务所律师。" />
                 </Label>
             </StackPanel>
-            <StackPanel Grid.Row="3" Height="270" Width="470"  HorizontalAlignment="Right" VerticalAlignment="Center">
-                <Image Source="/ITITouch;component/Resources/董永峰工作照小版.jpg"  Width="350" Height="260" HorizontalAlignment="Right" Stretch="Fill"  />
+            <StackPanel Grid.Row="3" Height="250" Width="400"  HorizontalAlignment="Right" VerticalAlignment="Center">
+                <Image Source="/ITITouch;component/Resources/董永峰工作照小版.jpg"  Width="350" Height="240" HorizontalAlignment="Right" Margin="0,0,0,20" Stretch="Fill"  />
             </StackPanel>
-            <StackPanel  Height="270" Width="720"  Grid.Row="3" HorizontalAlignment="Left" Margin="0,20,0,0">
-                <Label Content="董永峰" HorizontalAlignment="Left" FontSize="34" Foreground="Black"  VerticalAlignment="Top" Width="720"/>
-                <Label Content="副院长" HorizontalAlignment="Left" FontSize="25" Foreground="Gray"  VerticalAlignment="Top" Width="720"/>
-                <Label MaxWidth="720" HorizontalAlignment="Left" FontSize="16" Foreground="Gray"  VerticalAlignment="Top"  Width="720" >
+            <StackPanel  Height="270" Width="800"  Grid.Row="3" HorizontalAlignment="Left" Margin="0,20,0,0">
+                <Label Content="董永峰" FontSize="30" Foreground="Black"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="800" Height="50"/>
+                <Label Content="副院长" HorizontalAlignment="Left" FontSize="22" Foreground="Gray"  VerticalAlignment="Top" Width="800"/>
+                <Label MaxWidth="800" HorizontalAlignment="Left" FontSize="16" Foreground="Gray"  VerticalAlignment="Top"  Width="800" >
                     <TextBlock TextWrapping="Wrap"
                                    Text="董永峰，男，汉族，1977年5月生，河北省定州人，教授，硕士生导师。2013年4月任计算机科学与软件学院副院长。中国计算机学会教工委委员，CCF YOCSEF天津副主席，河北省计算机学会常务理事，河北省电子学会理事。主要研究方向为：智能信息处理、 软件工程、大数据技术、智能机器人。获得天津市科技进步二等奖2项，河北省科技进步三等奖1项。" />
                 </Label>
             </StackPanel>
 
         </Grid>
-        </Grid>
-               
+    </Grid>
+
 </Page>

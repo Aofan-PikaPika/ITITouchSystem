@@ -23,9 +23,9 @@
                 <ColumnDefinition Width="375"/>
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="1">
-                <StackPanel Height="570" Width="750" Margin="0,75,0,0" >
-                    <Label Content="计算机科学与软件学院" HorizontalAlignment="Left" FontSize="27" Height="40"  VerticalAlignment="Top" Width="750" Foreground="Black" />
-                    <Label MaxWidth="750" HorizontalAlignment="Left" FontSize="15" Foreground="Gray" Margin="0,15,0,0" VerticalAlignment="Top" Width="750">
+                <StackPanel Height="620" Width="750" Margin="0,50,0,0" >
+                    <Label Content="计算机科学与软件学院" HorizontalAlignment="Left" FontSize="27" Height="45"  VerticalAlignment="Top" Width="750" Foreground="Black" />
+                    <Label MaxWidth="750" HorizontalAlignment="Left" FontSize="15" Foreground="Gray" Margin="0,25,0,0" VerticalAlignment="Top" Width="750">
                         <TextBlock TextWrapping="Wrap"
                                    Text="河北工业大学计算机科学与软件学院前身是1985年成立的计算机科学与工程系，2002年与计算中心合并成立学院。" />
                     </Label>

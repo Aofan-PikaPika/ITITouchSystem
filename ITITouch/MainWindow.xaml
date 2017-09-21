@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         x:Class="ITITouch.MainWindow"
         xmlns:my="clr-namespace:ITITouch.Controls"
-        Title="MainWindow" Height="1080" Width="1920">
+        Title="MainWindow" Height="1080" Width="1920" WindowState="Maximized" WindowStyle="None">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="770"/>
@@ -87,7 +87,7 @@
 
             </StackPanel.Background>
 
-            <Button  Style="{StaticResource MyWpfButton}" Height="160" Width="160" Margin="80,20,20,20">
+            <Button  Style="{StaticResource MyWpfButton}" Height="160" Width="160" Margin="80,20,20,20" Name="CollegeInfo" Click="CollegeInfo_Click">
                 <StackPanel Orientation="Vertical">
                     <Image Width="90" Height="90"  Source="Resources/library.png"/>
                     <TextBlock Text="学院信息" FontFamily="Microsoft YaHei" TextAlignment="Center" />
@@ -135,7 +135,7 @@
                 </StackPanel>
             </Button>
 
-            <Button  Style="{StaticResource MyWpfButton8}" Height="160" Width="160" Margin="50,20,20,20">
+            <Button  Style="{StaticResource MyWpfButton8}" Height="160" Width="160" Margin="50,20,20,20" Name="Wechat" Click="Wechat_Click">
                 <StackPanel Orientation="Vertical">
                     <Image Width="90" Height="90"  Source="Resources/wechat.png"/>
                     <TextBlock Text="学院微信" FontFamily="Microsoft YaHei" TextAlignment="Center" />

@@ -16,6 +16,7 @@ using ITITouch.Weather;
 using ITITouch.Controls;
 using System.Net;
 using System.Windows.Forms;
+using ITITouch.Infomation;
 
 namespace ITITouch
 {
@@ -181,6 +182,18 @@ namespace ITITouch
 
             }
 
+        }
+
+
+        private void CollegeInfo_Click(object sender, RoutedEventArgs e)
+        {
+            CollegeInfoWindow win = new CollegeInfoWindow();
+            win.ShowDialog();
+        }
+
+        private void Wechat_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
 
       

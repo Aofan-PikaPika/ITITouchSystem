@@ -4,10 +4,162 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
-	Title="CollegeHistory">
+      d:DesignHeight="1080" d:DesignWidth="1500"  ShowsNavigationUI="False"
+	  Title="CollegeHistory">
 
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--上部放置一个图片-->
+        <DockPanel LastChildFill="True" Grid.Row="0">
+            <Image Source="/ITITouch;component/Resources/history_header.jpg" Height="410" Stretch="UniformToFill" HorizontalAlignment="Center" VerticalAlignment="Center"></Image>
+        </DockPanel>
+        <!--再采用一个Grid切分图片的下半部分，将下半部分切分成三列-->
+        <Grid Background="White" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="0.2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <!--在第二列视图做出一部分划线的东西来表达时间轴-->
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition Width="50"></ColumnDefinition>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"></RowDefinition>
+                    <!--每个时间轴占一行，Grid的一行可以自动根据文本框的内容扩展-->
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <!--2012年-->
+                <TextBlock Grid.Row="1" Grid.Column="0" FontSize="20" FontWeight="Bold">2012年至今</TextBlock>
+                <StackPanel Grid.Row="1" Grid.Column="1">
+                    <Grid>
+                        <Ellipse Width="20" Height="20" Fill="#306F7070"  />
+                        <Ellipse Width="10" Height="10" Fill="#FF6501" />
+                    </Grid>
+                </StackPanel>
+                <Rectangle Grid.Row="1" Grid.Column="1" Height="auto" Width="1" Visibility="Visible" Stroke="#306F7070" ></Rectangle>
+                <StackPanel Grid.Column="3" Grid.Row="1" Margin="4">
+                    <TextBlock TextWrapping="Wrap" FontSize="13" Foreground="Gray" Margin="0,4,0,20">学院现有计算机科学与技术、软件工程、网络工程、物联网工程4个本科专业；计算机科学与技术、控制科学与工程两个一级硕士点，计算机技术、软件工程两个二级硕士点；计算机科学与技术系、网络工程系、软件工程系、基础教学部、计算机实验中心、嵌入式技术及其应用实验室、软件工程研究中心、信息技术研究所等教学和科研机构，在智能信息处理、网络信息安全、并行处理与智能计算、图像处理与多媒体、计算机智能控制等研究方向和领域具有很好的基础，并取得多项研究成果，学院还与法国巴黎高等计算机专科学院（supinfo）、新西兰梅西大学等国外知名大学和IT公司在教学、科研和人才培养方面展开合作。</TextBlock>
+                </StackPanel>
+                <!--2012年 以上-->
+
+                <!--2006年-->
+                <TextBlock Grid.Row="2" Grid.Column="0" FontSize="20" FontWeight="Bold">2006年</TextBlock>
+                <StackPanel Grid.Row="2" Grid.Column="1">
+                    <Grid>
+                        <Ellipse Width="20" Height="20" Fill="#306F7070"  />
+                        <Ellipse Width="10" Height="10" Fill="#FF6501" />
+                    </Grid>
+                </StackPanel>
+                <Rectangle Grid.Row="2" Grid.Column="1" Height="auto" Width="1" Visibility="Visible" Stroke="#306F7070" ></Rectangle>
+                <StackPanel  Grid.Row="2"  Grid.Column="3" Margin="4">
+                    <TextBlock TextWrapping="Wrap" Margin="0,4,0,20" FontSize="13" Foreground="Gray">学院整体搬迁至河北工业大学北辰校区。</TextBlock>
+                </StackPanel>
+                <!--2006年 以上-->
+
+                <!--2002年-->
+                <TextBlock Grid.Row="3" Grid.Column="0" FontSize="20" FontWeight="Bold">2002年</TextBlock>
+                <StackPanel Grid.Row="3" Grid.Column="1">
+                    <Grid>
+                        <Ellipse Width="20" Height="20" Fill="#306F7070"  />
+                        <Ellipse Width="10" Height="10" Fill="#FF6501" />
+                    </Grid>
+                </StackPanel>
+                <Rectangle Grid.Row="3" Grid.Column="1" Height="auto" Width="1" Visibility="Visible" Stroke="#306F7070" ></Rectangle>
+                <StackPanel  Grid.Row="3"  Grid.Column="3" Margin="4">
+                    <TextBlock TextWrapping="Wrap" Margin="0,4,0,20" FontSize="13" Foreground="Gray">计算机科学与技术系从信息学院中分离出来，同计算中心合并成立了计算机科学与软件学院，首届党委书记是耿恒山，院长是于明，计算中心更名为计算机实验中心，第一届主任是陈宪统，第二届主任是刘恩海。</TextBlock>
+                </StackPanel>
+                <!--2002年 以上-->
+
+                <!--2001年-->
+                <TextBlock Grid.Row="4" Grid.Column="0" FontSize="20" FontWeight="Bold">2001年</TextBlock>
+                <StackPanel Grid.Row="4" Grid.Column="1">
+                    <Grid>
+                        <Ellipse Width="20" Height="20" Fill="#306F7070"  />
+                        <Ellipse Width="10" Height="10" Fill="#FF6501" />
+                    </Grid>
+                </StackPanel>
+                <Rectangle Grid.Row="4" Grid.Column="1" Height="auto" Width="1" Visibility="Visible" Stroke="#306F7070" ></Rectangle>
+                <StackPanel  Grid.Row="4"  Grid.Column="3" Margin="4">
+                    <TextBlock TextWrapping="Wrap" Margin="0,4,0,20" FontSize="13" Foreground="Gray">电气信息学院分成了电气学院和信息学院，计算机科学与技术系隶属与信息学院，首届党委书记是郭成启，院长是赵晓群，计算机科学与技术系支部副书记和副主任是耿恒山。</TextBlock>
+                </StackPanel>
+                <!--2001年 以上-->
+
+                <!--1998年-->
+                <TextBlock Grid.Row="5" Grid.Column="0" FontSize="20" FontWeight="Bold">1998年</TextBlock>
+                <StackPanel Grid.Row="5" Grid.Column="1">
+                    <Grid>
+                        <Ellipse Width="20" Height="20" Fill="#306F7070"  />
+                        <Ellipse Width="10" Height="10" Fill="#FF6501" />
+                    </Grid>
+                </StackPanel>
+                <Rectangle Grid.Row="5" Grid.Column="1" Height="auto" Width="1" Visibility="Visible" Stroke="#306F7070" ></Rectangle>
+                <StackPanel  Grid.Row="5"  Grid.Column="3" Margin="4">
+                    <TextBlock TextWrapping="Wrap" Margin="0,4,0,20" FontSize="13" Foreground="Gray">计算机科学与工程系变更成计算机科学与技术系，隶属于电气学院，首届党委书记是郭成启，院长是孙鹤旭，计算机科学与技术系支部副部书记是耿恒山，计算机科学与技术系主任是王永滨。</TextBlock>
+                </StackPanel>
+                <!--1998年 以上-->
+
+                <!--1987年-->
+                <TextBlock Grid.Row="6" Grid.Column="0" FontSize="20" FontWeight="Bold">1987年</TextBlock>
+                <StackPanel Grid.Row="6" Grid.Column="1">
+                    <Grid>
+                        <Ellipse Width="20" Height="20" Fill="#306F7070"  />
+                        <Ellipse Width="10" Height="10" Fill="#FF6501" />
+                    </Grid>
+                </StackPanel>
+                <Rectangle Grid.Row="6" Grid.Column="1" Height="auto" Width="1" Visibility="Visible" Stroke="#306F7070" ></Rectangle>
+                <StackPanel  Grid.Row="6"  Grid.Column="3" Margin="4">
+                    <TextBlock TextWrapping="Wrap" Margin="0,4,0,20" FontSize="13" Foreground="Gray">学校成立了计算中心，方便全校学生进行上机实验，首届主任是刘玉慰，第二届主任是谭润华，第三届主任是于明，计算中心的成立为后期计算机科学与软件学院的成立建立了前期条件。</TextBlock>
+                </StackPanel>
+                <!--1987年 以上-->
+
+
+                <!--1985年-->
+                <TextBlock Grid.Row="7" Grid.Column="0" FontSize="20" FontWeight="Bold">1985年</TextBlock>
+                <StackPanel Grid.Row="7" Grid.Column="1">
+                    <Grid>
+                        <Ellipse Width="20" Height="20" Fill="#306F7070"  />
+                        <Ellipse Width="10" Height="10" Fill="#FF6501" />
+                    </Grid>
+                </StackPanel>
+                <Rectangle Grid.Row="7" Grid.Column="1" Height="auto" Width="1" Visibility="Visible" Stroke="#306F7070" ></Rectangle>
+                <StackPanel  Grid.Row="7"  Grid.Column="3" Margin="4">
+                    <TextBlock TextWrapping="Wrap" Margin="0,4,0,20" FontSize="13" Foreground="Gray">学校成立了计算机科学与工程系，首届计算机科学与工程系直属党总支书记是刘永昌，系主任是张志强，招生一个本科班，一个大港专科班。</TextBlock>
+                </StackPanel>
+                <!--1985年 以上-->
+
+                <!--1978年-->
+                <TextBlock Grid.Row="8" Grid.Column="0" FontSize="20" FontWeight="Bold">1978年</TextBlock>
+                <StackPanel Grid.Row="8" Grid.Column="1">
+                    <Grid>
+                        <Ellipse Width="20" Height="20" Fill="#306F7070"  />
+                        <Ellipse Width="10" Height="10" Fill="#FF6501" />
+                    </Grid>
+                </StackPanel>
+                <Rectangle Grid.Row="8" Grid.Column="1" Height="auto" Width="1" Visibility="Visible" Stroke="#306F7070" ></Rectangle>
+                <StackPanel  Grid.Row="8"  Grid.Column="3" Margin="4">
+                    <TextBlock TextWrapping="Wrap" Margin="0,4,0,20" FontSize="13" Foreground="Gray">由名誉院长潘承孝负责，并由张志强组建了计算机站，该站挂靠在科研处情报室，地点在机械学院二楼。自从成立计算站后，学校开始招实验管理人员引进学习培训。全国其他高校广大教师也积极参与到计算机语言培训当中，在全国是最早实行培训的单位。开始培训广大教师算法语言，主讲BASIC语言、Fortran语言、汇编语言，由于学校没有计算机，参加培训的老师需到天津师范学院去上机，用的是纸袋穿孔机输入程序。</TextBlock>
+                </StackPanel>
+                <!--1978年 以上-->
+
+
+
+            </Grid>
+        </Grid>
     </Grid>
 </Page>

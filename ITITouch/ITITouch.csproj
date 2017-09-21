@@ -76,9 +76,9 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Infomation\CollegeInfomation.xaml">
-      <Generator>MSBuild:Compile</Generator>
+    <Page Include="Infomation\CollegeInfoWindow.xaml">
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Infomation\CollegeProfile.xaml">
       <SubType>Designer</SubType>
@@ -116,8 +116,8 @@
     <Compile Include="Infomation\CollegeHistory.xaml.cs">
       <DependentUpon>CollegeHistory.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Infomation\CollegeInfomation.xaml.cs">
-      <DependentUpon>CollegeInfomation.xaml</DependentUpon>
+    <Compile Include="Infomation\CollegeInfoWindow.xaml.cs">
+      <DependentUpon>CollegeInfoWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Infomation\CollegeProfile.xaml.cs">
       <DependentUpon>CollegeProfile.xaml</DependentUpon>
@@ -176,9 +176,6 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\Aatrox_0.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\back.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -233,12 +230,6 @@
     <Resource Include="Resources\snow.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\22.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\21.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Education\" />
     <Folder Include="Faculty\" />
     <Folder Include="Map\" />
@@ -263,6 +254,19 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\mi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\flag.png" />
+    <Resource Include="Resources\history.png" />
+    <Resource Include="Resources\leader.png" />
+    <Resource Include="Resources\oldleader.png" />
+    <Resource Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\history_header.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
