@@ -236,6 +236,21 @@
   <ItemGroup>
     <Resource Include="Resources\wechat.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\商植桐工作照小版.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\于明院长工作照小版.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\董永峰工作照小版.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\王轩工作照小版.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\mi.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -66,3 +66,11 @@ C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.Properties.
 C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.csproj.GenerateResource.Cache
 C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\bin\Debug\ITITouch.exe
 C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\bin\Debug\ITITouch.pdb
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeHistory.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeProfile.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CurrentLeaders.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\PreviousLeaders.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeHistory.g.cs
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeProfile.g.cs
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CurrentLeaders.g.cs
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\PreviousLeaders.g.cs
