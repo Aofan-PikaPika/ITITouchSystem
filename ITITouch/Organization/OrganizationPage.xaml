@@ -20,11 +20,11 @@
             </StackPanel>
             <StackPanel HorizontalAlignment="Center"  Margin="0,950,0,0">
                 <Button Width="30" Height="30" Name="bt_return" Style="{StaticResource ReturnButton}"/>
-                <Label FontWeight="Bold" Style="{StaticResource smallText3}" >关闭并返回</Label>
+                <Label FontWeight="Bold" Style="{StaticResource smallText3}" >返回主界面</Label>
             </StackPanel>
         </Grid>
         <Grid Grid.Column="1" Background="#FFEAEAEA"/>                 
-        <Grid Grid.Column="2" Background="WhiteSmoke"/>
+        <Grid Grid.Column="2" Background="White"/>
         
         
     </Grid>

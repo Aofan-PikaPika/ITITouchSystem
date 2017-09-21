@@ -76,7 +76,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Infomation\CollegeInfoPage.xaml">
+    <Page Include="Infomation\CollegeInfomation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Infomation\NaviPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Organization\OrganizationPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -112,8 +120,14 @@
     <Compile Include="Infomation\CollegeHistory.xaml.cs">
       <DependentUpon>CollegeHistory.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Infomation\CollegeInfoPage.xaml.cs">
-      <DependentUpon>CollegeInfoPage.xaml</DependentUpon>
+    <Compile Include="Infomation\CollegeInfomation.xaml.cs">
+      <DependentUpon>CollegeInfomation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Infomation\NaviPage.xaml.cs">
+      <DependentUpon>NaviPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Organization\OrganizationPage.xaml.cs">
+      <DependentUpon>OrganizationPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Infomation\CollegeProfile.xaml.cs">
       <DependentUpon>CollegeProfile.xaml</DependentUpon>
@@ -149,8 +163,8 @@
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="app.config">
       <SubType>Designer</SubType>
@@ -160,9 +174,6 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\Aatrox_0.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\back.jpg" />
@@ -219,22 +230,33 @@
     <Resource Include="Resources\snow.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\22.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\21.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Education\" />
     <Folder Include="Faculty\" />
     <Folder Include="Map\" />
-    <Folder Include="Organization\" />
     <Folder Include="Scientific\" />
     <Folder Include="Website\" />
     <Folder Include="WechatQRCode\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\wechat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\leader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\history.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\oldleader.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\flag.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
