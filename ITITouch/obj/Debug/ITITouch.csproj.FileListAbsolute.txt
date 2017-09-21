@@ -39,6 +39,9 @@ E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\MainWindow.
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.g.resources
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.Properties.Resources.resources
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.csproj.GenerateResource.Cache
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.exe.licenses
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfoPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfoPage.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\StyleDictionary.baml
 C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\bin\Debug\ITITouch.exe.config
 C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.exe
@@ -63,17 +66,11 @@ C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.Properties.
 C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.csproj.GenerateResource.Cache
 C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\bin\Debug\ITITouch.exe
 C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\bin\Debug\ITITouch.pdb
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeProfile.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CurrentLeaders.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeProfile.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CurrentLeaders.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeHistory.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\PreviousLeaders.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeHistory.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\PreviousLeaders.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\OrganizationPage.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\OrganizationPage.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfomation.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfomation.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\NaviPage.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\NaviPage.g.cs
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeHistory.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeProfile.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CurrentLeaders.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\PreviousLeaders.baml
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeHistory.g.cs
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeProfile.g.cs
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CurrentLeaders.g.cs
+C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\PreviousLeaders.g.cs

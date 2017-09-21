@@ -3,11 +3,55 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
-	Title="CollegeProfile">
+      mc:Ignorable="d" d:DesignHeight="1080" d:DesignWidth="1500" ShowsNavigationUI="False" >
+
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="410"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" >
+            <StackPanel HorizontalAlignment="Center" >
+                <Image Source="/ITITouch;component/Resources/mi.png"  Width="1500" Height="410" Stretch="Fill" />
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1" Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="375"/>
+                <ColumnDefinition Width="750"/>
+                <ColumnDefinition Width="375"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <StackPanel Height="570" Width="750" Margin="0,75,0,0" >
+                    <Label Content="计算机科学与软件学院" HorizontalAlignment="Left" FontSize="27" Height="40"  VerticalAlignment="Top" Width="750" Foreground="Black" />
+                    <Label MaxWidth="750" HorizontalAlignment="Left" FontSize="15" Foreground="Gray" Margin="0,15,0,0" VerticalAlignment="Top" Width="750">
+                        <TextBlock TextWrapping="Wrap"
+                                   Text="河北工业大学计算机科学与软件学院前身是1985年成立的计算机科学与工程系，2002年与计算中心合并成立学院。" />
+                    </Label>
+                    <Label MaxWidth="750" HorizontalAlignment="Left" FontSize="15" Foreground="Gray" Margin="0,15,0,0" VerticalAlignment="Top" Width="750">
+                        <TextBlock TextWrapping="Wrap"
+                                   Text="学院有计算机科学与技术、软件工程、网络工程、物联网工程4个本科专业；计算机科学与技术、控制科学与工程两个一级硕士点，计算机技术、软件工程两个二级硕士点；计算机科学与技术系、网络工程系、软件工程系、基础教学部、计算机实验中心、嵌入式技术及其应用实验室、软件工程研究中心、信息技术研究所等教学和科研机构，在智能信息处理、网络信息安全、并行处理与智能计算、图像处理与多媒体、计算机智能控制等研究方向和领域具有很好的科研基础，与法国巴黎高等计算机专科学院(supinfo)、新西兰梅西大学等国外知名大学和IT公司在教学、科研和人才培养方面展开合作。" />
+                    </Label>
+                    <Label MaxWidth="750" HorizontalAlignment="Left" FontSize="15" Foreground="Gray" Margin="0,15,0,0" VerticalAlignment="Top" Width="750">
+                        <TextBlock TextWrapping="Wrap"
+                                   Text="&quot;以人为本，育人为先&quot;是学院坚持的人才培养理念，拥有一支教学经验丰富、科研能力强、结构合理的师资队伍，其中教授 13 名，副教授21名，具有博士学位和在读博士的教师 38 名，专任教师60名。" />
+                    </Label>
+                    <Label MaxWidth="750" HorizontalAlignment="Left" FontSize="15" Foreground="Gray" Margin="0,15,0,0" VerticalAlignment="Top" Width="750">
+                        <TextBlock TextWrapping="Wrap"
+                                   Text="青年教师多人次在天津市高校青年教师基本功竞赛、青年管理干部基本功竞赛中获奖。 近年来，学院教师承担国家和省、部级自然科学科研课题40余项，社会科学科研课题10余项，获省、部级以上奖励10余项，在智能信息处理、网络信息安全、并行处理与智能计算、图像处理与多媒体、计算机智能控制等研究方向取得多项研究成果，出版专著、教材40多部，在国内外刊物和会议上发表论文400余篇。" />
+                    </Label>
+                    <Label MaxWidth="750" HorizontalAlignment="Left" FontSize="15" Foreground="Gray" Margin="0,15,0,0" VerticalAlignment="Top" Width="750">
+                        <TextBlock TextWrapping="Wrap"
+                                   Text="河北工业大学计算机科学与软件学院秉承学校&quot;勤慎公忠&quot;的校训，在人才培养中坚持&quot;厚实基础、深化专业、注重理论、突出实践&quot;的办学特色。" />
+                    </Label>
+                    <Label MaxWidth="750" HorizontalAlignment="Left" FontSize="15" Foreground="Gray" Margin="0,15,0,0" VerticalAlignment="Top" Width="750">
+                        <TextBlock TextWrapping="Wrap"
+                                   Text="近五年来，学生中共有47人次获得国家级专业竞赛奖励， 87人荣获省级以上专业竞赛奖励，学院毕业生就业形势良好，年均就业率高达91%。" />
+                    </Label>
+                </StackPanel>          
+            </Grid>
+        </Grid>
         
     </Grid>
 </Page>
