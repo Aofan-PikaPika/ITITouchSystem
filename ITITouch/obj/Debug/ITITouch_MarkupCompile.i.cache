@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\App.xaml
-7-2032633211
+91834038980
 
-141925707225
+16-947358978
 201619813286
-Controls\ImageScrollView.xaml;Controls\Viewport3DControl.xaml;Infomation\CollegeInfoPage.xaml;Infomation\CollegeProfile.xaml;Infomation\CurrentLeaders.xaml;MainWindow.xaml;StyleDictionary.xaml;
+Controls\ImageScrollView.xaml;Controls\Viewport3DControl.xaml;Infomation\CollegeHistory.xaml;Infomation\CollegeInfoPage.xaml;Infomation\CollegeProfile.xaml;Infomation\CurrentLeaders.xaml;Infomation\PreviousLeaders.xaml;MainWindow.xaml;StyleDictionary.xaml;
 
 False
 
