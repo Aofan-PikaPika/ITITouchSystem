@@ -80,6 +80,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Infomation\CollegeLogo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Infomation\CollegeProfile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -118,6 +122,9 @@
     </Compile>
     <Compile Include="Infomation\CollegeInfoWindow.xaml.cs">
       <DependentUpon>CollegeInfoWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Infomation\CollegeLogo.xaml.cs">
+      <DependentUpon>CollegeLogo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Infomation\CollegeProfile.xaml.cs">
       <DependentUpon>CollegeProfile.xaml</DependentUpon>
@@ -267,6 +274,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\history_header.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\logooo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\old_schoolScenery.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

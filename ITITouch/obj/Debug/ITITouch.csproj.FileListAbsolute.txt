@@ -85,3 +85,5 @@ E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\OrganizationPage.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfoWindow.baml
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfoWindow.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeLogo.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeLogo.baml

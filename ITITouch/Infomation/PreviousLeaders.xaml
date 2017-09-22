@@ -4,10 +4,265 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
+      d:DesignHeight="1080" d:DesignWidth="1500"  ShowsNavigationUI="False"
 	Title="PreviousLeaders">
-
+    <Page.Resources>
+        <ResourceDictionary>
+            <Style TargetType="{x:Type TextBlock}" x:Key="leaderTableTxtblockStyle">
+                <Setter Property="Width" Value="200"></Setter>
+                <Setter Property="Margin" Value="10"></Setter>
+                <Setter Property="FontSize" Value="27"></Setter>
+                <Setter Property="Foreground" Value="White"></Setter>
+                <Setter Property="TextAlignment" Value="Center"></Setter>
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </Page.Resources> 
+    
     <Grid>
         
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--这里设置Image.RenderTransform里面的ScaleTransform可以设置其图片的属性，实现图片在图片框里面上下移动-->
+        <!--但过于繁琐，且不易对其，最后采用手工切图且调整Stretch的方法-->
+        <Image Source="/ITITouch;component/Resources/old_schoolScenery.jpg" Stretch="UniformToFill"></Image>
+        <Grid Background="White" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <!--先隔离出两边的行，再给出中间的人，以表格形式展示-->
+                <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <!--表格中间需要有空间-->
+                <ColumnDefinition Width ="0.03*"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="0.2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <!--这是表格的第一列-->
+            <StackPanel  Grid.Row ="1" Grid.Column="1" Margin="0,50">
+                <!--第一行表头-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFD61700">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >历任领导</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFD61700">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">职务</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFD61700">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">任职时间</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--周建伟-->
+                <DockPanel LastChildFill="True"  Margin="0,0,0,5">
+                    <StackPanel  Background="#FFC56640">
+                        <TextBlock  Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">周建伟</TextBlock>
+                    </StackPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock  Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">党委书记</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFF79E7C">
+                        <TextBlock  Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">2012-2016</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--顾军华-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >顾军华</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">院长</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">2012-2017</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--赵其波-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >赵其波</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">副书记，副院长</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">2012-2016</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--耿恒山-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >耿恒山</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">党委书记</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">2002-2012</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--于明-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >于 明</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">院长</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">2002-2012</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--任福战-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >任福战</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">副书记，副院长</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">2002-2012</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--顾军华-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >顾军华</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">副院长</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">2002-2012</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--耿恒山-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >耿恒山</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">系支部书记</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">1998-2002</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+               
+            </StackPanel>
+            <!--这是表格的第二列-->
+            <StackPanel  Grid.Row ="1" Grid.Column="3" Margin="0,50">
+                <!--第二列表头-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFD61700">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >历任领导</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFD61700">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">职务</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFD61700">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">任职时间</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--王永滨-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >王永滨</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">系主任</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">1998-1999</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--刘教民-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >刘教民</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">系主任</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">1995-1998</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--李望超-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >李望超</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">系主任</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">1991-1995</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--杨文林-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >杨文林</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">系主任</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">1988-1991</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--孟宪芬-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >孟宪芬</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">系党总支书记</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">1990-1998</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--刘文芳-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >刘文芳</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">系党总支书记</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">1988-1990</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--张志强-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >张志强</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">系主任</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">1985-1988</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+                <!--刘永昌-->
+                <DockPanel LastChildFill="True" Margin="0,0,0,5">
+                    <DockPanel LastChildFill="True" Background="#FFC56640">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}" >刘永昌</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True"  Background="#FFEE8F6A">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">党支部书记</TextBlock>
+                    </DockPanel>
+                    <DockPanel LastChildFill="True" Background="#FFF79E7C">
+                        <TextBlock Style="{StaticResource ResourceKey=leaderTableTxtblockStyle}">1985-1988</TextBlock>
+                    </DockPanel>
+                </DockPanel>
+            </StackPanel>
+        </Grid>
+
     </Grid>
 </Page>
