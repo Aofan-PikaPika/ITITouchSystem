@@ -115,7 +115,7 @@
                 </StackPanel>
             </Button>
 
-            <Button  Style="{StaticResource MyWpfButton5}" Height="160" Width="160" Margin="50,20,20,20">
+            <Button  Style="{StaticResource MyWpfButton5}" Height="160" Width="160" Margin="50,20,20,20" x:Name="science" Click="science_Click">
                 <StackPanel Orientation="Vertical">
                     <Image Width="90" Height="90"  Source="Resources/computer.png"/>
                     <TextBlock Text="科学研究" FontFamily="Microsoft YaHei" TextAlignment="Center" />
@@ -128,7 +128,7 @@
                     <TextBlock Text="地图导航" FontFamily="Microsoft YaHei" TextAlignment="Center" />
                 </StackPanel>
             </Button>
-            <Button  Style="{StaticResource MyWpfButton7}" Height="160" Width="160" Margin="50,20,20,20">
+            <Button  Style="{StaticResource MyWpfButton7}" Height="160" Width="160" Margin="50,20,20,20" Name="web" Click="web_Click">
                 <StackPanel Orientation="Vertical">
                     <Image Width="90" Height="90"  Source="Resources/web.png"/>
                     <TextBlock Text="学院官网" FontFamily="Microsoft YaHei" TextAlignment="Center" />

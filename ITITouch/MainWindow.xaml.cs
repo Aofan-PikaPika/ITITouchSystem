@@ -17,6 +17,8 @@ using ITITouch.Controls;
 using System.Net;
 using System.Windows.Forms;
 using ITITouch.Infomation;
+using ITITouch.Website;
+using ITITouch.WechatQRCode;
 
 namespace ITITouch
 {
@@ -192,6 +194,18 @@ namespace ITITouch
         }
 
         private void Wechat_Click(object sender, RoutedEventArgs e)
+        {
+            WechatWindow wcw = new WechatWindow();
+            wcw.ShowDialog();
+        }
+
+        private void web_Click(object sender, RoutedEventArgs e)
+        {
+            WebSiteWindow wsw = new WebSiteWindow();
+            wsw.ShowDialog();
+        }
+
+        private void science_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
         }

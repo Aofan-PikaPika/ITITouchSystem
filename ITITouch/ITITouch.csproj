@@ -37,6 +37,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
@@ -58,12 +61,52 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Organization\BasicTeachPage.xaml.cs">
+      <DependentUpon>BasicTeachPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Organization\ComputerScienceAndTechnology.xaml.cs">
+      <DependentUpon>ComputerScienceAndTechnology.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Organization\InternetOfThingsPage.xaml.cs">
+      <DependentUpon>InternetOfThingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Organization\LabCenterPage.xaml.cs">
+      <DependentUpon>LabCenterPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Organization\LabPage.xaml.cs">
+      <DependentUpon>LabPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Organization\NaviPage1.xaml.cs">
+      <DependentUpon>NaviPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Organization\NaviPage2.xaml.cs">
+      <DependentUpon>NaviPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Organization\NetworkEngineering.xaml.cs">
+      <DependentUpon>NetworkEngineering.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Organization\OranizationWindow.xaml.cs">
+      <DependentUpon>OranizationWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Organization\SoftwareEngineering.xaml.cs">
+      <DependentUpon>SoftwareEngineering.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Website\WebSiteWindow.xaml.cs">
+      <DependentUpon>WebSiteWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WechatQRCode\QRCodePage.xaml.cs">
+      <DependentUpon>QRCodePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WechatQRCode\WechatWindow.xaml.cs">
+      <DependentUpon>WechatWindow.xaml</DependentUpon>
+    </Compile>
     <Page Include="Controls\ImageScrollView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -142,7 +185,43 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Organization\OrganizationPage.xaml">
+    <Page Include="Organization\BasicTeachPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Organization\ComputerScienceAndTechnology.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Organization\InternetOfThingsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Organization\LabCenterPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Organization\LabPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Organization\NaviPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Organization\NaviPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Organization\NetworkEngineering.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Organization\OranizationWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Organization\SoftwareEngineering.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -150,11 +229,20 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Website\WebSiteWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WechatQRCode\QRCodePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="WechatQRCode\WechatWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Organization\OrganizationPage.xaml.cs">
-      <DependentUpon>OrganizationPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -184,9 +272,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\back.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\back2.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\college.png" />
@@ -241,8 +326,6 @@
     <Folder Include="Faculty\" />
     <Folder Include="Map\" />
     <Folder Include="Scientific\" />
-    <Folder Include="Website\" />
-    <Folder Include="WechatQRCode\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\wechat.png" />
@@ -280,6 +363,52 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\old_schoolScenery.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\back.png" />
+    <Resource Include="Resources\close.png" />
+    <Resource Include="Resources\forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\back01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\forward01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\logologo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\footer_weixin.png" />
+    <Resource Include="Resources\QRBackPicWideFill.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\实验中心.jpg" />
+    <Resource Include="Resources\实验室.jpg" />
+    <Resource Include="Resources\计算机基础教学部.jpg" />
+    <Resource Include="Resources\计算机科学与技术.jpg" />
+    <Resource Include="Resources\软件工程.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\基础教学部.png" />
+    <Resource Include="Resources\实验中心.png" />
+    <Resource Include="Resources\实验室.png" />
+    <Resource Include="Resources\物联网.png" />
+    <Resource Include="Resources\网络工程.png" />
+    <Resource Include="Resources\计科.png" />
+    <Resource Include="Resources\软件工程.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\团委.png" />
+    <Resource Include="Resources\委员会.png" />
+    <Resource Include="Resources\学院办公室.png" />
+    <Resource Include="Resources\职能.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\物联网工程.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\WiFi.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,0 +1,49 @@
+﻿<Page x:Class="ITITouch.WechatQRCode.QRCodePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1800" ShowsNavigationUI="False" 
+	Title="QRCodePage">
+    <!--1920 -120 = 1800-->
+    <Grid Background="White">
+
+        <!--被淘汰掉的思路是用Grid切分三列三行,有一个虚化的背景，然后在最中间一片白，放入二维码-->
+        <!--目前的思路是仿照原有的页面，上面图片，下面是字和二维码-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="410"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="500"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Image Grid.ColumnSpan="3" Grid.Row="0"  Stretch="UniformToFill" Source="/ITITouch;component/Resources/QRBackPicWideFill.jpg"  />
+        <Canvas Grid.ColumnSpan="3" Grid.Row="0" Background="#7F000000"></Canvas>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock VerticalAlignment="Bottom" Margin="0,0,0,120" TextAlignment="Center" FontSize="50" Grid.Row="1"  Foreground="White">权威、高效、沟通</TextBlock>
+        </Grid>
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBlock Margin="0,70,0,0" TextAlignment="Center" TextWrapping="Wrap" FontSize="22">开启您的移动端相机，记录下我们的公众号。<LineBreak/>我们将帮助您获取最新的学院资讯。</TextBlock>
+            <!--用一个Grid等分两列，每列排布一个官方微博微信图片以及下面的文字-->
+            <Grid Margin="0,40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="1">
+                    <Image Margin="10" Height="300"  Source="/ITITouch;component/Resources/footer_weixin.png" ></Image>
+                    <TextBlock  Margin="0,5" TextAlignment="Center" FontSize="16">官方微信</TextBlock>
+                </StackPanel>
+            </Grid>
+            <!--再往下就是机器说的一些话-->
+            <TextBlock Margin="0,10" TextAlignment="Center" TextWrapping="Wrap" FontSize="22">在您确认后，我们将为您推送更多的前沿信息。<LineBreak/>欢迎关注计算机科学与软件学院。</TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

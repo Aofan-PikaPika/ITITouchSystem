@@ -1,0 +1,23 @@
+﻿<Window x:Class="ITITouch.Website.WebSiteWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wfi="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+        xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+        Title="WebSiteWindow" Height="1080" Width="1920" WindowState="Maximized" WindowStyle="None">
+    <Grid Background="#FF344A61" >
+
+        <wfi:WindowsFormsHost Margin="0,0,0,80" >
+            <wf:WebBrowser x:Name="wb" NewWindow="wb_NewWindow" Navigated="wb_Navigated"></wf:WebBrowser>
+        </wfi:WindowsFormsHost>
+
+        <StackPanel Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="600" Orientation="Horizontal" Panel.ZIndex="2" Background="Transparent">
+
+            <Image Source="/ITITouch;component/Resources/back01.png" x:Name="back" Height="50" Width="50" Margin="70,0" MouseUp="back_MouseUp" />
+            <Image Source="/ITITouch;component/Resources/logologo.jpg" x:Name="home" Stretch="Uniform" Margin="60,0" MouseUp="home_MouseUp"/>
+            <Image Source="/ITITouch;component/Resources/forward01.png" x:Name="forward" Height="50" Width="50" Margin="70,0" MouseUp="forward_MouseUp"/>
+        </StackPanel>
+       
+        
+
+    </Grid>
+</Window>
