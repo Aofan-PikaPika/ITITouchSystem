@@ -1,0 +1,21 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.WanYanPing.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 宛艳萍，硕士，副教授, 毕业于河北工业大学计算机及应用专业，现任教于河北工业大学计算机科学与软件学院计算机科学与技术专业。教学方面，主讲本科课程《数据结构》、《计算方法》和《Object Modeling Uml and C++ Language》等课程，在2007-2012年连续六年获得校课堂教学优秀奖。科研方面，发表论文20余篇：其中SCI检索1篇，EI检索8篇，ISTP检索9篇，核心期刊6篇，并已完成三项省部级项目和多项校级立项项目."/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 发表论文"/><Run Text="：曾发表《The Applying of Discrete Regularization Method in Numerical Differentiation》、《 The Noise Immunity Analysis of Numerical Differentiation Basing on MATLAB》、《A New Evaluation Method about the Reliability of the Electrical Products》、《 A  strong deviation theorem of Markov information sources》、《 A Strong Law of  Large Numbers for Non-homogeneous Markov Information Source》、《Application of the Bayes'theory to the failure rate evaluation of electrical apparatus》"/><LineBreak/><Run/><LineBreak/>
+                 <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 科研项目"/><Run Text="：曾作为主研参与《电器产品可靠性评估与贝叶斯理论的应用》、《马尔可夫随机场在电子信息管理中的应用》、《电力系统谐波检测方法与补偿控制策略的研究》等省部级项目。"/><LineBreak/><Run/><LineBreak/>
+
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

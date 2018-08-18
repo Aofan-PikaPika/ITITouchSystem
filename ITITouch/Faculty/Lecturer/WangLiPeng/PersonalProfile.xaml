@@ -1,0 +1,20 @@
+﻿<Page x:Class="ITITouch.Faculty.Lecturer.WangLiPeng.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+>
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap"><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run Text=" "/><Run FontWeight="Bold" Text="个人简介"/><Run Text="： "/><LineBreak/><Run Text="王立鹏，南开大学数学科学院博士"/><LineBreak/><LineBreak/><InlineUIContainer> 
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 学术成果"/><Run Text="："/><LineBreak/><Run Text="《广义Maiorana-McFarland布尔函数及其密码特性》、《向量输出部分Bent函数的性质》、《一些等级系统中的访问控制方案》"/></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

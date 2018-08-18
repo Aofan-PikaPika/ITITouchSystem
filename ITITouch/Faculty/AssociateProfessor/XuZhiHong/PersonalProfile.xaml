@@ -1,0 +1,22 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.XuZhiHong.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 许智宏，副教授。多次获得河北工业大学课堂教学质量奖，两次获得河北工业大学优秀任课教师奖。曾多次指导和组织学生参加ACM国际大学生程序设计大赛、河北省大学生网络技能大赛、华北五省计算机应用大赛等学生创新竞赛，取得优秀成绩。主研省部级课题4项，主持企业委托项目2项，获得河北省科学技术三等奖1项，公开发表论文20余篇。指导已毕业硕士研究生近20人。"/><LineBreak/><Run/><LineBreak/>
+               
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 获奖成果及专利"/><Run Text="：2005年《数据挖掘中智能知识进化系统研究》获河北省科技进步三等奖；2013年《计算机专业国际化人才培养模式研究与实践》获河北省优秀教学成果三等奖；取得软件著作权7项。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 项目"/><Run Text="：曾参加河北省自然科学基金项目《数据挖掘中智能知识进化系统研究（601055）》、天津市应用基础及前沿技术研究计划项目《基于视觉的路面病害智能检测方法研究》、企业委托项目《网络比价软件开发》等。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 论文"/><Run Text="：曾发表《Player detection algorithm based on Gaussian mixture models background modeling》、《A method for reduced-reference color image quality assessment》、《A video denoising algorithm in wavelet domain》、《Deformable block motion estimation and compensation in the redundant domain》等。"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

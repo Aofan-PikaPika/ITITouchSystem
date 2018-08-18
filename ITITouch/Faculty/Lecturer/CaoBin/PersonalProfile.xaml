@@ -1,0 +1,21 @@
+﻿<Page x:Class="ITITouch.Faculty.Lecturer.CaoBin.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        mc:Ignorable="d" 
+     d:DesignHeight="540" d:DesignWidth="890"
+	Title="ResearchDirection">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 曹斌，男，硕士生导师，IEEE会员，CCF会员，清华大学计算机系博士后出站，研究兴趣包括智能计算及其在图形和媒体、物联网、大数据中的应用；高性能计算和云计算。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 总体概况"/><Run Text="：2015年作为引进人才到我院工作。迄今已在《IEEE Trans. Ind. Inform.》、《IEEE Trans. Big Data》等计算机领域著名国际学术期刊及国际学术会议录用和发表论文多篇。担任多个国际学术期刊和国际学术会议的编委、程序委员会委员和审稿人。曾主持国家自然科学基金青年基金项目一项。 "/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 获奖成果及专利"/><Run Text="：曾获得NSFC-广东联合基金（第二期）超级计算科学应用研究专项资助。在教学方面，获得河北省教师技能大赛（PPT制作）一等奖，获得河北工业大学专任教师&quot;精彩一课&quot;竞赛一等奖，指导学生赵建伟等获得全国并行应用挑战赛华北赛区一等奖。"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
+

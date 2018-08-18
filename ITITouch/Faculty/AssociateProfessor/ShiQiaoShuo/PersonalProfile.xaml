@@ -1,0 +1,23 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.ShiQiaoShuo.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 史巧硕，博士学位，副教授，硕士生导师。
+
+自1999年开始从事教学工作，承担过《计算机文化基础》、《软件技术基础（VB）》、《软件技术基础（VC）》、《计算机技术及应用基础》（研究生）等课程，2004年赴美进修半年。多次获得课堂教学优秀奖、校级优秀教师一等奖、研究生课堂优秀奖等奖励，还获得过校三育人优秀等荣誉称号。承担多项校级教研项目，参加多项河北省、天津市科研及教研项目。获得过省级教学成果三等奖、校级教学成果奖。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 成果与获奖"/><Run Text="： 参与获得《多媒体技术在计算机基础教学改革中的应用》（2000年）河北省教学成果三等奖；《面向信息素养培养的计算机基础教学改革与实践》（2009年）河北工业大学教学成果一等奖；《面向信息技术的开放式考试系统关键技术研究》（2008年）天津市科技进步三等奖。曾承担《虚拟现实技术中力反馈系统的关键技术研究》，参与《基于网树的无序模式匹配问题的研究》、《河北省大学生计算机等级考试》、《天津市初等信息考试系统》等项目。"/><LineBreak/><Run/><LineBreak/>
+                 <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 发表论文"/><Run Text="： 曾发表《基于蚁群算法和支持向量机的microRNA预测方法》、《基于Gf集的三自由度移动并联机构构型研究》、《Realization of Opening Examination System Using Operator Precedence Parsing Algorithm 》等论文。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 著作"/><Run Text="： 2010年主编国家十一五规划教材《大学计算机基础教程》/《实验教程》，中国铁道出版社；2011年主编《Visual Basic程序设计教程》/《实验教程》，科学出版社。"/><LineBreak/><Run/><LineBreak/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

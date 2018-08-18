@@ -1,0 +1,19 @@
+﻿<Page x:Class="ITITouch.Faculty.Lecturer.ShiShuo.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        mc:Ignorable="d" 
+     d:DesignHeight="540" d:DesignWidth="890"
+	Title="ResearchDirection">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 2008年至今，共发表论文10余篇，其中，EI论文4篇，中文核心期刊论文2篇。承担厅局级以上纵向课题1项，参与项目4项。主要讲授微机原理与接口、.NET程序设计、数字电路等课程;河北省教育厅高等学校科学技术研究指导项目：Windows平台下基于数据索引技术和GPRS/GSM网络的远程监控管理系统（Z2013078）。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 论文"/><Run Text="：曾发表《The Design and Implementation of Engineering Training Center Website in Colleges and Universities》，EI：20114814559478、《The application of SIFT algorithm in blind road environmental image matching》，EI：20121114857325,、《基于相似性度量优化的SIFT图像匹配算法》等。"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

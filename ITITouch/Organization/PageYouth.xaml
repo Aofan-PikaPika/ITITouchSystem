@@ -1,0 +1,235 @@
+﻿<!--职能办公室页面-->
+<Page x:Class="ITITouch.Organization.PageYouth"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+     d:DesignHeight="1080" d:DesignWidth="1500"  ShowsNavigationUI="False"
+	  Title="CollegeHistory">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--上部放置一个图片-->
+        
+        <DockPanel LastChildFill="True" Grid.Row="0" Panel.ZIndex="0">
+            <Image  Height="410" Stretch="UniformToFill" HorizontalAlignment="Center" VerticalAlignment="Center" Source="/ITITouch;component/Resources/青春_410.jpg">
+                <Image.Effect>
+                    <BlurEffect Radius="15"></BlurEffect>
+                </Image.Effect>
+            </Image>
+        </DockPanel>
+        <Canvas Background="Black" Panel.ZIndex="0" Opacity=".3"></Canvas>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="auto"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+             
+            <Label Grid.Column="1" Grid.Row="1" Panel.ZIndex="3">
+                <TextBlock FontSize="50" Foreground="White">梦想、知识、进步</TextBlock>
+            </Label>
+        </Grid>
+         
+
+        <!--再采用一个Grid切分图片的下半部分，将下半部分切分成六个小块-->
+        <Grid Background="WhiteSmoke " Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="0.5*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <!--直接以Grid分割小名片的Elipse和下面的矩形-->
+            <!--Grid不能简单实现-->
+
+
+            <!--张茜茜-->
+            <Grid Grid.Column="1" Grid.Row="0" Margin="20" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="0.3*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.2*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition ></RowDefinition>
+                    <RowDefinition  Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.ColumnSpan="5" Grid.Row="2" Grid.RowSpan="3" Background="#FFCAE9EC" />
+                <Image Height="120" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="2" Grid.Row="1" Source="/ITITouch;component/Resources/张茜茜.jpg" >
+                    <Image.Clip>
+                        <EllipseGeometry Center="60,60" RadiusX="60" RadiusY="60"></EllipseGeometry>
+                    </Image.Clip>
+                </Image>
+                <Label Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontSize="20">团委书记</TextBlock>
+                        <TextBlock FontSize="20" FontWeight="Bold" ><Run Text="  "/><Run Text="张茜茜"/></TextBlock>
+                    </StackPanel>
+                </Label>
+                <Label Grid.Row="3" Grid.ColumnSpan="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontSize="25" TextWrapping="Wrap">负责团委、学生会工作2013级本科生</TextBlock>
+                </Label>
+                <Label Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1" Margin="0,0,0,10"  >
+                    <StackPanel>
+                        <TextBlock FontSize="15">办公室：206</TextBlock>
+                        <TextBlock FontSize="15">电话：022-60435841</TextBlock>
+                        <TextBlock FontSize="15">邮箱：zhangqianqian@scse.hebut.edu.cn</TextBlock>
+                    </StackPanel>
+
+                </Label>
+
+
+            </Grid>
+            <!--齐巧玲-->
+            <Grid Grid.Column="3" Grid.Row="0" Margin="20" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="0.3*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.2*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition ></RowDefinition>
+                    <RowDefinition  Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.ColumnSpan="5" Grid.Row="2" Grid.RowSpan="3" Background="#FFCAE9EC" />
+                <Image Height="120" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="2" Grid.Row="1" Source="/ITITouch;component/Resources/齐巧玲.jpg" >
+                    <Image.Clip>
+                        <EllipseGeometry Center="60,60" RadiusX="60" RadiusY="60"></EllipseGeometry>
+                    </Image.Clip>
+                </Image>
+                <!--利用标签设置horizentalAligenment-->
+                <Label Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontSize="20">辅导员</TextBlock>
+                        <!--在WPF图形编辑界面直接输入空格就会出现这种表示法-->
+                        <TextBlock FontSize="20" FontWeight="Bold" ><Run Text="  "/><Run Text="齐巧玲"/></TextBlock>
+                    </StackPanel>
+                </Label>
+                <Label Grid.Row="3" Grid.ColumnSpan="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontSize="25" TextWrapping="Wrap">负责2015级本科生思想政治教育管理工作</TextBlock>
+                </Label>
+                <Label Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1"  Margin="0,0,0,10" >
+                    <StackPanel>
+                        <TextBlock FontSize="15">办公室：206</TextBlock>
+                        <TextBlock FontSize="15">电话：022-60435841</TextBlock>
+                        <TextBlock FontSize="15">邮箱：qiqiaoling@scse.hebut.edu.cn</TextBlock>
+                    </StackPanel>
+
+                </Label>
+
+
+            </Grid>
+
+            <!--高雪冬-->
+            <Grid Grid.Column="1" Grid.Row="1" Margin="20" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="0.3*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.2*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition ></RowDefinition>
+                    <RowDefinition  Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.ColumnSpan="5" Grid.Row="2" Grid.RowSpan="3" Background="#FFCAE9EC" />
+                <Image Height="120" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="2" Grid.Row="1" Source="/ITITouch;component/Resources/高雪冬.jpg" >
+                    <Image.Clip>
+                        <EllipseGeometry Center="60,60" RadiusX="60" RadiusY="60"></EllipseGeometry>
+                    </Image.Clip>
+                </Image>
+                <Label Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontSize="20">辅导员</TextBlock>
+                        <TextBlock FontSize="20" FontWeight="Bold" ><Run Text="  "/><Run Text="高雪冬"/></TextBlock>
+                    </StackPanel>
+                </Label>
+                <Label Grid.Row="3" Grid.ColumnSpan="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontSize="25" TextWrapping="Wrap">负责2016级本科生思想政治教育管理工作</TextBlock>
+                </Label>
+                <Label Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1" Margin="0,0,0,10" >
+                    <StackPanel>
+                        <TextBlock FontSize="15">办公室：206</TextBlock>
+                        <TextBlock FontSize="15">电话：022-60435841</TextBlock>
+                        <TextBlock FontSize="15">邮箱：gaoxuedong@scse.hebut.edu.cn</TextBlock>
+                    </StackPanel>
+
+                </Label>
+
+
+            </Grid>
+            <!--王立芹-->
+            <Grid Grid.Column="3" Grid.Row="1" Margin="20" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="0.3*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.2*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition ></RowDefinition>
+                    <RowDefinition  Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.ColumnSpan="5" Grid.Row="2" Grid.RowSpan="3" Background="#FFCAE9EC" />
+                <Image Height="120" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="2" Grid.Row="1" Source="/ITITouch;component/Resources/职能部门人像.png" >
+                    <Image.Clip>
+                        <EllipseGeometry Center="60,60" RadiusX="60" RadiusY="60"></EllipseGeometry>
+                    </Image.Clip>
+                </Image>
+                <Label Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontSize="20">辅导员</TextBlock>
+                        <TextBlock FontSize="20" FontWeight="Bold" ><Run Text="  "/><Run Text="王立芹"/></TextBlock>
+                    </StackPanel>
+                </Label>
+                <Label Grid.Row="3" Grid.ColumnSpan="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontSize="25" TextWrapping="Wrap">负责2014级本科生思想政治教育管理工作</TextBlock>
+                </Label>
+                <Label Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1" Margin="0,0,0,10" >
+                    <StackPanel>
+                        <TextBlock FontSize="15">办公室：206</TextBlock>
+                        <TextBlock FontSize="15">电话：022-60435839</TextBlock>
+                        <TextBlock FontSize="15">邮箱：wangliqin@scse.hebut.edu.cn</TextBlock>
+                    </StackPanel>
+
+                </Label>
+
+
+            </Grid>
+
+        </Grid>
+    </Grid>
+</Page>

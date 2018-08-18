@@ -1,0 +1,65 @@
+﻿<Page x:Class="ITITouch.Organization.NetworkEngineering"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" d:DesignHeight="1080" d:DesignWidth="1500" ShowsNavigationUI="False" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="670"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Canvas>
+                <StackPanel Panel.ZIndex="1" Width="550" Height="500" Margin="50" Canvas.Left="100" Canvas.Top="100">
+                    <Label MaxWidth="550" HorizontalAlignment="Left" Margin="0,15,0,10" FontSize="33"   VerticalAlignment="Top" Width="550">
+                        <TextBlock  TextWrapping="Wrap"
+                                   Text="网络工程简介" FontFamily="Microsoft YaHei" />
+                    </Label>
+                    <Label MaxWidth="450" HorizontalAlignment="Left" FontSize="20"  VerticalAlignment="Top" Width="450" Height="auto">
+                        <TextBlock  TextWrapping="Wrap"  LineHeight="30"
+                                   Text="计算机科学与软件学院网络工程专业成立于2004年，同年开始招收计算机类网络工程专业本科生。本专业旨在培养学生具有良好的科学素养和较强的工程技术能力，在掌握计算机大学科的较系统的基本理论与专业知识的同时，有较强的工程技术应用能力，在网络工程相关领域受到良好训练。"
+                                   />
+                    </Label>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center" Background="White"  Panel.ZIndex="0" >
+                    <Image Source="/ITITouch;component/Resources/WiFi.jpg"  Width="1500" Height="670" Stretch="Fill">
+                        <Image.Effect>
+                            <BlurEffect Radius="15"/>
+                        </Image.Effect>
+                    </Image>
+                </StackPanel>
+            </Canvas>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="750"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Background="WhiteSmoke">
+                <StackPanel Background="White" Margin="25" Height="360" Width="700">
+
+                    <Label MaxWidth="700" HorizontalAlignment="Center" Margin="0,15,0,10" FontSize="33" Foreground="Black"   VerticalAlignment="Top" Width="150">
+                        <TextBlock  TextWrapping="Wrap"
+                                   Text="系部介绍" />
+                    </Label>
+                    <Label MaxWidth="700" HorizontalAlignment="Left" FontSize="20" Foreground="Black"   VerticalAlignment="Top" Width="700">
+                        <TextBlock Width="640" Margin="50,30" LineHeight="50" TextWrapping="Wrap" FontSize="25">学习一些专业课的基本理论知识<LineBreak/>具备与计算机网络有关的科研和工程开发的基本能力<LineBreak/>了解计算机学科的高新技术<LineBreak/>能从事计算机网络系统的研究设计、开发、维护</TextBlock>
+                    </Label>
+
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Column="1" Background="WhiteSmoke">
+                <StackPanel Background="White" Margin="25" Height="360" Width="700">
+                    <Label MaxWidth="700" HorizontalAlignment="Center" Margin="0,15,0,10" FontSize="33" Foreground="Black"   VerticalAlignment="Top" Width="150">
+                        <TextBlock  TextWrapping="Wrap"
+                                   Text="培养目标" />
+                    </Label>
+                    <Label MaxWidth="700" HorizontalAlignment="Left" FontSize="20" Foreground="Black"   VerticalAlignment="Top" Width="700">
+                        <TextBlock Width="640" Margin="50,30" LineHeight="50" TextWrapping="Wrap" FontSize="25">培养具备坚实的计算机科学基础<LineBreak/>掌握计算机学科较系统的基本理论与专业知识<LineBreak/>了解计算机学科的高新技术<LineBreak/>设计、管理和研究计算机网络的实际能力和创新精神</TextBlock>
+                    </Label>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

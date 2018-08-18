@@ -1,0 +1,20 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.TianHongLi.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 田红丽，1995年至今在河北工业大学任教，2005年获得硕士学位，2011年获得博士学位。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 科研成果"/><Run Text="： 《智能家居安保系统》获得软件著作专利，《非对称金属膜垂直腔面发射激光器和制备方法》获得发明专利，《刻蚀顶端非掺杂本征层非对称金属膜垂直腔面发射激光器》获得实用新型专利。"/><LineBreak/><Run/><LineBreak/>
+                 <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 发表论文"/><Run Text="： 代表性论文有：《Controllable Arbitrary Integer   Frequency Divider Based on VHDL》、《A Novel Fast Method   for Computation of Zernike Moments based on FPGA》、《A   fast and accurate approach to the computation of Zernike moments》、《8位CISC微处理器的设计与实现》、《快速单精度浮点运算器的设计与实现》等。"/><LineBreak/><Run/><LineBreak/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,31 @@
+﻿<Page x:Class="ITITouch.Faculty.Professor.PengYuQing.Album"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="ResearchDirection">
+
+    <Grid Background="White" >
+        <!--用stackpanal的margin来控制首行缩进-->
+        <Grid Margin="20,30,20,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image  Stretch="UniformToFill"></Image>
+            <Image Grid.Row="2" Grid.Column="2"  Stretch="UniformToFill" ></Image>
+            <Label Grid.Column="1" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center"  Background="#FF25F9B6">
+                <TextBlock FontSize="98" FontFamily="华文行楷"  Foreground="White">勤慎</TextBlock>
+            </Label>
+            <Label Grid.Row="1" HorizontalContentAlignment="Center"  VerticalContentAlignment="Center"  Background="#FF258FF9">
+                <TextBlock FontSize="98" FontFamily="华文行楷" Foreground="White" >公忠</TextBlock>
+            </Label>
+        </Grid>
+    </Grid>
+</Page>

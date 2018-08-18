@@ -1,0 +1,20 @@
+﻿<Page x:Class="ITITouch.Faculty.Lecturer.WuHongTao.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+>
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap"><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run Text=" "/><Run FontWeight="Bold" Text="个人简介"/><Run Text="： "/><LineBreak/><Run Text="吴鸿韬，男，汉族，辽宁昌图人，吉林大学计算机软件与理论专业硕士学位，河北工业大学计算机科学与软件学院讲师,参与省厅级科研项目6项。"/><LineBreak/><LineBreak/><InlineUIContainer> 
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 学术成果"/><Run Text="："/><LineBreak/><Run Text="（1）Hongtao Wu, Jinling Zhang, Jianhong Ma and Runhua Tan. Functional Semantic Retrieval for Effects Knowledge Base. 2011 IEEE International Conference on Industrial Engineering and Engineering Management(IEEM11) ,6-9 Dec 2011, Singapore"/><LineBreak/><Run/><LineBreak/><Run Text="（2）Hongtao Wu, Haobo Yang, Jianhong Ma, Runhua Tan. Function-Based Patent Retrieval for Concept Design. 2010 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM10) ,Dec.7-10,2010,Macao,China，pp.348-351"/><LineBreak/><Run/><LineBreak/><Run Text="（3）Yong-liang Zhang, Jie Yang, and Hong-tao Wu，Coarse-to-fine Image Registration for Sweep Fingerprint Sensors，Optical Engineering，Vol.45, No.6，June, 2006"/><LineBreak/><Run/><LineBreak/><Run Text="（4）Yong-liang Zhang, Jie Yang, and Hong-tao Wu，Sweep Fingerprint Sequences Reconstruction for Portable Devices，Electronics Letters, Vol.42 No.4，pp.204-205，Feb. 16 2006"/><LineBreak/><Run/></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

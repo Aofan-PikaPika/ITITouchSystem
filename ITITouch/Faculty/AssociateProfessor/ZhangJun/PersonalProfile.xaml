@@ -1,0 +1,35 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.ZhangJun.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 张军，男，工学博士，副教授，多次参与省厅级科研项目。"/><LineBreak/><Run/><LineBreak/>
+              
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 获奖成果及专利"/><Run Text=" 1、河北省自然基金：具有免疫功能的计算机安全系统研究，第四 ，2010.06
+2、河北省科技支撑计划：公路路面破损智能检测系统，第四 ，2011.09
+
+3、河北省交通厅：公路设施损坏勘测数字化处理系统研究，第五 ，2010.07
+
+4、天津市应用基础与前沿技术研究计划：基于蠕虫对抗的智能蠕虫主动防御技术的研究，第三，2012.3
+
+5、河北省自然科学基金:基于人脑记忆的模式识别研究，第五，2010.09
+
+6、河北省教育厅科技计划:基于GPS定位的视频图像路面采集识别系统研究，第三，2011.05
+
+7、The Study on LV Apparatus Testing based on   Infrared Image，ICINIS 2009，   2009.11,第一作者，EI（20101212782514）
+
+8、An Adaptive Manifold Learning Algorithm   based on ISOMAP，ICRCCS2009，ISBN-13:978-0-7695-3927-0，2009.12，104-107，第一作者，EI（20101312811772）
+
+9、低压交流接触器电弧形态转变与运动特性研究，《河北工业大学学报》，ISSN:1007-2373，2010.10，39(5):1-5，第一作者，核心期刊（2008版第四编Ｎ/Q,Ｔ/X-91）"/><LineBreak/><Run/><LineBreak/>
+               
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

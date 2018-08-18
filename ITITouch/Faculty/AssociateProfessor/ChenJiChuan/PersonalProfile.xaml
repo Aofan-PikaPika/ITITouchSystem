@@ -1,0 +1,22 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.ChenJiChuan.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 天津市单片机学会秘书长；河北省机器学习学会理事。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 总体概况"/><Run Text="：从1991年7月至今，一直在河北工业大学从事计算机基础教学工作，主要讲授计算机应用基础、计算机软件技术基础、计算机硬件技术基础等课程。在做好教学工作的同时，积极开展教学研究和科研活动，完成多项省部级项目和横向课题。1999年6月至2002年12月，在红桥区计委挂职副主任。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 获奖成果及专利"/><Run Text="：2000年《计算机考试系统》获得河北省教育厅河北省优秀教学成果二等奖；"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 著作"/><Run Text="：2009年发表《计算机硬件技术实践教程》 "/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 论文"/><Run Text="：曾发表《基于公理设计的用例模型构造特征模型的方法》、《C8051F02X系列高速SoC单片机的外部存储器扩展》等。"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

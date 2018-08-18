@@ -1,0 +1,15 @@
+﻿<Page x:Class="ITITouch.Faculty.TeacherWebBrowserPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:wfi="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"
+      xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1500"
+	Title="TeacherWebBrowserPage">
+
+    <wfi:WindowsFormsHost >
+        <wf:WebBrowser x:Name="twb" Navigated="twb_Navigated" NewWindow="twb_NewWindow" Navigating="twb_Navigating"></wf:WebBrowser>
+    </wfi:WindowsFormsHost>
+</Page>

@@ -1,0 +1,24 @@
+﻿<Page x:Class="ITITouch.Faculty.Professor.GuJunHua.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+       mc:Ignorable="d" 
+     d:DesignHeight="540" d:DesignWidth="890"
+	Title="ResearchDirection">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap"><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 个人简介"/><Run Text="： "/><LineBreak/><Run Text="顾军华，博士生导师，硕士生导师。中国离散数学学会   常务理事河北省计算机学会 副理事长河北省青年科协 常务理事"/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 获奖"/><Run Text="："/><LineBreak/><Run Text="2"/><Run Text="000年河北省青年科技奖 2003年 天津市十五立功奖章获得者 2006年 河北省中青年骨干教师 2007年 河北省新世纪'三三人才' 第二层次 2008年 河北省突出贡献专家称号。2006年《公路信息化关键技术研究》获得河北省科技进步三等奖，沧州市科技进步一等奖（JB101）；2007年《基于本体的信息集成技术研究》获得河北省科技进步三等奖；2009年《面向信息素养培养的计算机基础教学改革与实践》获得河北工业大学2007-2008年度优秀教学成果一等奖"/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 学术成果"/><Run Text="："/><LineBreak/><Run Text="曾发表《A New ACO With Immune Ability》、《Solving Expert Assignment Problem Using Improved Genetic   Algorithm.》、《A New Algorithm Based on Immune   Algortithm and Hopfield Neural Network for Multimodal Function Optim》、《A Novel Niche Genetic Algorithm with Local Search Ability》等。"/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 科研项目"/><Run Text="："/><LineBreak/><Run Text="曾承担   《基于蠕虫对抗的智能蠕虫主动防御技术的研究 09JCYBJC00500》、《基于人体运动学的客流采集系统的研究 09213507D》、《智能电子督察系统软件产品开发 2009GJA20014》、《智能公共交通关键技术的研究》等项目。"/><LineBreak/></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

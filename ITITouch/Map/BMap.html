@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+        body, html, #allmap {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+        .anchorBL{display:none;}
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=hj0ygvE4BwAD0SRvZMUINWhIzqXBMcnG"></script>
+    <title>地图展示</title>
+</head>
+<body>
+    <div id="allmap"></div>
+   
+</body>
+</html>
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("allmap", {enableMapClick:false});    // 创建Map实例
+    map.centerAndZoom(new BMap.Point(117.064, 39.242), 18);  // 初始化地图,设置中心点坐标和地图级别
+    //添加比例尺
+    var top_right_navigation = new BMap.NavigationControl({ anchor: BMAP_ANCHOR_BOTTOM_RIGHT, type: BMAP_NAVIGATION_CONTROL_SMALL }); //右上角，仅包含平移和缩放按钮
+    map.addControl(top_right_navigation);
+    //创建标注
+    var collegePoint = new BMap.Point(117.063694, 39.240);
+    var marker = new BMap.Marker(collegePoint);
+    map.addOverlay(marker);
+    marker.setAnimation(BMAP_ANIMATION_BOUNCE);
+    var label = new BMap.Label("您当前所在位置：计算机科学与软件学院", { offset: new BMap.Size(20, -10) });
+    marker.setLabel(label);
+    //创建标注信息
+    var sContent = "<h4 style=margin:0 0 5px 0;padding:0.2em 0>计算机科学与软件学院</h4>" +
+        "<img style='float:right;margin:4px' id='imgDemo' src='../Resources/college.jpg' width='200' height='150' title='ITI'/>" +
+        "<p style='margin:0; line-height:1.5; font-size:13px; text-indent:2em'>河北工业大学计算机科学与软件学院位于西教一的1-3层</p>" + "</div>";
+    var infoWindow = new BMap.InfoWindow(sContent);
+    marker.addEventListener("click", function () {
+        this.openInfoWindow(infoWindow);
+        document.getElementById('imgDemo').onload = function () {
+            infoWindow.redraw();
+        }
+    });
+
+
+    
+ 
+</script>

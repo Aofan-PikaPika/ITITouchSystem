@@ -1,0 +1,165 @@
+﻿<Page x:Class="ITITouch.Education.PostgComputerScience"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1500" ShowsNavigationUI="False"
+	Title="PostgComputerScience">
+
+    <Grid Background="WhiteSmoke">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <!--使用这个列定义来控制各个列的首行缩进-->
+            <ColumnDefinition Width="0.1*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <!--这里用跨列的Canvas控制间隔行的颜色-->
+        <Canvas Grid.ColumnSpan="2" Background="#FF25C5F9" ></Canvas>
+        <Canvas Grid.Row="2" Grid.ColumnSpan="2" Background="#FF25C5F9"></Canvas>
+        <!--以下为控制正文的Grid-->
+        <!--概览-->
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal"  Grid.Row="1">
+                <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+                    <Label Height="6" Width="40" Background="Black" HorizontalAlignment="Left"></Label>
+                    <TextBlock FontSize="36" FontWeight="Bold">概览</TextBlock>
+                    <Label>
+                        <TextBlock Margin="0,15,0,0" FontSize="20" Width="1000" TextWrapping="Wrap"><Run Text="本研究型硕士专业旨在培养学生的研究能力，适合有志于从事科学研究工作的计算机相关专业本科毕业生，或希望拓宽计算机某一方面知识和技能的学生。 "/><LineBreak/><Run/><LineBreak/><Run Text="毕业生将获得经中国教育部认可的河北工业大学工学硕士学位。 "/></TextBlock>
+                    </Label>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+        <!--知识与技能-->
+        <Grid Grid.Column="1" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal"  Grid.Row="1">
+                <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+                    <Label Height="6" Width="40" Background="Black" HorizontalAlignment="Left"></Label>
+                    <TextBlock FontSize="36" FontWeight="Bold">知识与技能</TextBlock>
+                    <Label>
+                        <StackPanel Margin="0,15,0,0"  Orientation="Vertical">
+                            <StackPanel Orientation="Horizontal">
+                                <!--写死Margin 保证对准第一行-->
+                                <Label Background="#FF25C5F9" Height="10" Width="10" VerticalAlignment="Top" Margin="0,13.5,0,0"></Label>
+                                <Label FontSize="20"  Content="当前计算机科学发展趋势中的先进理论基础；"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <!--写死Margin 保证对准第一行-->
+                                <Label Background="#FF25C5F9" Height="10" Width="10" VerticalAlignment="Top" Margin="0,13.5,0,0"></Label>
+                                <Label FontSize="20"  Content="计算机科学专业领域中的前沿研究热点；"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <!--写死Margin 保证对准第一行-->
+                                <Label Background="#FF25C5F9" Height="10" Width="10" VerticalAlignment="Top" Margin="0,13.5,0,0"></Label>
+                                <Label FontSize="20"  Content="项目管理技巧；"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <!--写死Margin 保证对准第一行-->
+                                <Label Background="#FF25C5F9" Height="10" Width="10" VerticalAlignment="Top" Margin="0,13.5,0,0"></Label>
+                                <Label FontSize="20"  Content="通过选定课题完成信息技术解决方案的设计、实施和评估。"/>
+                            </StackPanel>
+
+                        </StackPanel>
+                    </Label>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+        <!--课程-->
+        <Grid Grid.Column="1" Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.6*"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <!--左侧课程标题-->
+            <StackPanel Orientation="Horizontal"  Grid.Row="1">
+                <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+                    <Label Height="6" Width="40" Background="Black" HorizontalAlignment="Left"></Label>
+                    <TextBlock FontSize="36" FontWeight="Bold">课程</TextBlock>
+                    <Label FontSize="15"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Grid.RowSpan="3" Orientation="Vertical">
+                <Label Margin="30,44,30,15" FontSize="25" FontWeight="Bold" Content="主要基础课程"/>
+                <Label Margin="60,0,30,30">
+                    <StackPanel Orientation="Vertical">
+                        <StackPanel  Margin="5,0,5,5" Orientation="Horizontal">
+                            <Label Background="WhiteSmoke" Height="10" Width="10" VerticalAlignment="Top" Margin="0,13.5,0,0"></Label>
+                            <Label FontSize="20"  Content="矩阵论"/>
+                        </StackPanel>
+                        <StackPanel  Margin="5" Orientation="Horizontal">
+                            <Label Background="WhiteSmoke" Height="10" Width="10" VerticalAlignment="Top" Margin="0,13.5,0,0"></Label>
+                            <Label FontSize="20"  Content="应用统计"/>
+                        </StackPanel>
+                        <StackPanel  Margin="5" Orientation="Horizontal">
+                            <Label Background="WhiteSmoke" Height="10" Width="10" VerticalAlignment="Top" Margin="0,13.5,0,0"></Label>
+                            <Label FontSize="20"  Content="研究生英语"/>
+                        </StackPanel>
+
+                    </StackPanel>
+                </Label>
+            </StackPanel>
+
+
+            <StackPanel Grid.Column="2" Grid.RowSpan="3" Orientation="Vertical">
+                <Label Margin="30,44,30,15" FontSize="25" FontWeight="Bold" Content="主要专业课程"/>
+                <Label Margin="60,0,30,30">
+                    <StackPanel Orientation="Vertical">
+                        <StackPanel  Margin="5,0,5,5" Orientation="Horizontal">
+                            <Label Background="WhiteSmoke" Height="10" Width="10" VerticalAlignment="Top" Margin="0,13.5,0,0"></Label>
+                            <Label FontSize="20"  Content="云计算"/>
+                        </StackPanel>
+                        <StackPanel  Margin="5" Orientation="Horizontal">
+                            <Label Background="WhiteSmoke" Height="10" Width="10" VerticalAlignment="Top" Margin="0,13.5,0,0"></Label>
+                            <Label FontSize="20"  Content="图像处理"/>
+                        </StackPanel>
+                        <StackPanel  Margin="5" Orientation="Horizontal">
+                            <Label Background="WhiteSmoke" Height="10" Width="10" VerticalAlignment="Top" Margin="0,13.5,0,0"></Label>
+                            <Label FontSize="20"  Content="数据挖掘及大数据分析"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Label>
+            </StackPanel>
+        </Grid>
+
+        <!--就业-->
+        <Grid Grid.Column="1" Grid.Row="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Orientation="Horizontal"  Grid.Row="1">
+                <StackPanel Orientation="Vertical" VerticalAlignment="Top">
+                    <Label Height="6" Width="40" Background="Black" HorizontalAlignment="Left"></Label>
+                    <TextBlock FontSize="36" FontWeight="Bold">就业</TextBlock>
+                    <Label Margin="0,15,0,0"   FontSize="20"  Content="毕业生可在信息技术公司中担任研发工程师、系统开发工程师或项目经理，或在本校或其他知名学府继续深造攻读博士。"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+</Page>

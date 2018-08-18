@@ -1,0 +1,87 @@
+﻿<Page x:Class="ITITouch.Organization.InternetOfThingsPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1500" ShowsNavigationUI="False"
+	Title="LabPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="670"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--这里调整虚化的时候会虚化边缘，背景色设置为白色-->
+        <Grid Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                <ColumnDefinition Width="0.4*"></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.4*"></RowDefinition>
+                <!--灵活的布局，随着字的多少而改变-->
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <!--遮罩与图片-->
+            <Canvas Grid.ColumnSpan="3" Grid.RowSpan="3" ></Canvas>
+            <Image Grid.ColumnSpan="3" Grid.RowSpan="3" Source="/ITITouch;component/Resources/物联网工程.jpg" Stretch="UniformToFill">
+                <Image.Effect>
+                    <BlurEffect Radius="15"></BlurEffect>
+                </Image.Effect>
+            </Image>
+
+            <StackPanel Panel.ZIndex="2" Grid.Row="1" Grid.Column="1">
+                <Label MaxWidth="550" HorizontalAlignment="Left" Margin="0,15,0,10" FontSize="33"   VerticalAlignment="Top" >
+                    <TextBlock  TextWrapping="Wrap"
+                                   Text="物联网工程系简介" FontFamily="微软雅黑" />
+                </Label>
+                <Label MaxWidth="450" HorizontalAlignment="Left" FontSize="20"  VerticalAlignment="Top" Height="auto" FontFamily="微软雅黑">
+                    <TextBlock  TextWrapping="Wrap"  LineHeight="30"
+                                   Text="物联网工程系成立于2013年，同年开始招收物联网工程专业本科生。在教学科研和人才培养的实践中，以计算机科学与技术专业为依托，物联网工程系正在建设一支思想素质好、业务水平高、教学经验丰富、结构合理、富有创新意识和创新能力的师资队伍。"/>
+                </Label>
+            </StackPanel>
+            <!--下半部分-->
+        </Grid>
+        <Grid  Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Background="WhiteSmoke">
+              
+                <!--左边页面-->
+                <StackPanel Background="#FFF0D6C0" Margin="25">
+                    <Label  HorizontalAlignment="Center" Margin="0,15,0,5" FontSize="33" Foreground="Black"   VerticalAlignment="Top" >
+                        <TextBlock  TextWrapping="Wrap"
+                                   Text="培养目标" />
+                    </Label>
+                    <Label MaxWidth="700" HorizontalAlignment="Left" FontSize="20" Foreground="Black"   VerticalAlignment="Top" Width="700">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock  Margin="50,30" LineHeight="50" TextWrapping="Wrap" FontSize="25">面向现代信息处理技术<LineBreak/>培养厚基础、强实践、重创新的人才<LineBreak/>深厚的理论与广泛的实践相结合<LineBreak/>建立起完整的物联网知识体系</TextBlock>
+                        </StackPanel>
+                    </Label>
+                </StackPanel>
+            </Grid>
+            <!--右边页面-->
+            <Grid Grid.Column="1" Background="WhiteSmoke">
+             
+                <StackPanel Background="#FFF0D6C0" Margin="25">
+                    <Label MaxWidth="700" HorizontalAlignment="Center" Margin="0,15,0,5" FontSize="33" Foreground="Black"   VerticalAlignment="Top" Width="150">
+                        <TextBlock  TextWrapping="Wrap"
+                                   Text="基本理论" />
+                    </Label>
+                    <Label  HorizontalAlignment="Left" FontSize="20" Foreground="Black"   VerticalAlignment="Top" >
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Margin="80,30" LineHeight="50" TextWrapping="Wrap" FontSize="25">计算机网络<LineBreak/>控制理论<LineBreak/>系统工程<LineBreak/>信息安全</TextBlock>
+                            <TextBlock Margin="150,30" LineHeight="50" TextWrapping="Wrap" FontSize="25">嵌入式系统<LineBreak/>无线传感网络<LineBreak/>射频识别技术<LineBreak/>物联网系统应用设计</TextBlock>
+                        </StackPanel>
+                       
+                    </Label>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,20 @@
+﻿<Page x:Class="ITITouch.Faculty.Professor.LinTao.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+       mc:Ignorable="d" 
+     d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap"><InlineUIContainer>
+        			<Label Background="#FF0079C1"/>
+        		</InlineUIContainer><Run FontWeight="Bold" Text=" 个人简介"/><Run Text="：  林涛，计算机科学与技术、控制理论与控制工程硕士生导师计算机生导师。河北工业大学优秀教师，红桥区科学技术咨询委员会委员。共发表论文四十余篇，其中三大索引论文10余篇，中文核心期刊论文10篇。参与并承担省部级以上纵向课题7项，横向课题4项，完成成果鉴定7项。主要讲授计算机网络、嵌入式操作系统、.net程序设计等本科生课程，嵌入式控制系统、分布式与工业网络等研究生课程。 指导已毕业硕士研究生20余人，出版著作三部，三大索引论文及核心期刊文章二十余篇。"/><LineBreak/><Run/><LineBreak/><Run Text="作为主要研究成员参加天津市科技攻关项目网络化自动控制系统及其关键单元技术的研究，获天津市科技进步二等奖；河北省科技厅项目中小型轧钢企业CIMS体系结构及关键技术的研究，获河北省科技进步二等奖。"/><LineBreak/><LineBreak/><InlineUIContainer>
+        			<Label Background="#FF0079C1"/>
+        		</InlineUIContainer><Run FontWeight="Bold" Text=" 学术成果"/><Run Text="："/><LineBreak/><Run Text="[1]《计算机网络与数据通讯实验教程》,中国水利水电出版社, 2004，副主编。"/><LineBreak/><Run Text="[2]《嵌入式控制系统》,清华大学出版社, 2007，主编。"/><LineBreak/><Run Text="[3]《.NET程序设计教程》，,清华大学出版社, 2012，副主编。"/><LineBreak/><Run/><LineBreak/><Run Text="曾发表《]基于MCU的自动寻迹智能车控制系统的研究》、《基于MODBUS TCP/IP的多回转式药柜控制系统的设计与实现》、《The handling system of MIT-BIH ECG. based on MATLAB and SQL》、《Research of Scheduling and Control Co-Design of Networked Control Systems》、《Research &amp; Implementation of Daemon Process Communication Based on Proc VFS》、《基于精密时间协议的时钟同步技术研究》等。"/><LineBreak/><Run/><LineBreak/><Run Text="曾承担《网络控制理论及其关键技术的研究》、《网络化自动控制系统及其关键单元技术的研究》、《工业以太网环境下网络性能测量平台关键技术研究》、《面向中小企业集群基于轻量级J2EE框架的数据中心及其中间件研究》、《型钢生产执行系统研究与开发》《JHGG-ERP设计与开发》等项目。"/><LineBreak/><Run/></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

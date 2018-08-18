@@ -1,0 +1,22 @@
+﻿<Page x:Class="ITITouch.Faculty.Professor.YuMing.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+     d:DesignHeight="540" d:DesignWidth="890"
+	Title="ResearchDirection">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 于明，博士生导师，硕士生导师。荣誉称号、社会及学术兼职：天津通信学会、天津电子学会理事，全国计算机基础教育研究会理事、学术委员会委员，全国信息与电子研究生教育委员会理事，河北省机器学习学会副理事长，中国电子学会高级会员，天津市科技特派员。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 总体概况"/><Run Text="：2008年至今，共发表论文百余篇，其中，EI论文34篇，中文核心期刊论文50篇。承担省部级以上纵向课题7项，横向课题10余项，完成成果鉴定4项。主要讲授模式识别，图象处理与模式识别，计算机图象处理，图像工程，计算机技术基础等课程。 指导已毕业硕士研究生百余人，博士研究生4人，出站博士后2人。 "/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 获奖成果及专利"/><Run Text="：1997年《微型计算机原理》获得教育部优秀教材二等奖；1998年《微型计算机原理》获得河北省教育厅、河北省优秀教学成果三等奖；2000年《依托信息网络的电子线路课程改革与实践》获得河北省政府，河北省优秀教学成果三等奖；2009年《基于内容图像检索中的视觉特征描述研究》获得河北省政府，河北省自然教学三等奖；2013年《计算机专业国际化人才培养模式研究与实践》获得河北省优秀教学成果奖励委员会，河北省优秀教学成果三等奖。拥有软件著作权（第一完成人）4项。 "/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 著作"/><Run Text="：2006年发表《ARM9嵌入式系统设计与开发教程》。 "/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 论文"/><Run Text="：曾发表《Player detection algorithm based on Gaussian mixture models background modeling》、《A method for reduced-reference color image quality assessment》、《A video denoising algorithm in wavelet domain》、《Deformable block motion estimation and compensation in the redundant domain》等。 承担的科研项目：承担 《基于小波运动估计的监控视频图像运动分析及应用（ZD200911）》、《基于计算机笔迹辅助鉴别的高自考防作弊研究（2009JKS3053）》、《基于复杂场景交通视频分析与车牌识别（11213518D）》《基于智慧视频的公共场所反恐防恐系统研究（14RCGFGX00846）》等纵向项目。此外还承担了《基于视频的运动物体检测与跟踪系统开发》《基于嘴部和眼睛特征融合的疲劳监测告警系统》《基于掌纹掌脉识别技术的样本采集系统开发》《E路相伴智能养老服务系统》"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,380 @@
+﻿<Page x:Class="ITITouch.Organization.Committee"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d"  d:DesignHeight="1080" d:DesignWidth="1500" ShowsNavigationUI="False" >
+
+    <Grid Background="WhiteSmoke">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>          
+            <RowDefinition Height="245"/>
+            <RowDefinition Height="245"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="245"/>
+            <RowDefinition Height="245"/>           
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition Width="250"/>         
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FF5EC3FD" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+            <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/沈西挺.jpg" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">沈西挺(主任)</Label>
+            </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FF5EC3FD" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/许智宏.jpg" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">许智宏(秘书)</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="2">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FF5EC3FD" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/彭玉青.JPG" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">彭玉青</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="3">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FF5EC3FD" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel>
+                    <Image Source="/ITITouch;component/Resources/张军.png" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">张军</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="4">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FF5EC3FD" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/吴清.jpg" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">吴清</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="5">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FF5EC3FD" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/马建红.jpg" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">马建红</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Row="2" Grid.Column="0">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FF5EC3FD" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/刘恩海.jpg" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">刘恩海</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FF5EC3FD" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/柴欣.png" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">柴欣</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="2">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FF5EC3FD" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/证件照.jpg" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">赵晓安</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="3">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FF5EC3FD" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/陈冀川.jpg" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">陈冀川</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="4">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FF5EC3FD" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/武优西.png" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">武优西</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        
+
+
+        <Grid Grid.Row="0" Background="#FF5EC3FD" Grid.ColumnSpan="6">
+            <Label Content="教学指导委员会" Foreground="White" FontSize="30" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+        </Grid>
+        <Grid Grid.Row="3" Background="#FFCA000F" Grid.ColumnSpan="6">
+            <Label Content="分学位委员会" Foreground="White" FontSize="30" HorizontalAlignment="Center"  VerticalAlignment="Center"/>
+        </Grid>
+<!--分学位-->
+        <Grid Grid.Row="4" Grid.Column="0">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FFCA000F" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/顾军华.jpg" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">顾军华</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="4" Grid.Column="1">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FFCA000F" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/石陆魁.png" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">石陆魁</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="4" Grid.Column="2">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FFCA000F" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/吴清.jpg" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">吴清</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="4" Grid.Column="3">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FFCA000F" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/于明.jpg" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">于明</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="4" Grid.Column="4">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FFCA000F" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/沈西挺.jpg" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">沈西挺</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="4" Grid.Column="5">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FFCA000F" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/魏玮.png" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">魏玮</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <Grid Grid.Row="5" Grid.Column="0">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FFCA000F" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/彭玉青.JPG" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">彭玉青</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="5" Grid.Column="1">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FFCA000F" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/许智宏.jpg" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">许智宏</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="5" Grid.Column="2">
+            <Border Height="230" Width="200" CornerRadius="20">
+                <Border.Effect>
+                    <DropShadowEffect Color="LightGray" BlurRadius="30" Direction="270" ShadowDepth="10" />
+                </Border.Effect>
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                        <GradientStop Color="#FFCA000F" Offset="0.6"/>
+                        <GradientStop Color="#FFFFFFFF" Offset="0.9"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+                <StackPanel  >
+                    <Image Source="/ITITouch;component/Resources/马建红.jpg" Height="150" Width="120" Margin="0,40,0,10"/>
+                    <Label FontSize="20" HorizontalContentAlignment="Center">马建红</Label>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+
+    </Grid>
+</Page>

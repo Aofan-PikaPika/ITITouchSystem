@@ -1,0 +1,23 @@
+﻿<Page x:Class="ITITouch.Faculty.Lecturer.LvHua.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+     d:DesignHeight="540" d:DesignWidth="890"
+	Title="ResearchDirection">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 1998.9–2002.6  河北师范大学计算机系，获得计算机本科学历及工学学士学位2002.9–2005.3  西安电子科技大学计算机学院外部设备研究所，专业方向:计算机图形图像处理技术，获得研究生学历及工学硕士学位。2005.03–至今 河北工业大学 计算机科学与软件学院计算机系工作  讲师
+。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 获奖"/><Run Text="：2011年度课堂教学优秀教师；
+
+2012年10月指导学生参加华北五省计算机应用大赛获三等奖两项。
+。 "/><LineBreak/><Run/><LineBreak/>
+                 </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

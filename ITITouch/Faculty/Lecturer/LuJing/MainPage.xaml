@@ -1,0 +1,126 @@
+﻿<Page x:Class="ITITouch.Faculty.Lecturer.LuJing.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        mc:Ignorable="d" d:DesignHeight="1080" d:DesignWidth="1500" ShowsNavigationUI="False" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="410"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <!--最上边的页面包括头像和黑边，有教授的名称和职称-->
+        <Grid Grid.Row="0" >
+            <Grid.RowDefinitions>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <!--计算机软件学院图片-->
+            <StackPanel HorizontalAlignment="Center" Grid.RowSpan="2" Background="#FF0079C1">
+                <Image Source="/ITITouch;component/Resources/mi.png"  Width="1500" Height="314" />
+            </StackPanel>
+            <!--黑边-->
+            <Grid Grid.Row="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="0.8*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Canvas Grid.Row="2" Background="Black" Opacity="0.8"></Canvas>
+            </Grid>
+            <!--头像-->
+            <Grid Grid.Row="2">
+                <Grid.ColumnDefinitions>
+                    <!--距离最左边有百分之五的间隔-->
+                    <ColumnDefinition Width="0.05*"></ColumnDefinition>
+                    <!--这一列用来放头像-->
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <!--切分行，给出白字的空间-->
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition  Height="0.8*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <!--头像的黑边用Elipse-->
+                <Ellipse Grid.RowSpan="2"  Height="200" Width="200" Grid.Column="1" Fill="Black" Opacity="0.7"></Ellipse>
+                <Image  Grid.RowSpan="2" Height="180" Grid.Column="1" Source="路静.jpg"  >
+                    <Image.Clip>
+                        <EllipseGeometry Center="90,90" RadiusX="90" RadiusY="90"></EllipseGeometry>
+                    </Image.Clip>
+                </Image>
+                <StackPanel Grid.Row="2" Grid.Column="2">
+                    <Label Margin="8">
+                        <StackPanel>
+                            <TextBlock FontSize="30" FontWeight="Bold" Foreground="White">路静</TextBlock>
+                            <TextBlock Margin="0,5,0,0" FontSize="20" Foreground="White" Text="讲师"/>
+                        </StackPanel>
+                    </Label>
+
+                </StackPanel>
+            </Grid>
+        </Grid>
+        <!--下面一行是导航栏-->
+        <!--接收鼠标弹起事件的是对应的label 名字前面带一个c-->
+        <!--相应弹起事件需要高亮的是对应相同名称但前面不带c的标签，颜色为蓝色-->
+        <StackPanel Grid.Row="1" Background="White" Orientation="Horizontal">
+            <Label Name="clblResearchDirection" Margin="50,10,10,0" MouseUp="clblResearchDirection_MouseUp" >
+                <StackPanel>
+                    <TextBlock FontSize="25" FontWeight="Bold">研究方向</TextBlock>
+                    <Label Name="lblResearchDirection"  Width="50" Height="4" Margin="0,15,0,0" Background="#FF0079C1"></Label>
+                </StackPanel>
+            </Label>
+
+            <Label Name="clblPersonalProfile" Margin="50,10,10,0" MouseUp="clblPersonalProfile_MouseUp" >
+                <StackPanel>
+                    <TextBlock FontSize="25" FontWeight="Bold">个人简介</TextBlock>
+                    <Label Name="lblPersonalProfile" Width="50" Height="4" Margin="0,15,0,0" Background="#FF0079C1"></Label>
+                </StackPanel>
+            </Label>
+
+            <Label Name="clblAlbum" Margin="50,10,10,0" MouseUp="clblAlbum_MouseUp" >
+                <StackPanel>
+                    <TextBlock FontSize="25" FontWeight="Bold"><Run Text="教师风采"/></TextBlock>
+                    <Label x:Name="lblAlbum" Height="4" Width="50" Margin="0,15,0,0" Background="#FF0079C1"/>
+                </StackPanel>
+            </Label>
+        </StackPanel>
+
+        <!--承载信息展示页面的Grid-->
+        <!--背景色比whiteSmoke稍微灰一点-->
+        <Grid Grid.Row="2" Background="#FFECECEC">
+            <Grid Margin="30">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <!--框架所在列-->
+                        <ColumnDefinition Width="1.7*"></ColumnDefinition>
+                        <!--分割间距的列-->
+                        <ColumnDefinition Width="30"></ColumnDefinition>
+                        <!--详细资料所在列-->
+                        <ColumnDefinition ></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <!--右边的死页面-->
+                    <!--调节VerticalAlignment将四个标签上下居中-->
+                    <StackPanel Grid.Column="3" >
+                        <Label Margin="3" Background="White" Height="90" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">
+                            <TextBlock FontSize="30" Margin="20" FontWeight="Bold" >基本信息</TextBlock>
+                        </Label>
+                        <Label Margin="3" Background="White" Height="90" VerticalContentAlignment="Center">
+                            <TextBlock FontSize="25" Margin="20">现任职务：</TextBlock>
+                        </Label>
+                        <Label Margin="3" Background="White" Height="90" VerticalContentAlignment="Center">
+                            <TextBlock FontSize="25" Margin="20">办公邮箱：lujing@scse.hebut.edu.cn</TextBlock>
+                        </Label>
+                        <Label Margin="3" Background="White" Height="90" VerticalContentAlignment="Center">
+                            <TextBlock FontSize="25" Margin="20" >办公电话：</TextBlock>
+                        </Label>
+                        <Label Margin="3" Background="White" Height="90" VerticalContentAlignment="Center">
+                            <TextBlock FontSize="25" Margin="20">所在系所：计算机基础教学部</TextBlock>
+                        </Label>
+                    </StackPanel>
+                    <Frame Grid.Column="0" Name="frmPersonal"></Frame>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

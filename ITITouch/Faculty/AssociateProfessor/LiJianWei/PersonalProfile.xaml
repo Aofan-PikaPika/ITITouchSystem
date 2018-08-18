@@ -1,0 +1,26 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.LiJianWei.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 曾获荣誉"/><Run Text="： 河北工业大学课堂教学优秀教师，第九届河北工业大学优秀任课教师，2010年获得河北工业大学第十届青年教师教学基本功竞赛一等奖，2010届、2011届、2012届河北工业大学优秀毕业设计指导教师。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 科研项目"/><Run Text="： 1、脑神经电活动的时空模式分析系统，河北省自然科学基金，河北省科技厅，省部级，2009年4月结题鉴定，第3名；
+
+2、电容层析成像图像重构的全变差正则化方法及其快速实现，河北省自然科学基金，河北省科技厅，省部级，2011年10月结题鉴定，第3名；"/><LineBreak/><Run/><LineBreak/>
+                 <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 发表论文"/><Run Text="： 1、李建伟，汪友华，吴清. 基于多维输出支持向量回归机的脑电源定位. 中国组织工程研究与临床康复(中文核心), Vol. 13, No.17, 2009, 3256-3259.
+
+2、李建伟，杨晓光，汪友华. 多维输出SVR的ECT两相流图像重建方法. 计算机工程与应用（中文核心），Vol. 46, No.31, 2010,157-160.
+
+3、Li Jianwei, Wang Youhua, Wu Qing, An Jinlong, Wei Yufang. The method of multidimensional support vector regression for moving dipole localization of face expression. Proc. of the 2nd International Conference on Bioinformatics and Biomedical Engineering, Shanghai, China, 2008, p 2712-2715. （EI收录，Accession number: 083711532081）"/><LineBreak/><Run/><LineBreak/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

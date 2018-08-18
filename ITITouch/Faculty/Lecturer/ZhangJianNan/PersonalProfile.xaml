@@ -1,0 +1,20 @@
+﻿<Page x:Class="ITITouch.Faculty.Lecturer.ZhangJianNan.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+>
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap"><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run Text=" "/><Run FontWeight="Bold" Text="个人简介"/><Run Text="： "/><LineBreak/><Run Text="2"/><Run Text="005年3月硕士毕业于河北工业大学计算机应用专业，同年7月留校任教至今。"/><LineBreak/><Run/><LineBreak/><Run Text="2005年至今，主讲课程软件工程、信息资源管理与开发导论、Merise Modeling、计算机网络、本科毕业设计等5门课程。共参与省部级科研项目4项。发表相关论文5篇"/><LineBreak/><LineBreak/><InlineUIContainer> 
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 学术成果"/><Run Text="："/><LineBreak/><Run Text="曾发表《A TRIZ-based Process Model for Technology Evolutionary Potential Forecast》、《Solving Expert Assignment Problem Using Improved Genetic Algorithm.》、《A New ACO With Immune Ability》等。"/><LineBreak/><Run/></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

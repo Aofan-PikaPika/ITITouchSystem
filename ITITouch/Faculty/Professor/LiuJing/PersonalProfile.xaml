@@ -1,0 +1,28 @@
+﻿<Page x:Class="ITITouch.Faculty.Professor.LiuJing.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+>
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="12" TextWrapping="Wrap"><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 个人简介"/><Run Text="： 刘晶，研究员，河北省大数据计算重点实验室副主任，天津市红桥区青联委员，2015年天津市五一劳动奖章获得者、红桥区五一劳动奖章获得者。天津市131创新人才培养工程第二层次人才，河北科技型中小企业特聘专家，天津市电子商务协会专家咨询委员会特聘专家，《阿里商业评论》等刊物特约评论员/撰稿人。the IEEE international conference on cloud and big data computing(CBDCom 2015)大会学术委员。"/><LineBreak/><Run/><LineBreak/><Run Text="刘晶及团队力于大数据处理、数据挖掘方向研究，在科学研究和技术创新过程中，取得了多项技术创新和突破："/><LineBreak/><Run Text="主持或主研国家自然科学基金面上项目《云环境用户多兴趣图谱的移动商务关联性推荐模型及算法研究》等20余项国家级和省级课题."/><LineBreak/><Run Text="以第一作者出版著作3部，在国内外学术期刊发表论文30余篇。"/><LineBreak/><Run Text="获得发明专利3项，实用新型3项，软件著作权28项。"/><LineBreak/><Run Text="获得2014年河北省科技进步三等奖一项。"/><LineBreak/><LineBreak/><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 著作"/><Run Text="："/><LineBreak/><Run Text="[1]基于数据挖掘的设备故障诊断研究.燕山大学出版社2014.7.字数：160000 著 1/3"/><LineBreak/><Run Text="[2]局域网组建、维护与安全监控实战详解.人民邮电出版社2010-1-1.字数:531000 编著 主编 1/2"/><LineBreak/><Run Text="[3]DOS命令速查手册.化学工业出版社.2010-6-1字数:359000编著 主编 1/2"/><LineBreak/><LineBreak/><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 专利"/><Run Text="："/><LineBreak/><Run Text="1、发明专利：一种基于GPU的改进加权关联规则的设备故障预警与诊断方法,申请号CN 201010128662，专利号2010101286629,已经应用，排名：1"/><LineBreak/><Run Text="2、发明专利：一种基于选择性磨损的设备最优维修时间预测方法，申请号201010272505.5，专利号2010102725055，已经应用，排名：1"/><LineBreak/><Run Text="3、发明专利：一种带有风险控制的液压设备最优维修决策方法，申请号201010272446.1，专利号2010102724461，已经应用，排名：1"/><LineBreak/><Run Text="4、实用新型专利：带有风险控制的设备维修预警装置,申请号201020517175.7，专利号201020517175，已经应用，排名：1"/><LineBreak/><Run Text="5、实用新型专利：C/S架构下基于GPU的会计电子文档加密系统及装置，专利号ZL200920255086.7，已经应用，排名2"/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 计算机软件著作权"/><Run Text="："/><LineBreak/><Run Text="1、复杂设备故障预警系统，软件号2014SR009175，已经应用，排名：1"/><Run Text="&#x9;"/><Run Text="2、设备故障在线诊断系统2012SR125806，已经应用，排名：1"/><LineBreak/><Run Text="3、电子商务营销管理系统2014SR042718，已经应用，排名：1"/><Run Text="&#x9;&#x9;"/><Run Text="4、电子商务数据诊断系统 2014SR042573，已经应用，排名：1"/><LineBreak/><Run Text="5、电子商务会员管理系统2014SR042568，已经应用，排名：1"/><Run Text="&#x9;&#x9;"/><Run Text="6、电子商务文档加密系统 2014SR022730，已经应用，排名：2"/><LineBreak/><Run Text="7、电子商务图片管理系统 2014SR023079，已经应用，排名：2"/><Run Text="&#x9;&#x9;"/><Run Text="8、精诺医疗效果评价系统V1.0 2011SR037298 ，已经应用，排名：1"/><LineBreak/><Run Text="9、绩效考核管理系统 2011SR045568 ，已经应用，排名：1"/><Run Text="&#x9;&#x9;&#x9;"/><Run Text="10、精诺会员消费管理系统V1.0 2009SR08584 ，已经应用，排名：1"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 获省部级成果奖"/><Run Text="： 2014年河北省科技进步三等奖，液压设备故障智能诊断关键技术研究，第二完成人。"/><LineBreak/><Run/><LineBreak/>
+            
+            </TextBlock>
+    
+        </StackPanel>
+    </Grid>
+</Page>

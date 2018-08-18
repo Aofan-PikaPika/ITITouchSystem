@@ -1,0 +1,35 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.ZhangManDun.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 张满囤，男，副教授，硕士生导师，软件工程系教师。1996年获河北工业大学硕士学位并留校任教，从事过多项基金和企业横向项目的研发。2006年在中科院自动化研究所模式识别与智能系统专业获博士学位。2012年在英国国家动画中心（NCCA）做访问学者。在国际会议和国内外期刊上发表论文32篇，其中EI检索16篇，SCI检索2篇。主要讲授人机交互技术、计算机图形学、数据库应用技术、计算机游戏程序设计、计算机技术及应用基础等课程，指导已毕业硕士研究生8人."/><LineBreak/><Run/><LineBreak/>
+              
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 获奖成果及专利"/><Run Text="：1)组合夹具计算机三维局部智能组装系统及其应用, 河北省2002年科技进步二等奖,排名第四；2)电子游戏中玩家快速置入方法，专利号：ZL200410101880.8，排名第二;
+3) 2013年申请一项专利'人脸表情动画生成方法'（申请号：201310116515.3），排名第一。
+
+4）软件著作权4项，包括：基于运动捕捉的人脸表情动画生成系统、基于Web的博硕士学位论文管理系统、河北工业大学毕业生就业管理系统、基于模式识别技术的高等教育自学考试毕业审核系统。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 科研"/><Run Text="：1）2013年河北省人社厅‘表情克隆及其关键技术研究’；2）2010年河北省教育厅‘面向人机交互的快速个性化虚拟人建模研究’；3）2009年教育部考试中心项目‘基于计算机笔迹辅助鉴别的高自考防作弊研究’；4）2009年河北省教育厅‘基于小波域运动估计的监控视频图像运动分析与应用’；5）2003年国家863项目‘智能化人机交互网络游戏示范应用’。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 论文"/><Run Text="：1)Fast Individual Facial Animation Framework Based on Motion Capture Data.Journal of Donghua University，2014.
+
+2)基于RBF算法的快速三维人体建模. 河北工业大学学报，2013，42(2):24-27.
+
+3)A Facial Modeling and Animation System Based on Single Image. Mechanical Engineering and Technology Advances in Intelligent and Soft Computing Volume 125, 2012, pp.143-150.
+
+4）A  Digital Entertainment System  Based  on Augmented Reality, Informatics in Control, Automation and Robotics Lecture Notes in Electrical Engineering Volume 133,2012,pp.787-794.
+
+5）The Writer Identification Algorithm Based on Subspace, Proceeding of ICINIS09, Tianjin, China, Dec.1-3, 2009,pp.316-318.
+
+6）A Triangulation Method in 3D Reconstruction from Image Sequences,  Proceeding of ICINIS09, Tianjin, China, Dec.1-3, 2009,pp.306-308."/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

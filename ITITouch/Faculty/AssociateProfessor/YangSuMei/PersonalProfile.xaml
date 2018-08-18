@@ -1,0 +1,20 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.YangSuMei.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 杨素梅，副教授，工学博士，从事工程涡流分析与验证、控制理论与控制工程和计算机方面的基础、应用研究，以第一作者在国内外学术刊物上发表学术论文10多篇，其中被SCI 收录2篇， EI收录3篇，被ISTP收录1篇。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 总体概况"/><Run Text="： 2001年-2003年，作为第五完成人参加河北省科技攻关项目（0122040D ）‘农业测控系统研制与应用’，并已结题通过鉴定。2005年本项目获得河北省科技进步奖三等奖。‘磁流体加速度传感器的理论与实验研究’， 河北省自然科学基金重点资助项目（第四完成人），2006年鉴定，国际先进水平。2007年-2010年，作为第三完成人完成两项河北省自然科学基金项目并已结题通过鉴定。项目名称为‘电磁声发射机理及在无损检测中的应用研究’和‘新型高效无接触能量传输系统耦合机理与实验研究’"/><LineBreak/><Run/><LineBreak/>
+               
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

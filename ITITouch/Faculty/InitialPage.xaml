@@ -1,0 +1,26 @@
+﻿<Page x:Class="ITITouch.Faculty.InitialPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1500"
+	Title="InitialPage">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="500"/>
+            <RowDefinition Height="*"/>           
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="500"/>
+            <ColumnDefinition Width="500"/>
+            <ColumnDefinition Width="500"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="1" Grid.Row="1" >
+            <Image Height="450"  Source="/ITITouch;component/Resources/art.png"/>
+            <Label FontFamily="华文行楷" Foreground="#FFA4A4A4" HorizontalContentAlignment="Center" FontSize="35">师者，所以传道授业解惑也</Label>
+        </StackPanel>
+    </Grid>
+</Page>

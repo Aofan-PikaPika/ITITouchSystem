@@ -1,0 +1,24 @@
+﻿<Page x:Class="ITITouch.Faculty.Professor.GengHengShan.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+     d:DesignHeight="540" d:DesignWidth="890"
+	Title="ResearchDirection">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap"><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 个人简介"/><Run Text="： "/><LineBreak/><Run Text="耿恒山，硕士生导师。2006年获天津市教卫系统优秀共产党员；2008年，获得河北工业大学第五届教学名师称号；2011年获天津市教卫系统优秀党务工作者称号；"/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 教学成果"/><Run Text="："/><LineBreak/><Run Text="兼任中国计算机学会高级会员和天津市单片机学会理事。1997年指导学生参加全国大学生挑战杯竞赛，获科技发明成果三等奖；2003年 计算机组成实验及课程设计多媒体教学系统 获省级优秀教学成果三等奖；2008年《微机原理与接口》获教材建设二等奖。"/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 学术成果"/><Run Text="："/><LineBreak/><Run Text="曾发表《基于AT89C2051单片机的嵌入式晶体管触发器》、《Application and Study of Data Warehouse System base on Insurance》、《Design of Embedded SCR Trigger》、《梯形电阻网络等效电阻及节点电压的递推计算通式》等。曾承担   《计算机组成原理教学模型机设计与实现》、《计算机组成原理课程设计改革与实践》等项目。"/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 著作"/><Run Text="："/><LineBreak/><Run Text="《微机原理与接口》、《计算机组成原理》、《MCS-51单片机原理及应用》。"/></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

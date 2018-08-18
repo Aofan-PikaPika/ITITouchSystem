@@ -1,0 +1,22 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.FuLingLi.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 2008年至今，发表论文EI论和中文核心期刊论文数十篇，承担横向课题一项，教学研究2项。主要讲授计算机应用基础和计算机技术基础等课程。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 总体概况"/><Run Text="： 曾承担 《水电地理信息管理系统 613035》、《计算机软件技术基础课程设计基于Web教学系统的研究》等项目。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 获奖成果及专利"/><Run Text="：2009年《基于模糊控制的沥青热熔釜》使用新型专利；2004年《浅析网络环境下的创新教育》获河北省教育厅优秀教学成果三等奖；1997年《微机应用基础课程课堂教学CAI研究》获 河北工业大学优秀教学成果二等奖；1998年《微机应用机车课程试题盘评分系统研究》 河北工业大学优秀教学成果二等奖；全国多媒体课件大赛三等奖一项，优秀奖一项。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 著作"/><Run Text="：2004年主编《VisualC++程序设计基础》2010年主编《实用数据结构教程》 "/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 论文"/><Run Text="：曾发表论文《Building Enterprise Application Based On Cloud Computing》、《Clinical Data Management System》、《Web-Baed Case Report Form Deesign for Clinical Trial》、《Web应用系统的自动化测试解决方案》、《双冗余网络在励磁装置中的应用及可靠性分析》、《基于电子商务的身份认证攻击研究》等。"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

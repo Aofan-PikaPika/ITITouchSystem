@@ -1,0 +1,156 @@
+﻿<Page x:Class="ITITouch.Education.TheInternetOfThings"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+     mc:Ignorable="d" d:DesignHeight="1080" d:DesignWidth="1500" ShowsNavigationUI="False" >
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="270"/>
+            <RowDefinition Height="270"/>
+            <RowDefinition Height="270"/>
+            <RowDefinition Height="270"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="White">
+            <StackPanel Height="70" Margin="100,0,0,180">
+                <Label  HorizontalAlignment="Left"  Width="70" Height="10" Background="Black" Margin="8,10,0,0"/>
+                <Label Content="概览" HorizontalAlignment="Left"  Foreground="Black"  FontSize="36" FontWeight="Bold"/>
+            </StackPanel>
+            <StackPanel Margin="0,70,0,0">
+                <Label MaxWidth="1500"  FontSize="20" Foreground="Black" Margin="100,20,100,0" >
+                    <TextBlock TextWrapping="Wrap"
+                                   Text="本专业旨在培养学生成为计算机系统领域，例如财务信息、信息系统、电信学等方面的高端技术或管理人才。" />
+                </Label>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1" Background="#FFFB7831" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="120"/>
+                <RowDefinition Height="150"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="130"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+            </Grid>
+            <Grid Grid.Row="0" >
+                <Label  HorizontalAlignment="Left"  Width="70" Height="10" Background="Black" Margin="108,10,0,100" />
+                <Label Content="知识与技能" HorizontalAlignment="Left"  Foreground="Black" FontSize="36" FontWeight="Bold" Margin="100,20,0,0"/>
+                <Label Content="本专业旨在拓展学生以下方面的知识与技能：" FontSize="20" Foreground="Black" Margin="100,80,0,0"/>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="0">
+                <Label HorizontalAlignment="Left" Background="White" Height="15" Width="15" Margin="108,30,0,105"/>
+                <Label HorizontalAlignment="Left" Background="White" Height="15" Width="15" Margin="108,60,0,60"/>
+                <Label HorizontalAlignment="Left" Background="White" Height="15" Width="15" Margin="108,90,0,15"/>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="1">
+                <Label Content="当今计算机行业中科技和商业方面的重要理论和实践知识；" Foreground="Black" FontSize="20" Margin="130,18,0,95"/>
+                <Label Content="对IT系统的研究、分析、实现和评估的实践技能，包括撰写技术或研究文件的技能；" Foreground="Black" FontSize="20" Margin="130,58,0,51"/>
+                <Label Content="各类技能，并将关键技能应用于管理与设计，以IT技术为依托，解决应用领域中的实用问题 。" Foreground="Black" FontSize="20" Margin="130,95,0,7"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2" Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="375"/>
+                <ColumnDefinition Width="375"/>
+                <ColumnDefinition Width="375"/>
+                <ColumnDefinition Width="375"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Grid.Column="0">
+                <Label  HorizontalAlignment="Left"  Width="70" Height="10" Background="Black" Margin="108,10,0,50" />
+                <Label Content="课程" HorizontalAlignment="Left"  Foreground="Black" FontSize="36" FontWeight="Bold" Margin="100,18,0,0"/>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="0">
+                <Label Background="#FFFB7831" Width="20" Height="20" Margin="108,5,247,5"/>
+                <Label Content="第一学年" Foreground="Black" FontWeight="Bold" FontSize="18" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="1">
+                <Label Background="#FFFB7831" Width="20" Height="20" Margin="108,5,247,5"/>
+                <Label Content="第二学年" Foreground="Black" FontWeight="Bold" FontSize="18" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="2">
+                <Label Background="#FFFB7831" Width="20" Height="20" Margin="108,5,247,5"/>
+                <Label Content="第三学年" Foreground="Black" FontWeight="Bold" FontSize="18" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Row="1" Grid.Column="3">
+                <Label Background="#FFFB7831" Width="20" Height="20" Margin="108,5,247,5"/>
+                <Label Content="第四学年" Foreground="Black" FontWeight="Bold" FontSize="18" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="0" Grid.Row="2">
+                <Label Content="计算科学导论" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="0" Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="115*"/>
+                    <ColumnDefinition Width="73*"/>
+                </Grid.ColumnDefinitions>
+                <Label Content="高等数学" FontSize="17" Margin="135,5,0,5" Grid.ColumnSpan="2"/>
+            </Grid>
+            <Grid Grid.Column="0" Grid.Row="4">
+                <Label Content="工程图学" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="0" Grid.Row="5">
+                <Label Content="面向对象程序设计" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="2">
+                <Label Content="数据结构" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="3">
+                <Label Content="操作系统" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="4">
+                <Label Content="计算机图像处理" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="1" Grid.Row="5">
+                <Label Content="计算机组成" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="2">
+                <Label Content="微机原理与接口技术" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="3">
+                <Label Content="计算机安全与保密" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="4">
+                <Label Content="移动应用开发" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="2" Grid.Row="5">
+                <Label Content="计算机系统结构" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="3" Grid.Row="2">
+                <Label Content="前沿专题讲座" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="3" Grid.Row="3">
+                <Label Content="专业方向讲座" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="3" Grid.Row="4">
+                <Label Content="形势与政策" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+            <Grid Grid.Column="3" Grid.Row="5">
+                <Label Content="校内（外）实习" FontSize="17" Margin="135,5,0,5"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="3" Background="#FFFB7831">
+            <StackPanel Height="70" Margin="100,0,0,200">
+                <Label  HorizontalAlignment="Left"  Width="70" Height="10" Background="Black" Margin="8,10,0,0"/>
+                <Label Content="就业" HorizontalAlignment="Left"  Foreground="Black"  FontSize="36" FontWeight="Bold" />
+            </StackPanel>
+            <StackPanel Margin="0,70,0,0">
+                <Label MaxWidth="1500"  FontSize="20" Foreground="Black" Margin="100,10,100,0" >
+                    <TextBlock TextWrapping="Wrap"
+                                   ><Run Text="本专业毕业生可担任IT部门的系统分析师/管理人员、软件工程师、应用系统设计师/开发商、项目负责人等。学生亦可选择继续攻读"/><Run Text="硕士"/><Run Text="学位。"/></TextBlock>
+                </Label>
+            </StackPanel>
+
+        </Grid>
+    </Grid>
+</Page>

@@ -780,6 +780,9 @@
     <Compile Include="Faculty\Professor\YuMing\ResearchDirection.xaml.cs">
       <DependentUpon>ResearchDirection.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Faculty\TeacherWebBrowserPage.xaml.cs">
+      <DependentUpon>TeacherWebBrowserPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
     </Compile>
@@ -1827,6 +1830,10 @@
     <Page Include="Faculty\Professor\YuMing\ResearchDirection.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\TeacherWebBrowserPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Infomation\CollegeHistory.xaml">
       <SubType>Designer</SubType>

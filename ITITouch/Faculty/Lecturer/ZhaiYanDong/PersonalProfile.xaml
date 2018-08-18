@@ -1,0 +1,20 @@
+﻿<Page x:Class="ITITouch.Faculty.Lecturer.ZhaiYanDong.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+       mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+>
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap"><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run Text=" "/><Run FontWeight="Bold" Text="个人简介"/><Run Text="： "/><LineBreak/><Run Text="翟艳东,河北工业大学计算机科学与软件学院计算机硬件实验室工作，讲师。"/><LineBreak/><LineBreak/><InlineUIContainer> 
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 学术成果"/><Run Text="："/><LineBreak/><Run Text="2008年至今，发表论文多篇，其中第一作者中文核心期刊论文3篇，国际会议1篇。参编机械出版社出版的教材《计算机组成原理》，参与了《基于小波运动估计的监控视频图像运动分析及应用（ZD200911）》，《Windows平台下基于数据索引技术和GPRS/GSM网络的远程监控管理系统》等项目。获得11项软件著作权。"/><LineBreak/><Run/></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

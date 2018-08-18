@@ -1,0 +1,66 @@
+﻿<Page x:Class="ITITouch.Organization.ComputerScienceAndTechnology"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" d:DesignHeight="1080" d:DesignWidth="1500" ShowsNavigationUI="False" >
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="670"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Canvas>
+                <StackPanel Panel.ZIndex="2" Width="550" Height="500" Margin="50" Canvas.Left="100" Canvas.Top="100">
+                    <Label MaxWidth="550" HorizontalAlignment="Left" Margin="0,15,0,10" FontSize="33" Foreground="White"   VerticalAlignment="Top" Width="550">
+                        <TextBlock  TextWrapping="Wrap"
+                                   Text="计算机科学与技术简介" FontFamily="Microsoft YaHei" />
+                    </Label>
+                    <Label MaxWidth="450" HorizontalAlignment="Left" FontSize="20" Foreground="White"   VerticalAlignment="Top" Width="450" Height="auto">
+                        <TextBlock  TextWrapping="Wrap"  LineHeight="30"
+                                   Text=" 计算机科学与技术系成立于1985年，同年开始招收计算机科学与技术专业本科生。二十多年来，该系为国家的经济建设和社会发展培养了大批的专业人才，许多毕业生已成为各自岗位的骨干力量。在长期的教学科研和人才培养的实践中，计算机科学与技术系亦逐步形成了一支思想素质好、业务水平高、教学经验丰富、结构合理、富有创新意识和创新能力的师资队伍。"/>
+                    </Label>
+                </StackPanel>
+                <Canvas Background="Black"  Height="670" Width="1500"/>
+                <StackPanel HorizontalAlignment="Center"  Panel.ZIndex="0" Background="Black" >
+                    <Image Source="/ITITouch;component/Resources/计算机科学与技术.jpg"  Width="1500" Height="670" Stretch="Fill">
+                        <Image.Effect>
+                            <BlurEffect Radius="15"/>
+                        </Image.Effect>
+                    </Image>
+                </StackPanel>
+            </Canvas>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="750"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Background="WhiteSmoke">
+                <StackPanel Background="#FFBBB6A7" Margin="25" Height="360" Width="700" >       
+                    <Label MaxWidth="700" HorizontalAlignment="Center" Margin="0,15,0,0" FontSize="33" Foreground="Black"   VerticalAlignment="Top" Width="150">
+                        <TextBlock  TextWrapping="Wrap"
+                                   Text="系部介绍" />
+                    </Label>
+                    <Label MaxWidth="700" HorizontalAlignment="Left" FontSize="20" Foreground="Black"   VerticalAlignment="Top" Width="700">
+                        <TextBlock Width="640" Margin="50,30" LineHeight="50" TextWrapping="Wrap" FontSize="25">"宽口径，厚基础"的培养宗旨<LineBreak/>厚实基础、深化专业、注重理论、突出实践<LineBreak/>注重理论和实践的结合，创新意识和能力的培养<LineBreak/>为学生提供良好的自我设计和自我发展的平台</TextBlock>
+                    </Label>
+
+                </StackPanel>
+            </Grid>
+            <Grid Grid.Column="1" Background="WhiteSmoke">
+                <StackPanel Background="#FFBBB6A7" Margin="25" Height="360" Width="700">
+
+                    <Label MaxWidth="700" HorizontalAlignment="Center" Margin="0,15,0,0" FontSize="33" Foreground="Black"   VerticalAlignment="Top" Width="150">
+                        <TextBlock  TextWrapping="Wrap"
+                                   Text="培养目标" />
+                    </Label>
+                    <Label MaxWidth="700" HorizontalAlignment="Left" FontSize="20" Foreground="Black"   VerticalAlignment="Top" Width="700">
+                        <TextBlock  Width="640" Margin="50,30" LineHeight="50"  TextWrapping="Wrap" FontSize="25">具备坚实的计算机科学基础，掌握基本理论专业知识<LineBreak/>了解计算机学科的高新技术和发展规律<LineBreak/>设计、开发、维护和研究、解决各类问题的能力<LineBreak/>较强的自我知识获取能力和创新意识和综合素质</TextBlock>
+                    </Label>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+        body, html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+
+        #panorama {
+            width: 100%;
+            height: 1080px;
+        }
+
+        #result {
+            width: 100%;
+            font-size: 12px;
+        }
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=hj0ygvE4BwAD0SRvZMUINWhIzqXBMcnG"></script>
+    <title>添加全景标注点</title>
+</head>
+<body>
+    <div id="panorama"></div>
+    <div id="result">
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    var panorama = new BMap.Panorama('panorama');
+    panorama.setPosition(new BMap.Point(117.063900, 39.240));
+    panorama.setPov({pitch:5,heading:120});
+    var labelPosition = new BMap.Point(117.063900, 39.240);
+    var labelOptions = {
+        position: labelPosition,
+        altitude: 5
+    };//设置标注点的经纬度位置和高度
+    var label = new BMap.PanoramaLabel('计算机科学与软件学院-正门', labelOptions);
+    panorama.addOverlay(label);//在全景地图里添加该标注
+    panorama.setPov(label.getPov()); //修改点的视角，朝向该label
+
+    label.addEventListener('click', function () { //给标注点注册点击事件
+        panorama.setPosition(new BMap.Point(117.063900, 39.240));
+    });
+</script>

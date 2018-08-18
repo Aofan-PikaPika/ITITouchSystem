@@ -1,0 +1,31 @@
+﻿<Window x:Class="ITITouch.Organization.OranizationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="OranizationWindow" Height="1080" Width="1920" WindowState="Maximized" WindowStyle="None">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Background="WhiteSmoke">
+            <StackPanel HorizontalAlignment="Center" Margin="0,30,0,0">
+                <Image Source="/Resources/logo.png" Height="90" Width="90"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <RadioButton x:Name="rb1" Click="rb1_Click" Style="{StaticResource FriendStyle}" Width="35" Height="35" />
+                <Label FontWeight="Bold"  Style="{StaticResource smallText}" >行政与办事机构</Label>
+                <RadioButton x:Name="rb2" Click="rb2_Click" Style="{StaticResource ChatStyle}" Width="35" Height="35" Margin="0,50,0,0"/>
+                <Label FontWeight="Bold"  Style="{StaticResource smallText2}" >教学与科研机构</Label>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom"  Margin="0,50">
+                <Button Width="50" Height="50" Name="bt_return" Style="{StaticResource ReturnButton}" Click="bt_return_Click" />
+                <Label FontWeight="Bold" Style="{StaticResource smallText3}" >返回主界面</Label>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Column="1" Background="#FFEAEAEA"/>
+        <Grid Grid.Column="2" Background="White"/>
+        <Frame Name="frameNavi" Grid.Column="1" Background="Transparent" NavigationUIVisibility="Hidden"/>
+        <Frame Name="frameShow" Grid.Column="2" Background="Transparent" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>

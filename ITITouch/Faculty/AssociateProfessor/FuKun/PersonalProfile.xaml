@@ -1,0 +1,22 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.FuKun.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 富坤，2001年毕业于河北工业大学计算机科学技术专业获得学士学位，2004年毕业于河北工业大学计算机应用技术专业获得硕士学位，2008年毕业于河北工业大学电工理论与新技术专业获得博士学位。2004年于河北工业大学计算机科学与软件学院计算机科学与技术系任教师。"/><LineBreak/><Run/><LineBreak/>
+                <!--<Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 总体概况"/><Run Text="：从1991年7月至今，一直在河北工业大学从事计算机基础教学工作，主要讲授计算机应用基础、计算机软件技术基础、计算机硬件技术基础等课程。在做好教学工作的同时，积极开展教学研究和科研活动，完成多项省部级项目和横向课题。1999年6月至2002年12月，在红桥区计委挂职副主任。"/><LineBreak/><Run/><LineBreak/>-->
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 获奖成果及专利"/><Run Text="曾承担 《实习用数控机床结构研究》等项目。"/><LineBreak/><Run/><LineBreak/>
+                <!--<Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 著作"/><Run Text="：2009年发表《计算机硬件技术实践教程》 "/><LineBreak/><Run/><LineBreak/>-->
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 论文"/><Run Text="：代表性论文有《Support   Vector Regression Method for Boundary Value Problems》、《The Inter Generation Statistical Character Self-feedback Improved   Genetic Algorithm Based on SVM Model》、《Improved GA   Based on SVR of the Population Statistical Characters and its Application to   Design Optimization of Induction Heating Device》、《基于支持向量机对种群特征回归分析的自适应遗传算法》等"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

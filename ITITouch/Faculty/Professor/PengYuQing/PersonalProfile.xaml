@@ -1,0 +1,24 @@
+﻿<Page x:Class="ITITouch.Faculty.Professor.PengYuQing.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="ResearchDirection">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <InlineUIContainer>
+        			<Label Background="#FF0079C1"/>
+        		</InlineUIContainer><Run FontWeight="Bold" Text=" 个人简介"/><Run Text="： "/><LineBreak/><Run Text="彭玉青，硕士生导师。"/><LineBreak/><LineBreak/><Run Text="曾发表《 A Research of Image Retrieval Based on Combined Feature》、《Dynamic Simulation Research and Implementation of the High-Rise Building Construction Process System》、《Detection of violent video with audio-visual features based on MPEG-7》、《基于图像可听化的视听信息融合方法研究》等。"/><LineBreak/><Run/><LineBreak/><Run Text="目前主持天津自然基金 《基于可听化的电子行走辅助系统研究》、承担国家自然基金《基于视听信息融合的复杂机电系统运行状态监测原理与方法研究》、天津重点项目《电子标识供能与定位技术研究》等项目。"/>
+                <LineBreak/><Run/><LineBreak/>
+                <InlineUIContainer>
+        			<Label Background="#FF0079C1"/>
+        		</InlineUIContainer><Run FontWeight="Bold" Text=" 科研获奖情况"/><Run Text="："/><LineBreak/><Run Text="作为主研人参与完成多项纵向科研项目，其中包括国家863项目、国家科技支撑计划、河北省天津市自然基金项目，发表学术论文30余篇，获得河北省科技进步三等奖两项，天津科技进步二等奖一项，河北省教学成果二等奖一项。现主持天津自然基金一项，第二主研国家自然基金一项，第四主研天津自然基金重点项目一项。主要讲授数据库、C语言程序设计、数据库应用技术等课程。 指导已毕业硕士研究生三十余人。"/><LineBreak/><Run/><LineBreak/><Run Text="1998年《电器优化问题的并行处理》获得河北省科技进步三等奖，排名第2；1998年《电工产品有限元逆问题及优化设计》获得天津市科技进步二等奖，排名第4；2005年《数据挖掘中智能代理知识进化系统研究》河北省科技进步三等奖，排名第4；2006年《电流变流体减振器及其主动控制系统研究》获得河北省科技进步二等奖，排名第7。"/><LineBreak/><Run/><LineBreak/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

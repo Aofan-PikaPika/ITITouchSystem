@@ -1,0 +1,29 @@
+﻿<Page x:Class="ITITouch.Faculty.Lecturer.GuoYongFang.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        mc:Ignorable="d" 
+     d:DesignHeight="540" d:DesignWidth="890"
+	Title="ResearchDirection">
+
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 郭永芳，1998.9-2002.7 河北工业大学获学士学位；2002.9-2005.4 北京交通大学获硕士学位；2006.9-2012.1 河北工业大学获博士学位；2005.4-今 河北工业大学任教
+"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"/><Run  FontWeight="Bold" Text=" 论文"/><Run Text="：曾发表1. Study on a real-time corner detection algorithm[C]. 2010 International Conference on Micro Nano Device, Structure and Computing System, MNDSCS 2010. Advanced Materials Research,2011(159):192-197.Ei 收录,20111513901965
+                                                                                                                                                             2. Efficient Image Matching Algorithm Using Distance Transform and Particle Swarm Optimization[C]. 2011 2th International Conference on Material and Manufacturing Technology, ICMMT 2011. Advanced Materials Research.2012,341-342:753-757. Ei收录, 20114214425505
+                                                                                                3. Image matching based on improved Particle Swarm Optimization[C]. 2011 International Conference on Electronics, Communications and Control. Ningbo, China. 2011:862-865. Ei 收录,20114714544691
+
+                                                                                        4.一种改进的快速角点检测方法研究[J].计算机工程与应用.2011,47(12):159-162
+                                                                                        5.基于细菌趋药性的Ostu双阈值图像分割算法[J]. 计算机工程. 2011,37(22):8-11
+
+                                                                                        
+"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

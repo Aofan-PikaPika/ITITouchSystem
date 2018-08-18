@@ -1,0 +1,32 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.XiaoGuoXi.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 肖国玺，女， 毕业于天津大学计算机系， 硕士生导师， 曾获校级优秀任课教师称号， 多次获优秀教学奖， 参加多项科研项目并发表多篇论文"/><LineBreak/><Run/><LineBreak/>
+                
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 论文与著作"/><Run Text="：1、《镍网数据测试及图像处理》河北科技大学学报
+
+2、《基于蚂蚁算法的物流配送计划的生成》河北工业大学学报
+
+3、《基于B/S结构的C语言在线学习系统的研究与实现》 河北省科学院学报
+
+4、《信息安全基础》 武汉大学出版社 主编
+
+5、《PREDICTION OF USER'S BEHAVIOR BASED ON MATRIX CLUSTERING 》Proceedings of the Fifth International Conference on Machine Learning and Cybernetics,Dalian
+
+6、《The Application of a Scheme of Digital Signature in Electronic Government 》，2008年IEEE计算机科学与软件工程国际会议 IEEE Computer Society
+
+7、《基于OCL的配置工具研究与实现》 计算机工程与应用 。"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

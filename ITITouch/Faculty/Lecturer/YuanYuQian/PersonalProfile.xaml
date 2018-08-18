@@ -1,0 +1,20 @@
+﻿<Page x:Class="ITITouch.Faculty.Lecturer.YuanYuQian.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+>
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap"><InlineUIContainer>
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run Text=" "/><Run FontWeight="Bold" Text="个人简介"/><Run Text="： "/><LineBreak/><Run Text="袁玉倩，女（1981.5-），汉族，天津人。北京航空航天大学自动化科学与电气工程学院博士。2003年河北工业大学电子信息工程专业本科毕业，2006年河北工业大学物理电子学专业硕士研究生毕业，2007年考取北京航空航天大学模式识别与智能系统专业攻读博士学位。2012年开始于河北工业大学软件工程系任教。"/><LineBreak/><LineBreak/><InlineUIContainer> 
+            		<Label Background="#FF0079C1"/>
+            	</InlineUIContainer><Run FontWeight="Bold" Text=" 学术成果"/><Run Text="："/><LineBreak/><Run Text="1）基于QoS真实性与工作流模型的Web服务选择. 北京航空航天大学学报（排名：1）"/><LineBreak/><Run/><LineBreak/><Run Text="2）A Web service selection approach based on the authenticity of QoS data and the confidence of users. EI: 20101212778722（排名：1）"/><LineBreak/><Run/><LineBreak/><Run Text="3）一种基于自适应框架的Web服务选择算法. 计算机工程（排名：1）"/><LineBreak/><Run/><LineBreak/><Run Text="4）一种基于MFCC和LPCC的文本相关说话人识别方法. 计算机应用（排名：2）"/><LineBreak/><Run/><LineBreak/><Run Text="河北省教育厅指导项目面向服务体系结构下保证服务质量的动态服务组合技术研究。（排名：1）"/></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

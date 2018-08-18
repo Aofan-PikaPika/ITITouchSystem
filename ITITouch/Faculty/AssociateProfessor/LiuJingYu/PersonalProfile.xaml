@@ -1,0 +1,30 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.LiuJingYu.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 刘靖宇，博士，讲师。
+
+2008年至今，共发表论文5篇，其中，EI论文5篇，计算机类一级期刊论文3篇，计算机协会推荐C类会议论文1篇。参与国家自然基金1项，参与完成省部级科研项目2项、承担校教学改革项目1项。主讲计算机文化基础、计算机软件技术基础和计算机硬件技术基础等课程。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 著作"/><Run Text="： 2011年，连续数据存储中面向RAID5的写操作优化设计方法，专利
+
+2011年，一种具有并行Cache同步链路的高性能存储系统，专利
+
+2011年，一种基于协处理器的重复数据删除系统，专利
+
+2012年，一种基于Hash编码的远程数据复制去重方法，专利
+
+2013年，一种基于MAC地址传输的Cache同步方法，专利"/><LineBreak/><Run/><LineBreak/>
+                 <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 发表论文"/><Run Text="： 曾发表《S-RAID中的基于连续数据存储的写优化策略》、《混合S-RAID:一种适于连续数据存储的节能数据布局》、《Hybrid S-RAID: an Power-Aware Archival Storage Architecture》、《A Method of Deduplication for data Remote backup》、《连续数据存储中面向RAID5的写操作优化设计》等。"/><LineBreak/><Run/><LineBreak/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,21 @@
+﻿<Page x:Class="ITITouch.Faculty.Lecturer.LinXiaoJing.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+     mc:Ignorable="d" 
+     d:DesignHeight="540" d:DesignWidth="890"
+	Title="ResearchDirection">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="：林晓静，毕业于吉林大学。2007年参与出版《Visual Basic上机实践指导与水平测试》（清华大学出版社）；2006年参与出版《计算机硬件技术基础-MCS51单片机原理及应用》（天津大学出版社）。曾发表《Binary-Tree SPIHT Coding for True Bidimensional Wavelet Decomposition》、《The Simple Analysis of Mobile IP Technique》、《Intelligent  Grating  Displacement  Measuring  System》、《计算机化医学影像仪器的发展》等论文。在研项目有《基于机器学习的无参考食品质量评价系统》等。
+
+"/><LineBreak/><Run/><LineBreak/>
+               
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

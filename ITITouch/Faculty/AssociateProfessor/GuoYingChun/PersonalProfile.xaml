@@ -1,0 +1,30 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.GuoYingChun.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 郭迎春， 女，1970年生，副教授，获博士学位，河北工业大学计算机科学与软件学院教师。2001年获河北工业大学硕士学位，留校任教。2003年在天津大学电信学院攻读博士学位，主要从事图像与视频的编码压缩，小波理论的分析。2006年12月进入河北工业大学博士后流动站。2007年3月至2007年9月，加拿大皇后大学访问学者，研究图像和视频的质量评价。2010年1月至2011年12月在美国University of Nebraska at Omaha作博士后，其间申请成功两项基金，主要研究方向是图像和视频的质量评价及其应用。在国际会议和国内核心刊物上发表论文20多篇，其中EI检索18篇。主持和参加了6项课题的研究工作。"/><LineBreak/><Run/><LineBreak/>
+                <!--<Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 总体概况"/><Run Text="： 曾承担 《水电地理信息管理系统 613035》、《计算机软件技术基础课程设计基于Web教学系统的研究》等项目。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 获奖成果及专利"/><Run Text="：2009年《基于模糊控制的沥青热熔釜》使用新型专利；2004年《浅析网络环境下的创新教育》获河北省教育厅优秀教学成果三等奖；1997年《微机应用基础课程课堂教学CAI研究》获 河北工业大学优秀教学成果二等奖；1998年《微机应用机车课程试题盘评分系统研究》 河北工业大学优秀教学成果二等奖；全国多媒体课件大赛三等奖一项，优秀奖一项。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 著作"/><Run Text="：2004年主编《VisualC++程序设计基础》2010年主编《实用数据结构教程》 "/><LineBreak/><Run/><LineBreak/>-->
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 论文"/><Run Text="：郭迎春,于明, Qiuming Zhu. 基于子带相似性分析的JPEG2000图像无参考质量评价.电子信息学报, 2011,33(6) :1496-1500
+
+郭迎春, 袁浩杰, 吴鹏. 一种基于无参考的块效应评价方法. 光电子.激光, 2011, (3):465-468
+
+Guo, Yingchun, Yu, Ming, Lin, Xiaojing, Liang, Yanhong. Binary-Tree SPIHT Coding for True Bidimensional Wavelet Decomposition. The 2nd International Conference on Intelligent Networks and Intelligent Systems, 2009: 366-369
+
+郭迎春, 侯正信,于明. 最优内插的纯二维小波构造. 光电子.激光，2008，19（6）：795-798 (EI: 20082811370764)
+
+郭迎春, 侯正信. 纯二维小波滤波器组及其在图像压缩中的应用.光电子.激光，2005,16（8）:982-988(EI: 05439438682)"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

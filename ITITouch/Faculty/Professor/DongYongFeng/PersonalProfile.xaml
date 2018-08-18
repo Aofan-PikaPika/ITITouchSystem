@@ -1,0 +1,22 @@
+﻿<Page x:Class="ITITouch.Faculty.Professor.DongYongFeng.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+>
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <InlineUIContainer>
+        			<Label Background="#FF0079C1"/>
+        		</InlineUIContainer>
+                <Run FontWeight="Bold" Text="个人简介"/><Run Text="： 中国计算机学会教工委委员，CCF YOCSEF天津副主席，河北省计算机学会常务理事，河北省电子学会理事。"/><LineBreak/><LineBreak/><InlineUIContainer> 
+        			<Label Background="#FF0079C1"/>
+        		</InlineUIContainer><Run FontWeight="Bold" Text=" 获奖成果及专利"/><Run Text="：作为负责人获得天津市科技进步二等奖1项，河北省科技进步三等奖1项，作为主研人，获得天津市科技进步二等奖1项，完成1项天津市重点基金项目，1项厅局级项目，2项计划外项目，参与完成6项省级项目，申请软件著作权18项，实用新型2项；合著专著1部，发表23篇学术论文，其中第一作者6篇，SCI检索1篇，EI检索2篇，指导硕士研究生10余名。目前主持在研项目2项，横向课题3项。 "/><LineBreak/></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

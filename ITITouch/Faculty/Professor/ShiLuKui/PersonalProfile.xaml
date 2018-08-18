@@ -1,0 +1,22 @@
+﻿<Page x:Class="ITITouch.Faculty.Professor.ShiLuKui.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+     mc:Ignorable="d" 
+     d:DesignHeight="540" d:DesignWidth="890"
+	Title="ResearchDirection">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap"><InlineUIContainer>
+        			<Label Background="#FF0079C1"/>
+        		</InlineUIContainer><Run FontWeight="Bold" Text=" 个人简介"/><Run Text="： "/><LineBreak/><Run Text="石陆魁，硕士生导师。1992-1996河北工业大学攻读学士学位，1996-1999河北工业大学攻读硕士学位，2003-2006天津大学攻读博士学位，1999至今河北工业大学计算机科学与软件学院教师。"/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+        			<Label Background="#FF0079C1"/>
+        		</InlineUIContainer><Run FontWeight="Bold" Text=" 获奖成果及论文"/><Run Text="：《An incremental nonlinear dimensionality   reduction algorithm based on ISOMAP, Proceedings of Advances》、《An incremental algorithm based on k nearest   neighbor projection for nonlinear dimensionality reducti》、《Text classification based on nonlinear dimensionality reduction   techniques and support vector machin》、《An evaluated   model based on the variance of distance ratios for nonlinear dimensionality   reduction a》、《一种基于密度的高效聚类算法》"/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+        			<Label Background="#FF0079C1"/>
+        		</InlineUIContainer><Run FontWeight="Bold" Text=" 担任项目"/><Run Text="：《基于认知的流形学习方法及其应用研究（10JCZDJC16000）》等项目"/></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

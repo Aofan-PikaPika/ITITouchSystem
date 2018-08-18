@@ -1,0 +1,22 @@
+﻿<Page x:Class="ITITouch.Faculty.AssociateProfessor.HePing.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="540" d:DesignWidth="890"
+	Title="PersonalProfile">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 何平，博士，硕士生导师。1998年7月开始在河北工业大学计算机科学与软件学院担任教师。2009年1月毕业于河北工业大学信息工程学院，获微电子学与固体电子学专业博士学位，2009.12评为副教授。总体概括：以第一作者发表论文7篇，其中EI论文3篇，中文核心期刊论文3篇。参与纵向课题3项，横向课题2项，完成成果鉴定4项。主要讲授计算方法、算法分析与设计、多媒体技术及应用、模式识别等课程。"/><LineBreak/><Run/><LineBreak/>
+                <!--<Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 总体概况"/><Run Text="： 曾承担 《水电地理信息管理系统 613035》、《计算机软件技术基础课程设计基于Web教学系统的研究》等项目。"/><LineBreak/><Run/><LineBreak/>-->
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 获奖成果及专利"/><Run Text="： 2009年《传感器制备及检测技术》获得河北省政府，河北省自然教学三等奖，排名5。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 著作"/><Run Text="：2006年参与编写《模式识别》教材， 武汉大学出版社出版。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 论文"/><Run Text="：曾发表《压力传感器温度漂移补偿的RBF网络模型》、《Temperature compensation for pressure sensor based on LS-SVR》、《Facial Expression Recognition Using Multi-Class Minimax Probability Machine，The 7th World Congress on Intelligent Control And Automation》、《基于RBF网络的智能气敏传感器温度补偿》等。"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

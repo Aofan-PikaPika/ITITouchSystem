@@ -1,0 +1,31 @@
+﻿<Page x:Class="ITITouch.Faculty.Lecturer.LuJing.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+       mc:Ignorable="d" 
+     d:DesignHeight="540" d:DesignWidth="890"
+	Title="ResearchDirection">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap">
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 个人简介"/><Run Text="： 路静，2008年至今，共发表论文3篇，其中，EI期刊论文1篇，中文核心期刊论文1篇，会议论文1篇，参与编写教材5本。参与研究省部级以上纵向课题2项。主要讲授计算机软件技术基础（VB），计算机软件技术基础（VC），计算机技术基础等课程。
+。"/><LineBreak/><Run/><LineBreak/>
+                <Label Background="#FF0079C1"></Label><Run  FontWeight="Bold" Text=" 论文"/><Run Text="：[1] 柴欣，visual c++程序设计，中国铁道出版社，978-7-113-08274-1/TP.2559 柴欣、张红梅，2007.8
+                                                                                               [2] 柴欣，visual c++程序设计实验教程，中国铁道出版社，78-7-113-08215-4/TP.2538，柴欣、史巧硕，2007.8
+                                                                                               [3] 柴欣，大学计算机基础实验教程，中国铁道出版社，柴欣、武优西，2008.4
+                                                                                               [4] 柴欣 ，大学计算机基础教程
+                                                                                                                                            [5] 柴欣，大学计算机基础实验教程
+                                                                                                                                       以上著作中本人均为编委
+                                                                                                                                    《Application of FDTD and Harmony Search Algorithm for Inverse Scattering Problem》
+                                                                                               《An improved harmony search algorithm for continuous optimization problems》
+                                                                                               《改进和声搜索算法及其在连续函数优化中的应用》等。
+                                                                                                      [1]网树求解具有间隙约束的近似模式匹配和模式挖掘（ZH2012038），河北省教育厅重点项目，2012年6月，排名第六（主持人：武优西）；
+                                                                                                                                                                   [2]基于认知的流行学习方法及应用研究，天津市应用基础及前沿技术研究计划（10JCZDJC16000），2010.04-2013.03，排名第四
+"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

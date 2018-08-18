@@ -1,0 +1,255 @@
+﻿<Page x:Class="ITITouch.Map.Floor2Page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1500" Background="AliceBlue"
+	Title="Floor2Page">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="1100"/>
+        </Grid.ColumnDefinitions>
+        <!--介绍-->
+        <StackPanel Background="AliceBlue" Margin="0,22,0,0">
+            <Border SnapsToDevicePixels="True" CornerRadius="2" Width="350" BorderBrush="Wheat" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30">
+                <Border.Effect>
+                    <DropShadowEffect Color="Gray" BlurRadius="4" ShadowDepth="2" Opacity="1" />
+                </Border.Effect>
+                <TextBlock Text="点击房间区域获取信息" FontSize="20" Background="White" Height="30" TextAlignment="Center" Width="350" x:Name="txt" />
+            </Border>
+            <Popup x:Name="poptxt" PopupAnimation="Slide" Height="655" PlacementTarget="{Binding ElementName=txt}"  AllowsTransparency="True" StaysOpen="False" IsOpen="False" >
+                <StackPanel  Width="350">
+                    <StackPanel Background="#1E90FF" Height="100" Margin="0,10,0,0">
+                        <TextBlock Text="" FontSize="20" Foreground="White" Margin="10" x:Name="roomName"/>
+                        <TextBlock Text="" FontSize="15" Foreground="White" Margin="10,30" x:Name="roomClass"/>
+                    </StackPanel>
+                    <StackPanel Background="White" Height="100" Margin="0,2,0,0">
+                        <WrapPanel Height="50">
+                            <Image Source="/ITITouch;component/Resources/dingwei.png" Height="25" Width="25" Margin="10"/>
+                            <TextBlock Text="" FontSize="15" Foreground="Gray" VerticalAlignment="Center" x:Name="roomLocation"/>
+                        </WrapPanel>
+                        <Separator/>
+                        <WrapPanel Height="50">
+                            <Image Source="/ITITouch;component/Resources/phone.png" Height="25" Width="25" Margin="10"/>
+                            <TextBlock Text="" FontSize="15" Foreground="Gray" VerticalAlignment="Center" x:Name="roomPhone"/>
+                        </WrapPanel>
+                    </StackPanel>
+                    <Image  x:Name="roomPic" Width="350" Height="210" Stretch="UniformToFill"/>
+                    <Separator/>
+                    <WrapPanel Background="White" Height="200">
+                        <Image Source="/ITITouch;component/Resources/text.png" Height="25" Width="25" Margin="10" />
+                        <TextBlock Text="简介" VerticalAlignment="Center" FontSize="15" Width="230"/>
+                        <TextBlock Text="" TextWrapping="Wrap" Margin="10,5,10,0" FontSize="15" LineHeight="30" x:Name="roomContent"/>
+                    </WrapPanel>
+                </StackPanel>
+            </Popup>
+        </StackPanel>
+
+        <!--地图-->
+        <Canvas Grid.Column="1" Background="#FF50D6F1">
+            <Image Source="/ITITouch;component/Resources/floor2.PNG" Width="1100" Canvas.Top="300" Stretch="Uniform"  />
+            <!--202-->
+            <Button Width="58" Height="90" Style="{StaticResource TransparentButtonStyle}" Canvas.Left="32" Canvas.Top="643" Opacity="0.5" x:Name="staffroom" Click="staffroom_Click"/>
+            <Popup x:Name="pop_staffroom" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=staffroom}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border  >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="教工活动室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--204-->
+            <Button Width="58" Height="51" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="587" Opacity="0.5" x:Name="staffroom2" Click="staffroom2_Click" Canvas.Left="32"/>
+            <Popup x:Name="pop_staffroom2" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=staffroom2}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border  >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="教工活动室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--206-->
+            <Button Width="62" Height="90" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="643" Opacity="0.5" x:Name="studentjob" Click="studentjob_Click" Canvas.Left="172"/>
+            <Popup x:Name="pop_studentjob" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=studentjob}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border  >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="学生工作办公室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--208-->
+            <Button Width="65" Height="90" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="643" Opacity="0.5" x:Name="salon" Click="salon_Click" Canvas.Left="239"/>
+            <Popup x:Name="pop_salon" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=salon}" Placement="Top"  AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border   >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="教工沙龙室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--210-->
+            <Button Width="62" Height="90" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="643" Opacity="0.5" x:Name="software" Click="software_Click" Canvas.Left="309"/>
+            <Popup x:Name="pop_software" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=software}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border  >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="软件工程教研室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--212-->
+            <Button Width="62" Height="90" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="643" Opacity="0.5" x:Name="internet" Click="internet_Click" Canvas.Left="376"/>
+            <Popup x:Name="pop_internet" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=internet}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border  >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="网络工程教研室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--201-->
+            <Button Width="92" Height="48" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="511" Opacity="0.5" x:Name="networks" Click="networks_Click" Canvas.Left="451"/>
+            <Popup x:Name="pop_networks" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=networks}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border>
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="网络分布研究室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--205-->
+            <Button Width="98" Height="48" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="511" Opacity="0.5" x:Name="research" Click="research_Click" Canvas.Left="548"/>
+            <Popup x:Name="pop_research" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=research}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border  >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="研究生实验室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--209-->
+            <Button Width="98" Height="48" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="511" Opacity="0.5" x:Name="data" Click="data_Click" Canvas.Left="654"/>
+            <Popup x:Name="pop_data" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=data}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border  >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="大数据实验室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--213-->
+            <Button Width="93" Height="48" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="511" Opacity="0.5" x:Name="information" Click="information_Click" Canvas.Left="757"/>
+            <Popup x:Name="pop_information" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=information}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border  >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="电子信息研究室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--214-->
+            <Button Width="92" Height="90" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="587" Opacity="0.5" x:Name="softwaretheory" Click="softwareheory_Click" Canvas.Left="451"/>
+            <Popup x:Name="pop_softwaretheory" PopupAnimation='Fade' Width="130" Height="80" PlacementTarget="{Binding ElementName=softwaretheory}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border  >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="软工理论实验室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--218-->
+            <Button Width="98" Height="90" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="587" Opacity="0.5" x:Name="security" Click="security_Click" Canvas.Left="548"/>
+            <Popup x:Name="pop_security" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=security}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border  >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="网络信息研究室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--222-->
+            <Button Width="101" Height="90" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="587" Opacity="0.5" x:Name="image" Click="image_Click" Canvas.Left="651"/>
+            <Popup x:Name="pop_image" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=image}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="图像处理研究室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--226-->
+            <Button Width="93" Height="90" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="587" Opacity="0.5" x:Name="intelligent" Click="intelligent_Click" Canvas.Left="757"/>
+            <Popup x:Name="pop_intelligent" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=intelligent}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border  >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="智能信息研究室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--230-->
+            <Button Width="95" Height="53" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="624" Opacity="0.5" x:Name="machinelearning" Click="machinelearning_Click" Canvas.Left="863"/>
+            <Popup x:Name="pop_machinelearning" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=machinelearning}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border>
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="机器学习研究室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--234-->
+            <Button Width="95" Height="53" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="624" Opacity="0.5" x:Name="keydata" Click="keydata_Click" Canvas.Left="963"/>
+            <Popup x:Name="pop_keydata" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=keydata}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border  >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="大数据实验室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--238-->
+            <Button Width="76" Height="63" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="451" Opacity="0.5" x:Name="technology" Click="technology_Click" Canvas.Left="1014"/>
+            <Popup x:Name="pop_technology" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=technology}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border  >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="信息技术研究所" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--240-->
+            <Button Width="76" Height="62" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="384" Opacity="0.5" x:Name="transportation" Click="transportation_Click" Canvas.Left="1014"/>
+            <Popup x:Name="pop_transportation" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=transportation}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="交通智能研究室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>
+            <!--219-->
+            <!--<Button Width="62" Height="90" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="700" Opacity="0.5" x:Name="studentjob" Click="studentjob_Click" Canvas.Left="172"/>
+            <Popup x:Name="pop_studentjob" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=studentjob}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border Margin="-30,0,30,0" >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="学生工作办公室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>-->
+            <!--221-->
+            <!--<Button Width="62" Height="90" Style="{StaticResource TransparentButtonStyle}" Canvas.Top="700" Opacity="0.5" x:Name="studentjob" Click="studentjob_Click" Canvas.Left="172"/>
+            <Popup x:Name="pop_studentjob" PopupAnimation="Fade" Width="130" Height="80" PlacementTarget="{Binding ElementName=studentjob}" Placement="Top" AllowsTransparency="True" StaysOpen="False" IsOpen="False">
+                <Border Margin="-30,0,30,0" >
+                    <Border.Background>
+                        <ImageBrush ImageSource="/ITITouch;component/Resources/Balloon.png"/>
+                    </Border.Background>
+                    <TextBlock Text="学生工作办公室" FontSize="15" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Border>
+            </Popup>-->
+        </Canvas>
+    </Grid>
+</Page>

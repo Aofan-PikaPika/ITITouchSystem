@@ -1,0 +1,22 @@
+﻿<Page x:Class="ITITouch.Faculty.Professor.WangYuanQuan.PersonalProfile"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        mc:Ignorable="d" 
+     d:DesignHeight="540" d:DesignWidth="890"
+	Title="ResearchDirection">
+
+    <Grid Background="White">
+        <!--用stackpanal的margin来控制首行缩进-->
+        <StackPanel Margin="20,30,20,20">
+            <TextBlock FontSize="15" TextWrapping="Wrap"><InlineUIContainer>
+        			<Label Background="#FF0079C1"/>
+        		</InlineUIContainer><Run Text=" "/><Run FontWeight="Bold" Text=" 个人简介"/><Run Text="： "/><LineBreak/><Run Text="王元全，博士，博士后，教授，硕士生导师。分别于1998年和2004年于南京理工大学获得硕士和博士学位，并获1998年南京理工大学优秀硕士论文和优秀毕业研究生称号。2006年12月北京理工大学计算机学院博士后出站。"/><LineBreak/><LineBreak/><InlineUIContainer>
+        			<Label Background="#FF0079C1"/>
+        		</InlineUIContainer><Run FontWeight="Bold" Text=" 荣誉"/><Run Text="："/><LineBreak/><Run Text="主持完成国家自然基金2项，省部级重点基金2项，天津市教委基金1项，天津市科技支撑计划项目1项。1998年4月至2001年8月在工业界从事软件开发和系统集成工作，曾在SCO Unix平台下编写过10万行C语言代码。"/><LineBreak/><Run/><LineBreak/><InlineUIContainer>
+        			<Label Background="#FF0079C1"/>
+        		</InlineUIContainer><Run FontWeight="Bold" Text=" 学术成果"/><Run Text="："/><LineBreak/><Run Text="兼任国家自然基金通信评议专家，多个省市自然基金通信评议专家。天津市图象图形学学会理事，中国计算机学会计算机视觉专委会委员，国际国内20多个知名期刊的审稿人，如IEEE trans Image Processing,  IEEE trans  Biomedical  Engineering ， IEEE  trans ITB， Computerized Medical Imaging and Graphics，IEEE Signal Processing letter，Signal processing，IET Image Processing，IET Computer Vision，Neural Computing and Applications，中国科学(F)，自动化学报，计算机学报，软件学报等。SCI期刊PLoS One编委(AE)。"/><LineBreak/><Run/><LineBreak/><Run Text="作为第一作者或者通信作者发表论文40余篇，基本都被EI检索，SCI检索10余篇，包括国际知名期刊如Computer Vision and Image Understanding ,  Signal Processing, IEEE Signal Processing Letters等，被Nature Methods等国际论文引用超过200次。"/><LineBreak/><LineBreak/></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
