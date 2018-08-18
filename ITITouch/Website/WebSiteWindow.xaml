@@ -13,7 +13,7 @@
         <StackPanel Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="600" Orientation="Horizontal" Panel.ZIndex="2" Background="Transparent">
 
             <Image Source="/ITITouch;component/Resources/back01.png" x:Name="back" Height="50" Width="50" Margin="70,0" MouseUp="back_MouseUp" />
-            <Image Source="/ITITouch;component/Resources/logologo.jpg" x:Name="home" Stretch="Uniform" Margin="60,0" MouseUp="home_MouseUp"/>
+            <Image Source="/ITITouch;component/Resources/logologo.png" x:Name="home" Stretch="Uniform" Margin="60,0" MouseUp="home_MouseUp"/>
             <Image Source="/ITITouch;component/Resources/forward01.png" x:Name="forward" Height="50" Width="50" Margin="70,0" MouseUp="forward_MouseUp"/>
         </StackPanel>
        

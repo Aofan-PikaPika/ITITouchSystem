@@ -2055,6 +2055,7 @@
     <Folder Include="Faculty\VisitingLecturer\" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\logologo.png" />
     <Resource Include="Resources\1.jpg" />
     <Resource Include="Resources\19da.jpg" />
     <Resource Include="Resources\address.png" />
@@ -2091,7 +2092,6 @@
     <Resource Include="Resources\library.png" />
     <Resource Include="Resources\location.png" />
     <Resource Include="Resources\logo.png" />
-    <Resource Include="Resources\logologo.jpg" />
     <Resource Include="Resources\logoNotFinish.png" />
     <Resource Include="Resources\logooo.png" />
     <Resource Include="Resources\map.png" />

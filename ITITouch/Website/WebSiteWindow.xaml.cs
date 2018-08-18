@@ -28,7 +28,9 @@ namespace ITITouch.Website
             //禁用鼠标右键
             wb.IsWebBrowserContextMenuEnabled = false;
             //开始就跳转至学院官网
-            wb.Navigate("http://www.scse.hebut.edu.cn/");
+            wb.Navigate("http://ai.hebut.edu.cn/");
+            // 设置浏览器不跳js错误
+            wb.ScriptErrorsSuppressed = true;
 
         }
         public void newsNavigate(string newsUrl)
@@ -47,12 +49,12 @@ namespace ITITouch.Website
             if (this.wb.Url != null)
             {
                 string uri = this.wb.Url.ToString();
-                
-                Regex testOutUri = new Regex(@"www.scse.hebut.edu.cn");
+
+                Regex testOutUri = new Regex(@"ai.hebut.edu.cn");
                 Match m = testOutUri.Match(uri);
                 if (!m.Success)
                 {
-                    wb.Navigate("http://www.scse.hebut.edu.cn");
+                    wb.Navigate("http://ai.hebut.edu.cn/");
                 }
             }
 
@@ -74,16 +76,5 @@ namespace ITITouch.Website
             wb.GoForward();
         }
 
-
-       //  private void Document_MouseDown(object sender, HtmlElementEventArgs e)
-       // {
-       //     p = e.ClientMousePosition;
-       // }
-       //private void Document_MouseUp(object sender, HtmlElementEventArgs e)
-       // {
-       //     IHTMLDocument2 document = (IHTMLDocument2)wb.Document.DomDocument;
-       //     document.parentWindow.scrollBy(e.ClientMousePosition.X - p.X, e.ClientMousePosition.Y - p.Y);  //要滚动的位置
-           
-       // }
     }
 }
