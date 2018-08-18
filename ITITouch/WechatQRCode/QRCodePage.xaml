@@ -43,7 +43,7 @@
                 </StackPanel>
             </Grid>
             <!--再往下就是机器说的一些话-->
-            <TextBlock Margin="0,10" TextAlignment="Center" TextWrapping="Wrap" FontSize="22">在您确认后，我们将为您推送更多的前沿信息。<LineBreak/>欢迎关注计算机科学与软件学院。</TextBlock>
+            <TextBlock Margin="0,10" TextAlignment="Center" TextWrapping="Wrap" FontSize="22">在您确认后，我们将为您推送更多的前沿信息。<LineBreak/>欢迎关注人工智能与数据科学学院。</TextBlock>
         </StackPanel>
     </Grid>
 </Page>

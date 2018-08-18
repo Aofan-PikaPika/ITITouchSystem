@@ -2055,6 +2055,8 @@
     <Folder Include="Faculty\VisitingLecturer\" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\logo.png" />
+    <Resource Include="Resources\footer_weixin.jpg" />
     <Resource Include="Resources\logologo.png" />
     <Resource Include="Resources\1.jpg" />
     <Resource Include="Resources\19da.jpg" />
@@ -2079,7 +2081,6 @@
     <Resource Include="Resources\floor1.PNG" />
     <Resource Include="Resources\floor2.PNG" />
     <Resource Include="Resources\floor3.PNG" />
-    <Resource Include="Resources\footer_weixin.jpg" />
     <Resource Include="Resources\forward.png" />
     <Resource Include="Resources\forward01.png" />
     <Resource Include="Resources\history.png" />
@@ -2091,7 +2092,6 @@
     <Resource Include="Resources\leader.png" />
     <Resource Include="Resources\library.png" />
     <Resource Include="Resources\location.png" />
-    <Resource Include="Resources\logo.png" />
     <Resource Include="Resources\logoNotFinish.png" />
     <Resource Include="Resources\logooo.png" />
     <Resource Include="Resources\map.png" />

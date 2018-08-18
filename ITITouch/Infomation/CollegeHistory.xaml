@@ -44,8 +44,8 @@
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
 
-                <!--2012年-->
-                <TextBlock Grid.Row="1" Grid.Column="0" FontSize="20" FontWeight="Bold">2012年至今</TextBlock>
+                <!--2018年-->
+                <TextBlock Grid.Row="1" Grid.Column="0" FontSize="20" FontWeight="Bold">2018年至今</TextBlock>
                 <StackPanel Grid.Row="1" Grid.Column="1">
                     <Grid>
                         <Ellipse Width="20" Height="20" Fill="#306F7070"  />
@@ -54,7 +54,7 @@
                 </StackPanel>
                 <Rectangle Grid.Row="1" Grid.Column="1" Height="auto" Width="1" Visibility="Visible" Stroke="#306F7070" ></Rectangle>
                 <StackPanel Grid.Column="3" Grid.Row="1" Margin="4">
-                    <TextBlock TextWrapping="Wrap" FontSize="13" Foreground="Gray" Margin="0,4,0,20">学院现有计算机科学与技术、软件工程、网络工程、物联网工程4个本科专业；计算机科学与技术、控制科学与工程两个一级硕士点，计算机技术、软件工程两个二级硕士点；计算机科学与技术系、网络工程系、软件工程系、基础教学部、计算机实验中心、嵌入式技术及其应用实验室、软件工程研究中心、信息技术研究所等教学和科研机构，在智能信息处理、网络信息安全、并行处理与智能计算、图像处理与多媒体、计算机智能控制等研究方向和领域具有很好的基础，并取得多项研究成果，学院还与法国巴黎高等计算机专科学院（supinfo）、新西兰梅西大学等国外知名大学和IT公司在教学、科研和人才培养方面展开合作。</TextBlock>
+                    <TextBlock TextWrapping="Wrap" FontSize="13" Foreground="Gray" Margin="0,4,0,20">2018年4月，在控制科学与工程学院、计算机科学与软件学院的基础上，新成立人工智能与数据科学学院，原学院撤销；首届党委书记是商植桐，院长是杨鹏。</TextBlock>
                 </StackPanel>
                 <!--2012年 以上-->
 
