@@ -19,6 +19,14 @@ using System.Windows.Forms;
 using ITITouch.Infomation;
 using ITITouch.Website;
 using ITITouch.WechatQRCode;
+using ITITouch.Organization;
+using ITITouch.Map;
+using ITITouch.Faculty;
+using ITITouch.Education;
+using ITITouch.Scientific;
+using System.Text.RegularExpressions;
+//这是引用了控制服务器的exe文件
+using TestManipulateMainPgPic;
 
 namespace ITITouch
 {
@@ -30,7 +38,27 @@ namespace ITITouch
         private DispatcherTimer ShowTimer;
         private DispatcherTimer ShowTimer1;
         private DispatcherTimer ShowTimer2;
-        private String[] IMAGES = { "Resources/11.jpg", "Resources/12.jpg", "Resources/13.jpg", "Resources/14.jpg", "Resources/15.jpg", "Resources/16.png", "Resources/17.png", "Resources/18.png" };
+        private String[] IMAGES = { "Resources/1.jpg", "Resources/2.jpg", "Resources/3.jpg", "Resources/4.jpg", "Resources/5.jpg", "Resources/6.jpg", "Resources/7.jpg" };
+        
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            //没联网下不下来也没关系，不需要报错
+            try
+            {
+                //刚开始就把服务器上的数据保存下来
+                for (int i = 1; i <= 7; i++)
+                {
+                    byte[] imgb = SqlSvrHelper.GetPicture(i);
+                    //两个同名的Image会冲突
+                    System.Drawing.Image img = IOHelper.ConvertImage(imgb);
+                    string imgName = "Resources/" + i + ".jpg";
+                    img.Save(imgName,System.Drawing.Imaging.ImageFormat.Jpeg);
+                }
+
+            }
+            catch { }
+        }
+
         public MainWindow()
         {
             //clock
@@ -91,8 +119,16 @@ namespace ITITouch
             List<string> listTitle = new List<string>();
             foreach (HtmlElement item in ElementCollection)
             {
-                string[] sArray = item.InnerText.Split(' ');
-                listTitle.Add(sArray[1]);
+                string rawStr = item.InnerText;
+                //用两个控制符来正则匹配出新闻标题
+                Regex rFindBack = new Regex(@"\n(.*)\r");
+                MatchCollection m = rFindBack.Matches(rawStr);
+                string findBack = m[0].ToString();
+                //再用正则匹配取消两个控制符
+                Regex rThrowNR = new Regex(@"[^\n].*[^\r]");
+                Match mfinal = rThrowNR.Match(findBack);
+                string throwNR = mfinal.ToString();
+                listTitle.Add(throwNR);
             }
             //获得图片路径
             HtmlElementCollection webImageCollection = web.Document.GetElementsByTagName("image");
@@ -114,6 +150,11 @@ namespace ITITouch
             //加载文本、图片
             txt1.Text = listTitle[1];
             txt2.Text = listTitle[2];
+            
+            //图，小红旗，文字，都有链接的
+            //两新闻的超链接应该给隔两个
+            this.newsUrl1 = listHref[11];
+            this.newsUrl2 = listHref[14];
 
             image1.Source = new BitmapImage(new Uri(listImage[6]));
             image2.Source = new BitmapImage(new Uri(listImage[7]));
@@ -122,8 +163,9 @@ namespace ITITouch
 
 
         }
-
-
+        public string newsUrl1 = "";
+        public string newsUrl2 = "";
+        
 
 
 
@@ -207,7 +249,51 @@ namespace ITITouch
 
         private void science_Click(object sender, RoutedEventArgs e)
         {
+            ScientificWindow sw = new ScientificWindow();
+            sw.ShowDialog();
+        }
+
+        private void organzition_Click(object sender, RoutedEventArgs e)
+        {
+            OranizationWindow ozw = new OranizationWindow();
+            ozw.ShowDialog();
+        }
+
+        private void teach_Click(object sender, RoutedEventArgs e)
+        {
+            EducationWindow ew = new EducationWindow();
+            ew.ShowDialog();
+        }
+
+        private void teacher_Click(object sender, RoutedEventArgs e)
+        {
+            FacultyWindow fw = new FacultyWindow();
+            fw.ShowDialog();
+        }
+
+        private void close_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
             this.Close();
+        }
+
+        private void map_Click(object sender, RoutedEventArgs e)
+        {
+            MapWindow mw = new MapWindow();
+            mw.ShowDialog();
+        }
+
+        private void news1_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            WebSiteWindow wsw = new WebSiteWindow();
+            wsw.newsNavigate(newsUrl1);
+            wsw.ShowDialog();
+        }
+
+        private void news2_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+            WebSiteWindow wsw = new WebSiteWindow();
+            wsw.newsNavigate(newsUrl2);
+            wsw.ShowDialog();
         }
 
       

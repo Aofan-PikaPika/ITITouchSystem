@@ -31,6 +31,10 @@ namespace ITITouch.Website
             wb.Navigate("http://www.scse.hebut.edu.cn/");
 
         }
+        public void newsNavigate(string newsUrl)
+        {
+            wb.Navigate(newsUrl);
+        }
 
         private void wb_NewWindow(object sender, System.ComponentModel.CancelEventArgs e)
         {

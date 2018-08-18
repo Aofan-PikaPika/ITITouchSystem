@@ -34,7 +34,7 @@ namespace ITITouch.Controls
         private static double CRITICAL_POINT = 0.001;
         private static double MOVE_DISTANCE = 25; //移动距离后转换
         private double _touch_move_distance = 0;
-        private double _target = 1;		// 目标位置
+        private double _target = 3;		// 目标位置
         private double _current = 0;	// 当前位置
         public double CurrentIndex
         {

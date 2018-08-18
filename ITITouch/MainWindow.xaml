@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         x:Class="ITITouch.MainWindow"
         xmlns:my="clr-namespace:ITITouch.Controls"
-        Title="MainWindow" Height="1080" Width="1920" WindowState="Maximized" WindowStyle="None">
+        Title="MainWindow" Height="1080" Width="1920" WindowState="Maximized" WindowStyle="None" Loaded="Window_Loaded">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="770"/>
@@ -15,11 +15,11 @@
         </Grid.RowDefinitions>
         <!--主背景图片-->
         <Grid.Background>
-            <ImageBrush ImageSource="Resources\1.jpg"/>
+            <ImageBrush ImageSource="Resources/1.jpg"/>
         </Grid.Background>
         <!--left-->
         <StackPanel Orientation="Vertical" Grid.Row="0" Grid.Column="0" >
-            <Canvas Width="600" Height="300" Margin="100,80,100,0">
+            <Canvas Width="600" Height="300" Margin="100,90,100,0">
                 <Canvas.Background>
                     <ImageBrush ImageSource="Resources/timer.jpg" Opacity="0.8"/>
                 </Canvas.Background>
@@ -28,7 +28,7 @@
                     <TextBlock x:Name="Tt1" FontSize="30" Margin="10" TextWrapping="Wrap" Foreground="WhiteSmoke" />
                 </StackPanel>
             </Canvas>
-            <Canvas  Margin="100,10,100,10">
+            <Canvas  Margin="100,15,100,10">
                 <StackPanel Orientation="Vertical" Width="600" Height="400">
                     <StackPanel.Background>
                         <SolidColorBrush x:Name="weatherColor" Color="#5CACEE" Opacity="0.8"/>
@@ -68,15 +68,15 @@
             <my:ImageScrollView HorizontalAlignment="Center" x:Name="imageScrollView1" VerticalAlignment="Top" Canvas.Top="10"/>
             <StackPanel Orientation="Vertical" Width="1000" Height="310" Canvas.Bottom="0" Background="WhiteSmoke" Opacity="0.7">
                 <TextBlock Text="   最 新 发 布" Background="#4B0082" Height="40" Foreground="White" FontSize="25" VerticalAlignment="Center"/>
-                <WrapPanel>
+                <StackPanel Orientation="Horizontal" Name="news1" MouseUp="news1_MouseUp"  >
                     <Image  Height="120" Width="200" Margin="10,5" x:Name="image1" Stretch="Fill"/>
-                    <TextBlock Text="暂无网络" FontSize="23" VerticalAlignment="Center" x:Name="txt1"/>
-                </WrapPanel>
+                    <TextBlock TextWrapping="Wrap" Text="暂无网络" Width="700"  FontSize="23" VerticalAlignment="Center" x:Name="txt1"/>
+                </StackPanel>
                 <Separator Height="2"/>
-                <WrapPanel>
+                <StackPanel Orientation="Horizontal" Name="news2" MouseUp="news2_MouseUp" >
                     <Image  Height="120" Width="200" Margin="10,5" x:Name="image2" Stretch="Fill"/>
-                    <TextBlock Text="暂无网络" FontSize="23" VerticalAlignment="Center" x:Name="txt2"/>
-                </WrapPanel>
+                    <TextBlock TextWrapping="Wrap" Text="暂无网络" Width="700"  FontSize="23" VerticalAlignment="Center" x:Name="txt2"/>
+                </StackPanel>
                 
             </StackPanel>
         </Canvas>
@@ -94,35 +94,35 @@
                 </StackPanel>
             </Button>
 
-            <Button  Style="{StaticResource MyWpfButton2}" Height="160" Width="160" Margin="50,20,20,20">
+            <Button  Style="{StaticResource MyWpfButton2}" Height="160" Width="160" Margin="50,20,20,20" x:Name="organzition" Click="organzition_Click">
                 <StackPanel Orientation="Vertical">
                     <Image Width="90" Height="90"  Source="Resources/organize.png"/>
                     <TextBlock Text="组织结构" FontFamily="Microsoft YaHei" TextAlignment="Center" />
                 </StackPanel>
             </Button>
 
-            <Button  Style="{StaticResource MyWpfButton3}" Height="160" Width="160" Margin="50,20,20,20">
+            <Button  Style="{StaticResource MyWpfButton3}" x:Name="teacher" Height="160" Width="160" Margin="50,20,20,20" Click="teacher_Click">
                 <StackPanel Orientation="Vertical">
                     <Image Width="90" Height="90"  Source="Resources/address.png"/>
                     <TextBlock Text="师资队伍" FontFamily="Microsoft YaHei" TextAlignment="Center" />
                 </StackPanel>
             </Button>
 
-            <Button  Style="{StaticResource MyWpfButton4}" Height="160" Width="160" Margin="50,20,20,20">
+            <Button  Style="{StaticResource MyWpfButton4}" x:Name="teach" Height="160" Width="160" Margin="50,20,20,20" Click="teach_Click">
                 <StackPanel Orientation="Vertical">
                     <Image Width="90" Height="90"  Source="Resources/black.png"/>
                     <TextBlock Text="教育教学" FontFamily="Microsoft YaHei" TextAlignment="Center" />
                 </StackPanel>
             </Button>
 
-            <Button  Style="{StaticResource MyWpfButton5}" Height="160" Width="160" Margin="50,20,20,20" x:Name="science" Click="science_Click">
+            <Button  Style="{StaticResource MyWpfButton5}"  Height="160" Width="160" Margin="50,20,20,20" x:Name="science" Click="science_Click">
                 <StackPanel Orientation="Vertical">
                     <Image Width="90" Height="90"  Source="Resources/computer.png"/>
                     <TextBlock Text="科学研究" FontFamily="Microsoft YaHei" TextAlignment="Center" />
                 </StackPanel>
             </Button>
 
-            <Button  Style="{StaticResource MyWpfButton6}" Height="160" Width="160" Margin="50,20,20,20">
+            <Button  Style="{StaticResource MyWpfButton6}" x:Name="map" Height="160" Width="160" Margin="50,20,20,20" Click="map_Click">
                 <StackPanel Orientation="Vertical">
                     <Image Width="90" Height="90"  Source="Resources/map.png"/>
                     <TextBlock Text="地图导航" FontFamily="Microsoft YaHei" TextAlignment="Center" />
@@ -142,5 +142,6 @@
                 </StackPanel>
             </Button>
         </StackPanel>
+        <Button x:Name="close" Grid.Column="1" HorizontalAlignment="Left" Margin="1048,0,0,0" VerticalAlignment="Top" Width="94" Height="45" Style="{StaticResource TransparentButtonStyle}" MouseDoubleClick="close_MouseDoubleClick"/>
     </Grid>
 </Window>

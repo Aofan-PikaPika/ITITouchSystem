@@ -38,7 +38,7 @@
                     <ColumnDefinition></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="1">
-                    <Image Margin="10" Height="300"  Source="/ITITouch;component/Resources/footer_weixin.png" ></Image>
+                    <Image Margin="10" Height="300"  Source="/ITITouch;component/Resources/footer_weixin.jpg" ></Image>
                     <TextBlock  Margin="0,5" TextAlignment="Center" FontSize="16">官方微信</TextBlock>
                 </StackPanel>
             </Grid>

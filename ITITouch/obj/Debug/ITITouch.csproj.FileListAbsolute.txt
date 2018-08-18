@@ -1,113 +1,1142 @@
-E:\visual studio 2013\Projects\ITITouch\ITITouch\bin\Debug\ITITouch.exe
-E:\visual studio 2013\Projects\ITITouch\ITITouch\bin\Debug\ITITouch.pdb
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\MainWindow.baml
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\MainWindow.g.cs
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\App.g.cs
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\ITITouch_MarkupCompile.cache
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\ITITouch.g.resources
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\ITITouch.Properties.Resources.resources
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\ITITouch.csproj.GenerateResource.Cache
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\ITITouch.exe
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\ITITouch.pdb
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\App.baml
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\ITITouch.exe.licenses
-E:\visual studio 2013\Projects\ITITouch\ITITouch\bin\Debug\ITITouch.exe.config
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\Controls\ImageScrollView.baml
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\Controls\Viewport3DControl.baml
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\Controls\ImageScrollView.g.cs
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\Controls\Viewport3DControl.g.cs
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\GeneratedInternalTypeHelper.g.cs
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\ITITouch_MarkupCompile.lref
-E:\visual studio 2013\Projects\ITITouch\ITITouch\obj\Debug\ITITouch.csprojResolveAssemblyReference.cache
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\bin\Debug\ITITouch.exe.config
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.exe
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.pdb
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\bin\Debug\ITITouch.exe
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\bin\Debug\ITITouch.pdb
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.csprojResolveAssemblyReference.cache
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Controls\ImageScrollView.baml
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Controls\Viewport3DControl.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\App.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Controls\ImageScrollView.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Controls\Viewport3DControl.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\MainWindow.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\App.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\GeneratedInternalTypeHelper.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch_MarkupCompile.cache
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch_MarkupCompile.lref
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\MainWindow.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.g.resources
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.Properties.Resources.resources
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.csproj.GenerateResource.Cache
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\StyleDictionary.baml
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\bin\Debug\ITITouch.exe.config
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.exe
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.pdb
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.csprojResolveAssemblyReference.cache
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Controls\ImageScrollView.baml
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Controls\Viewport3DControl.baml
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeInfoPage.baml
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\App.baml
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Controls\ImageScrollView.g.cs
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Controls\Viewport3DControl.g.cs
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeInfoPage.g.cs
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\MainWindow.g.cs
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\App.g.cs
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch_MarkupCompile.cache
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch_MarkupCompile.lref
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\MainWindow.baml
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\StyleDictionary.baml
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.g.resources
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.Properties.Resources.resources
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\ITITouch.csproj.GenerateResource.Cache
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\bin\Debug\ITITouch.exe
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\bin\Debug\ITITouch.pdb
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeHistory.baml
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeProfile.baml
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CurrentLeaders.baml
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\PreviousLeaders.baml
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeHistory.g.cs
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CollegeProfile.g.cs
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\CurrentLeaders.g.cs
-C:\Users\LZL\Source\Repos\ITITouchSystem\ITITouch\obj\Debug\Infomation\PreviousLeaders.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\ComputerScienceAndTechnology.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\EducationWindow.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\NetworkEngineering.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\TheInternetOfThings.baml
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeHistory.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfoWindow.baml
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeProfile.baml
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CurrentLeaders.baml
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\NaviPage.baml
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\PreviousLeaders.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\Baidu3DPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\BaiduPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\Floor1Page.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\Floor2Page.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\Floor3Page.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\MapWindow.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\NaviPage1.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\NaviPage2.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\MsgNotFinish.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\BasicTeachPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\Committee.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\ComputerScienceAndTechnology.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\FunctionDepartmentPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\InternetOfThingsPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\LabCenterPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\LabPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\NaviPage1.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\NaviPage2.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\NetworkEngineering.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\OranizationWindow.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\PageFunction.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\PageYouth.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\SoftwareEngineering.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Scientific\NaviPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Scientific\Page1Institute.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Scientific\Page2Institute.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Scientific\Page3Institute.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Scientific\ScientificWindow.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Website\WebSiteWindow.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\WechatQRCode\QRCodePage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\WechatQRCode\WechatWindow.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\App.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Controls\ImageScrollView.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Controls\Viewport3DControl.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\ComputerScienceAndTechnology.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\EducationWindow.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\NetworkEngineering.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\TheInternetOfThings.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeHistory.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfoWindow.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeLogo.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeProfile.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CurrentLeaders.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\NaviPage.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\PreviousLeaders.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfoWindow.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfoWindow.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeLogo.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeLogo.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Website\WebSiteWindow.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Website\WebSiteWindow.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\WechatQRCode\QRCodePage.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\WechatQRCode\QRCodePage.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\WechatQRCode\WechatWindow.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\WechatQRCode\WechatWindow.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\BasicTeachPage.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\InternetOfThingsPage.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\LabCenterPage.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\LabPage.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\OranizationWindow.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\MainWindow.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\Baidu3DPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\BaiduPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\Floor1Page.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\Floor2Page.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\Floor3Page.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\MapWindow.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\NaviPage1.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Map\NaviPage2.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\MsgNotFinish.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\BasicTeachPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\Committee.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\ComputerScienceAndTechnology.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\FunctionDepartmentPage.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\InternetOfThingsPage.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\LabCenterPage.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\LabPage.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\OranizationWindow.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\NaviPage1.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\NaviPage2.baml
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\NaviPage1.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\NaviPage2.g.cs
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\ComputerScienceAndTechnology.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\NetworkEngineering.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\SoftwareEngineering.baml
-E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\ComputerScienceAndTechnology.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\NetworkEngineering.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\OranizationWindow.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\PageFunction.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\PageYouth.g.cs
 E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Organization\SoftwareEngineering.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Scientific\NaviPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Scientific\Page1Institute.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Scientific\Page2Institute.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Scientific\Page3Institute.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Scientific\ScientificWindow.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Website\WebSiteWindow.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\WechatQRCode\QRCodePage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\WechatQRCode\WechatWindow.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\App.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch_Content.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch_MarkupCompile.cache
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch_MarkupCompile.lref
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\bin\Debug\ITITouch.exe.config
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\bin\Debug\ITITouch.exe
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\bin\Debug\ITITouch.pdb
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeLogo.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\MainWindow.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\StyleDictionary.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.g.resources
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.Properties.Resources.resources
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.csproj.GenerateResource.Cache
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.exe
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.pdb
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\Software.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\Software.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\PostgComputerScience.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\PostgComputerScience.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\PostgComputerT.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\PostgR.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\PostSoftware.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\PostgComputerT.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\PostgR.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\PostSoftware.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.csprojResolveAssemblyReference.cache
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\NaviPage1.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\NaviPage2.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\NaviPage1.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Education\NaviPage2.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\FacultyWindow.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\FacultyWindow.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage1.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage12.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage2.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage3.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage4.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage1.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage12.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage2.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage3.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage4.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\InitialPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\InitialPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage22.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage22.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage32.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage32.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\Album.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\MainPage.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\PersonalProfile.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\ResearchDirection.baml
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\ResearchDirection.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\Album.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\MainPage.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\PersonalProfile.g.cs
+E:\visual studio 2013\NewProjects\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\bin\Debug\ITITouch.exe.config
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.exe
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.pdb
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\bin\Debug\ITITouch.exe
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\bin\Debug\ITITouch.pdb
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Controls\ImageScrollView.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Controls\Viewport3DControl.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\ComputerScienceAndTechnology.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\EducationWindow.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\NaviPage1.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\NaviPage2.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\NetworkEngineering.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\PostgComputerScience.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\PostgComputerT.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\PostgR.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\PostSoftware.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\Software.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\TheInternetOfThings.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\FacultyWindow.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\InitialPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage1.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage12.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage2.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage22.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage3.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage32.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage4.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\Album.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\MainPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\PersonalProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\ResearchDirection.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeHistory.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfoWindow.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeProfile.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CurrentLeaders.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Infomation\NaviPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Infomation\PreviousLeaders.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\Baidu3DPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\BaiduPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\Floor1Page.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\Floor2Page.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\Floor3Page.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\MapWindow.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\NaviPage1.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\NaviPage2.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\MsgNotFinish.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\BasicTeachPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\Committee.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\ComputerScienceAndTechnology.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\FunctionDepartmentPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\InternetOfThingsPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\LabCenterPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\LabPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\NaviPage1.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\NaviPage2.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\NetworkEngineering.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\OranizationWindow.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\PageFunction.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\PageYouth.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\SoftwareEngineering.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Scientific\NaviPage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Scientific\Page1Institute.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Scientific\Page2Institute.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Scientific\Page3Institute.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Scientific\ScientificWindow.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Website\WebSiteWindow.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\WechatQRCode\QRCodePage.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\WechatQRCode\WechatWindow.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\App.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Controls\ImageScrollView.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Controls\Viewport3DControl.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\ComputerScienceAndTechnology.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\EducationWindow.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\NaviPage1.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\NaviPage2.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\NetworkEngineering.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\PostgComputerScience.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\PostgComputerT.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\PostgR.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\PostSoftware.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\Software.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Education\TheInternetOfThings.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ChenJiChuan\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuKun\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\FuLingLi\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\GuoYingChun\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HePing\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\HouXiangDan\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiangYanHong\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiJianWei\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiNaNa\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuEnHai\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\LiuJingYu\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ShiQiaoShuo\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\TianHongLi\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WangPeng\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\WanYanPing\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XiaoGuoXi\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\XuZhiHong\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YanGang\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\YangSuMei\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangHongMei\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangJun\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\AssociateProfessor\ZhangManDun\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\FacultyWindow.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\InitialPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\CaoBin\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\GuoYongFang\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LinXiaoJing\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuHongPu\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LiuYi\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LuJing\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\LvHua\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ShiShuo\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiPeng\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WangLiQin\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\WuHongTao\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\XueGuiXiang\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\YuanYuQian\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhaiYanDong\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhangJianNan\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Lecturer\ZhuHuaiZhong\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage1.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage12.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage2.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage22.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage3.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage32.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NaviPage4.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\NoContent\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ChaiXin\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\DongYongFeng\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GengHengShan\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\GuJunHua\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LinTao\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\LiuJing\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\MaJianHong\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\PengYuQing\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShenXiTing\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\ShiLuKui\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WangYuanQuan\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WeiWei\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuQing\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\WuYouXi\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\Album.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\MainPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\PersonalProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Faculty\Professor\YuMing\ResearchDirection.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeHistory.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeInfoWindow.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeLogo.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeProfile.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CurrentLeaders.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Infomation\NaviPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Infomation\PreviousLeaders.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\MainWindow.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\Baidu3DPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\BaiduPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\Floor1Page.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\Floor2Page.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\Floor3Page.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\MapWindow.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\NaviPage1.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Map\NaviPage2.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\MsgNotFinish.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\BasicTeachPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\Committee.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\ComputerScienceAndTechnology.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\FunctionDepartmentPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\InternetOfThingsPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\LabCenterPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\LabPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\NaviPage1.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\NaviPage2.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\NetworkEngineering.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\OranizationWindow.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\PageFunction.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\PageYouth.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Organization\SoftwareEngineering.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Scientific\NaviPage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Scientific\Page1Institute.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Scientific\Page2Institute.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Scientific\Page3Institute.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Scientific\ScientificWindow.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Website\WebSiteWindow.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\WechatQRCode\QRCodePage.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\WechatQRCode\WechatWindow.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\App.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\ITITouch_Content.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\ITITouch_MarkupCompile.cache
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\ITITouch_MarkupCompile.lref
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\Infomation\CollegeLogo.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\MainWindow.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\StyleDictionary.baml
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.g.resources
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.Properties.Resources.resources
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.csproj.GenerateResource.Cache
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\bin\Debug\TestManipulateMainPgPic.exe
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\bin\Debug\TestManipulateMainPgPic.pdb
+D:\开发\BigScreenProject\ITITouchSystem2\ITITouch\obj\Debug\ITITouch.csprojResolveAssemblyReference.cache

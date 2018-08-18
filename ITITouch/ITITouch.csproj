@@ -56,6 +56,9 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="TestManipulateMainPgPic">
+      <HintPath>bin\TestManipulateMainPgPic.exe</HintPath>
+    </Reference>
     <Reference Include="UIAutomationProvider" />
     <Reference Include="UIAutomationTypes" />
     <Reference Include="WindowsBase" />
@@ -68,11 +71,756 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Education\ComputerScienceAndTechnology.xaml.cs">
+      <DependentUpon>ComputerScienceAndTechnology.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Education\EducationWindow.xaml.cs">
+      <DependentUpon>EducationWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Education\NaviPage1.xaml.cs">
+      <DependentUpon>NaviPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Education\NaviPage2.xaml.cs">
+      <DependentUpon>NaviPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Education\NetworkEngineering.xaml.cs">
+      <DependentUpon>NetworkEngineering.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Education\PostgComputerScience.xaml.cs">
+      <DependentUpon>PostgComputerScience.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Education\PostgComputerT.xaml.cs">
+      <DependentUpon>PostgComputerT.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Education\PostgR.xaml.cs">
+      <DependentUpon>PostgR.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Education\PostSoftware.xaml.cs">
+      <DependentUpon>PostSoftware.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Education\Software.xaml.cs">
+      <DependentUpon>Software.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Education\TheInternetOfThings.xaml.cs">
+      <DependentUpon>TheInternetOfThings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ChenJiChuan\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ChenJiChuan\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ChenJiChuan\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ChenJiChuan\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\FuKun\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\FuKun\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\FuKun\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\FuKun\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\FuLingLi\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\FuLingLi\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\FuLingLi\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\FuLingLi\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\GuoYingChun\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\GuoYingChun\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\GuoYingChun\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\GuoYingChun\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\HePing\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\HePing\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\HePing\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\HePing\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\HouXiangDan\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\HouXiangDan\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\HouXiangDan\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\HouXiangDan\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiangYanHong\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiangYanHong\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiangYanHong\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiangYanHong\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiJianWei\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiJianWei\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiJianWei\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiJianWei\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiNaNa\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiNaNa\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiNaNa\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiNaNa\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiuEnHai\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiuEnHai\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiuEnHai\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiuEnHai\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiuJingYu\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiuJingYu\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiuJingYu\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\LiuJingYu\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ShiQiaoShuo\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ShiQiaoShuo\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ShiQiaoShuo\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ShiQiaoShuo\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\TianHongLi\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\TianHongLi\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\TianHongLi\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\TianHongLi\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\WangPeng\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\WangPeng\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\WangPeng\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\WangPeng\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\WanYanPing\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\WanYanPing\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\WanYanPing\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\WanYanPing\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\XiaoGuoXi\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\XiaoGuoXi\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\XiaoGuoXi\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\XiaoGuoXi\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\XuZhiHong\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\XuZhiHong\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\XuZhiHong\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\XuZhiHong\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\YanGang\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\YanGang\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\YanGang\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\YanGang\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\YangSuMei\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\YangSuMei\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\YangSuMei\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\YangSuMei\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ZhangHongMei\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ZhangHongMei\MainPAGE.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ZhangHongMei\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ZhangHongMei\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ZhangJun\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ZhangJun\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ZhangJun\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ZhangJun\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ZhangManDun\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ZhangManDun\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ZhangManDun\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\AssociateProfessor\ZhangManDun\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\EmptyPage.cs" />
+    <Compile Include="Faculty\FacultyWindow.xaml.cs">
+      <DependentUpon>FacultyWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\InitialPage.xaml.cs">
+      <DependentUpon>InitialPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\CaoBin\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\CaoBin\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\CaoBin\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\CaoBin\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\GuoYongFang\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\GuoYongFang\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\GuoYongFang\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\GuoYongFang\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LinXiaoJing\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LinXiaoJing\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LinXiaoJing\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LinXiaoJing\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LiuHongPu\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LiuHongPu\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LiuHongPu\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LiuHongPu\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LiuYi\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LiuYi\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LiuYi\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LiuYi\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LuJing\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LuJing\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LuJing\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LuJing\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LvHua\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LvHua\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LvHua\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\LvHua\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ShiShuo\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ShiShuo\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ShiShuo\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ShiShuo\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\WangLiPeng\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\WangLiPeng\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\WangLiPeng\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\WangLiPeng\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\WangLiQin\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\WangLiQin\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\WangLiQin\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\WangLiQin\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\WuHongTao\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\WuHongTao\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\WuHongTao\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\WuHongTao\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\XueGuiXiang\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\XueGuiXiang\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\XueGuiXiang\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\XueGuiXiang\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\YuanYuQian\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\YuanYuQian\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\YuanYuQian\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\YuanYuQian\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ZhaiYanDong\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ZhaiYanDong\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ZhaiYanDong\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ZhaiYanDong\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ZhangJianNan\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ZhangJianNan\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ZhangJianNan\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ZhangJianNan\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ZhuHuaiZhong\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ZhuHuaiZhong\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ZhuHuaiZhong\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Lecturer\ZhuHuaiZhong\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\NaviPage1.xaml.cs">
+      <DependentUpon>NaviPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\NaviPage12.xaml.cs">
+      <DependentUpon>NaviPage12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\NaviPage2.xaml.cs">
+      <DependentUpon>NaviPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\NaviPage22.xaml.cs">
+      <DependentUpon>NaviPage22.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\NaviPage3.xaml.cs">
+      <DependentUpon>NaviPage3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\NaviPage32.xaml.cs">
+      <DependentUpon>NaviPage32.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\NaviPage4.xaml.cs">
+      <DependentUpon>NaviPage4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\NoContent\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\NoContent\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\NoContent\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\NoContent\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\ChaiXin\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\ChaiXin\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\ChaiXin\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\ChaiXin\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\DongYongFeng\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\DongYongFeng\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\DongYongFeng\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\DongYongFeng\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\GengHengShan\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\GengHengShan\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\GengHengShan\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\GengHengShan\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\GuJunHua\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\GuJunHua\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\GuJunHua\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\GuJunHua\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\LinTao\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\LinTao\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\LinTao\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\LinTao\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\LiuJing\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\LiuJing\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\LiuJing\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\LiuJing\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\MaJianHong\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\MaJianHong\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\MaJianHong\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\MaJianHong\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\PengYuQing\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\PengYuQing\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\PengYuQing\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\PengYuQing\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\ShenXiTing\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\ShenXiTing\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\ShenXiTing\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\ShenXiTing\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\ShiLuKui\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\ShiLuKui\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\ShiLuKui\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\ShiLuKui\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WangYuanQuan\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WangYuanQuan\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WangYuanQuan\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WangYuanQuan\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WeiWei\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WeiWei\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WeiWei\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WeiWei\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WuQing\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WuQing\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WuQing\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WuQing\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WuYouXi\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WuYouXi\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WuYouXi\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\WuYouXi\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\YuMing\Album.xaml.cs">
+      <DependentUpon>Album.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\YuMing\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\YuMing\PersonalProfile.xaml.cs">
+      <DependentUpon>PersonalProfile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\Professor\YuMing\ResearchDirection.xaml.cs">
+      <DependentUpon>ResearchDirection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Map\Baidu3DPage.xaml.cs">
+      <DependentUpon>Baidu3DPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Map\BaiduPage.xaml.cs">
+      <DependentUpon>BaiduPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Map\Floor1Page.xaml.cs">
+      <DependentUpon>Floor1Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Map\Floor2Page.xaml.cs">
+      <DependentUpon>Floor2Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Map\Floor3Page.xaml.cs">
+      <DependentUpon>Floor3Page.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Map\MapWindow.xaml.cs">
+      <DependentUpon>MapWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Map\NaviPage1.xaml.cs">
+      <DependentUpon>NaviPage1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Map\NaviPage2.xaml.cs">
+      <DependentUpon>NaviPage2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MsgNotFinish.xaml.cs">
+      <DependentUpon>MsgNotFinish.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Organization\BasicTeachPage.xaml.cs">
       <DependentUpon>BasicTeachPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Organization\Committee.xaml.cs">
+      <DependentUpon>Committee.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Organization\ComputerScienceAndTechnology.xaml.cs">
       <DependentUpon>ComputerScienceAndTechnology.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Organization\FunctionDepartmentPage.xaml.cs">
+      <DependentUpon>FunctionDepartmentPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Organization\InternetOfThingsPage.xaml.cs">
       <DependentUpon>InternetOfThingsPage.xaml</DependentUpon>
@@ -95,8 +843,29 @@
     <Compile Include="Organization\OranizationWindow.xaml.cs">
       <DependentUpon>OranizationWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Organization\PageFunction.xaml.cs">
+      <DependentUpon>PageFunction.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Organization\PageYouth.xaml.cs">
+      <DependentUpon>PageYouth.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Organization\SoftwareEngineering.xaml.cs">
       <DependentUpon>SoftwareEngineering.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Scientific\NaviPage.xaml.cs">
+      <DependentUpon>NaviPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Scientific\Page1Institute.xaml.cs">
+      <DependentUpon>Page1Institute.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Scientific\Page2Institute.xaml.cs">
+      <DependentUpon>Page2Institute.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Scientific\Page3Institute.xaml.cs">
+      <DependentUpon>Page3Institute.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Scientific\ScientificWindow.xaml.cs">
+      <DependentUpon>ScientificWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Website\WebSiteWindow.xaml.cs">
       <DependentUpon>WebSiteWindow.xaml</DependentUpon>
@@ -114,6 +883,950 @@
     <Page Include="Controls\Viewport3DControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Education\ComputerScienceAndTechnology.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Education\EducationWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Education\NaviPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Education\NaviPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Education\NetworkEngineering.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Education\PostgComputerScience.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Education\PostgComputerT.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Education\PostgR.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Education\PostSoftware.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Education\Software.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Education\TheInternetOfThings.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ChenJiChuan\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ChenJiChuan\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ChenJiChuan\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ChenJiChuan\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\FuKun\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\FuKun\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\FuKun\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\FuKun\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\FuLingLi\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\FuLingLi\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\FuLingLi\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\FuLingLi\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\GuoYingChun\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\GuoYingChun\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\GuoYingChun\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\GuoYingChun\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\HePing\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\HePing\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\HePing\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\HePing\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\HouXiangDan\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\HouXiangDan\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\HouXiangDan\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\HouXiangDan\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiangYanHong\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiangYanHong\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiangYanHong\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiangYanHong\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiJianWei\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiJianWei\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiJianWei\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiJianWei\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiNaNa\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiNaNa\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiNaNa\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiNaNa\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiuEnHai\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiuEnHai\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiuEnHai\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiuEnHai\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiuJingYu\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiuJingYu\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiuJingYu\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\LiuJingYu\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ShiQiaoShuo\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ShiQiaoShuo\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ShiQiaoShuo\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ShiQiaoShuo\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\TianHongLi\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\TianHongLi\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\TianHongLi\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\TianHongLi\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\WangPeng\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\WangPeng\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\WangPeng\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\WangPeng\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\WanYanPing\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\WanYanPing\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\WanYanPing\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\WanYanPing\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\XiaoGuoXi\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\XiaoGuoXi\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\XiaoGuoXi\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\XiaoGuoXi\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\XuZhiHong\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\XuZhiHong\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\XuZhiHong\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\XuZhiHong\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\YanGang\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\YanGang\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\YanGang\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\YanGang\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\YangSuMei\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\YangSuMei\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\YangSuMei\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\YangSuMei\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ZhangHongMei\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ZhangHongMei\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ZhangHongMei\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ZhangHongMei\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ZhangJun\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ZhangJun\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ZhangJun\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ZhangJun\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ZhangManDun\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ZhangManDun\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ZhangManDun\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\AssociateProfessor\ZhangManDun\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\FacultyWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\InitialPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\CaoBin\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\CaoBin\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\CaoBin\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\CaoBin\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\GuoYongFang\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\GuoYongFang\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\GuoYongFang\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\GuoYongFang\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LinXiaoJing\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LinXiaoJing\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LinXiaoJing\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LinXiaoJing\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LiuHongPu\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LiuHongPu\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LiuHongPu\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LiuHongPu\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LiuYi\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LiuYi\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LiuYi\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LiuYi\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LuJing\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LuJing\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LuJing\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LuJing\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LvHua\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LvHua\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LvHua\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\LvHua\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ShiShuo\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ShiShuo\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ShiShuo\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ShiShuo\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\WangLiPeng\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\WangLiPeng\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\WangLiPeng\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\WangLiPeng\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\WangLiQin\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\WangLiQin\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\WangLiQin\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\WangLiQin\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\WuHongTao\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\WuHongTao\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\WuHongTao\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\WuHongTao\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\XueGuiXiang\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\XueGuiXiang\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\XueGuiXiang\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\XueGuiXiang\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\YuanYuQian\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\YuanYuQian\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\YuanYuQian\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\YuanYuQian\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ZhaiYanDong\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ZhaiYanDong\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ZhaiYanDong\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ZhaiYanDong\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ZhangJianNan\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ZhangJianNan\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ZhangJianNan\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ZhangJianNan\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ZhuHuaiZhong\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ZhuHuaiZhong\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ZhuHuaiZhong\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Lecturer\ZhuHuaiZhong\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\NaviPage1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\NaviPage12.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\NaviPage2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\NaviPage22.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\NaviPage3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\NaviPage32.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\NaviPage4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\NoContent\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\NoContent\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\NoContent\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\NoContent\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\ChaiXin\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\ChaiXin\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\ChaiXin\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\ChaiXin\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\DongYongFeng\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\DongYongFeng\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\DongYongFeng\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\DongYongFeng\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\GengHengShan\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\GengHengShan\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\GengHengShan\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\GengHengShan\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\GuJunHua\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\GuJunHua\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\GuJunHua\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\GuJunHua\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\LinTao\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\LinTao\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\LinTao\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\LinTao\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\LiuJing\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\LiuJing\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\LiuJing\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\LiuJing\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\MaJianHong\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\MaJianHong\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\MaJianHong\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\MaJianHong\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\PengYuQing\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\PengYuQing\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\PengYuQing\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\PengYuQing\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\ShenXiTing\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\ShenXiTing\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\ShenXiTing\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\ShenXiTing\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\ShiLuKui\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\ShiLuKui\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\ShiLuKui\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\ShiLuKui\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WangYuanQuan\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WangYuanQuan\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WangYuanQuan\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WangYuanQuan\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WeiWei\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WeiWei\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WeiWei\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WeiWei\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WuQing\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WuQing\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WuQing\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WuQing\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WuYouXi\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WuYouXi\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WuYouXi\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\WuYouXi\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\YuMing\Album.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\YuMing\MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\YuMing\PersonalProfile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\Professor\YuMing\ResearchDirection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Infomation\CollegeHistory.xaml">
       <SubType>Designer</SubType>
@@ -142,10 +1855,6 @@
     <Page Include="Infomation\PreviousLeaders.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MainWindow.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </Page>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
@@ -181,15 +1890,59 @@
     <Compile Include="Infomation\PreviousLeaders.xaml.cs">
       <DependentUpon>PreviousLeaders.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Map\Baidu3DPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Map\BaiduPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Map\Floor1Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Map\Floor2Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Map\Floor3Page.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Map\MapWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Map\NaviPage1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Map\NaviPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MsgNotFinish.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Organization\BasicTeachPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Organization\Committee.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Organization\ComputerScienceAndTechnology.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Organization\FunctionDepartmentPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -206,24 +1959,52 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Organization\NaviPage1.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Organization\NaviPage2.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Organization\NetworkEngineering.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Organization\OranizationWindow.xaml">
-      <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Organization\PageFunction.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Organization\PageYouth.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Organization\SoftwareEngineering.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Scientific\NaviPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Scientific\Page1Institute.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Scientific\Page2Institute.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Scientific\Page3Institute.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Scientific\ScientificWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="StyleDictionary.xaml">
       <SubType>Designer</SubType>
@@ -271,144 +2052,211 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\back.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\college.png" />
+    <Folder Include="Faculty\VisitingLecturer\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\organize.png" />
-  </ItemGroup>
-  <ItemGroup>
+    <Resource Include="Resources\19da.jpg" />
     <Resource Include="Resources\address.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\black.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\computer.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\map.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\web.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\app.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\library.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\timer.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\location.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\cloudy.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\rain.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\sunny.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\snow.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Education\" />
-    <Folder Include="Faculty\" />
-    <Folder Include="Map\" />
-    <Folder Include="Scientific\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\wechat.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\商植桐工作照小版.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\于明院长工作照小版.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\董永峰工作照小版.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\王轩工作照小版.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\mi.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\logo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\flag.png" />
-    <Resource Include="Resources\history.png" />
-    <Resource Include="Resources\leader.png" />
-    <Resource Include="Resources\oldleader.png" />
-    <Resource Include="Resources\profile.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\history_header.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\logooo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\old_schoolScenery.jpg" />
-  </ItemGroup>
-  <ItemGroup>
+    <Resource Include="Resources\art.png" />
+    <Resource Include="Resources\back.jpg" />
     <Resource Include="Resources\back.png" />
-    <Resource Include="Resources\close.png" />
-    <Resource Include="Resources\forward.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Resources\back01.png" />
-  </ItemGroup>
-  <ItemGroup>
+    <Resource Include="Resources\Balloon.png" />
+    <Resource Include="Resources\bk01.jpg" />
+    <Resource Include="Resources\bk02.jpg" />
+    <Resource Include="Resources\black.png" />
+    <Resource Include="Resources\close.png" />
+    <Resource Include="Resources\cloudy.png" />
+    <Resource Include="Resources\college.png" />
+    <Resource Include="Resources\computer.png" />
+    <Resource Include="Resources\cs.png" />
+    <Resource Include="Resources\department.jpg" />
+    <Resource Include="Resources\dingwei.png" />
+    <Resource Include="Resources\flag.png" />
+    <Resource Include="Resources\floor1.PNG" />
+    <Resource Include="Resources\floor2.PNG" />
+    <Resource Include="Resources\floor3.PNG" />
+    <Resource Include="Resources\footer_weixin.jpg" />
+    <Resource Include="Resources\forward.png" />
     <Resource Include="Resources\forward01.png" />
-  </ItemGroup>
-  <ItemGroup>
+    <Resource Include="Resources\history.png" />
+    <Resource Include="Resources\history_header.jpg" />
+    <Resource Include="Resources\i1.png" />
+    <Resource Include="Resources\i2.png" />
+    <Resource Include="Resources\i3.png" />
+    <Resource Include="Resources\iot.png" />
+    <Resource Include="Resources\leader.png" />
+    <Resource Include="Resources\library.png" />
+    <Resource Include="Resources\location.png" />
+    <Resource Include="Resources\logo.png" />
     <Resource Include="Resources\logologo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\footer_weixin.png" />
+    <Resource Include="Resources\logoNotFinish.png" />
+    <Resource Include="Resources\logooo.png" />
+    <Resource Include="Resources\map.png" />
+    <Resource Include="Resources\mapicon.png" />
+    <Resource Include="Resources\mi.png" />
+    <Resource Include="Resources\MSNFemale.png" />
+    <Resource Include="Resources\MSNMale.png" />
+    <Resource Include="Resources\net.png" />
+    <Resource Include="Resources\oldleader.png" />
+    <Resource Include="Resources\old_schoolScenery.jpg" />
+    <Resource Include="Resources\one.png" />
+    <Resource Include="Resources\organize.png" />
+    <Resource Include="Resources\pcs.png" />
+    <Resource Include="Resources\pct.png" />
+    <Resource Include="Resources\phone.png" />
+    <Resource Include="Resources\profile.png" />
+    <Resource Include="Resources\psw.png" />
     <Resource Include="Resources\QRBackPicWideFill.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\实验中心.jpg" />
-    <Resource Include="Resources\实验室.jpg" />
-    <Resource Include="Resources\计算机基础教学部.jpg" />
-    <Resource Include="Resources\计算机科学与技术.jpg" />
-    <Resource Include="Resources\软件工程.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\基础教学部.png" />
-    <Resource Include="Resources\实验中心.png" />
-    <Resource Include="Resources\实验室.png" />
-    <Resource Include="Resources\物联网.png" />
-    <Resource Include="Resources\网络工程.png" />
-    <Resource Include="Resources\计科.png" />
-    <Resource Include="Resources\软件工程.png" />
-  </ItemGroup>
-  <ItemGroup>
+    <Resource Include="Resources\rain.png" />
+    <Resource Include="Resources\rg.png" />
+    <Resource Include="Resources\Rooms\ca.jpg" />
+    <Resource Include="Resources\Rooms\e116.jpg" />
+    <Resource Include="Resources\Rooms\rooms.png" />
+    <Resource Include="Resources\Scenery1.jpg" />
+    <Resource Include="Resources\Scenery2.jpg" />
+    <Resource Include="Resources\Scenery3.jpg" />
+    <Resource Include="Resources\snow.png" />
+    <Resource Include="Resources\sunny.png" />
+    <Resource Include="Resources\sw.png" />
+    <Resource Include="Resources\text.png" />
+    <Resource Include="Resources\three.png" />
+    <Resource Include="Resources\timer.jpg" />
+    <Resource Include="Resources\two.png" />
+    <Resource Include="Resources\web.png" />
+    <Resource Include="Resources\wechat.png" />
+    <Resource Include="Resources\WiFi.jpg" />
+    <Resource Include="Resources\于巍.jpg" />
+    <Resource Include="Resources\于明.jpg" />
+    <Resource Include="Resources\于明院长工作照小版.jpg" />
+    <Resource Include="Resources\刘恩海.jpg" />
+    <Resource Include="Resources\刘晶.jpg" />
+    <Resource Include="Resources\办公室.jpg" />
+    <Resource Include="Resources\吴清.jpg" />
+    <Resource Include="Resources\商植桐工作照小版.jpg" />
     <Resource Include="Resources\团委.png" />
+    <Resource Include="Resources\基础教学部.png" />
     <Resource Include="Resources\委员会.png" />
     <Resource Include="Resources\学院办公室.png" />
-    <Resource Include="Resources\职能.png" />
-  </ItemGroup>
-  <ItemGroup>
+    <Resource Include="Resources\实验中心.jpg" />
+    <Resource Include="Resources\实验中心.png" />
+    <Resource Include="Resources\实验室.jpg" />
+    <Resource Include="Resources\实验室.png" />
+    <Resource Include="Resources\张军.png" />
+    <Resource Include="Resources\张茜茜.jpg" />
+    <Resource Include="Resources\彭玉青.JPG" />
+    <Resource Include="Resources\李妍.jpg" />
+    <Resource Include="Resources\柴欣.png" />
+    <Resource Include="Resources\武优西.png" />
+    <Resource Include="Resources\沈西挺.jpg" />
+    <Resource Include="Resources\物联网.png" />
     <Resource Include="Resources\物联网工程.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Resources\WiFi.jpg" />
+    <Resource Include="Resources\王晓芳.jpg" />
+    <Resource Include="Resources\王晓芳2.jpg" />
+    <Resource Include="Resources\王轩工作照小版.jpg" />
+    <Resource Include="Resources\王靖鑫.jpg" />
+    <Resource Include="Resources\石陆魁.png" />
+    <Resource Include="Resources\网络工程.png" />
+    <Resource Include="Resources\职能.png" />
+    <Resource Include="Resources\职能部门人像.png" />
+    <Resource Include="Resources\肖国玺.jpg" />
+    <Resource Include="Resources\董永峰工作照小版.jpg" />
+    <Resource Include="Resources\计科.png" />
+    <Resource Include="Resources\计算机基础教学部.jpg" />
+    <Resource Include="Resources\计算机科学与技术.jpg" />
+    <Resource Include="Resources\许智宏.jpg" />
+    <Resource Include="Resources\证件照.jpg" />
+    <Resource Include="Resources\软件工程.jpg" />
+    <Resource Include="Resources\软件工程.png" />
+    <Resource Include="Resources\陈冀川.jpg" />
+    <Resource Include="Resources\青春_410.jpg" />
+    <Resource Include="Resources\顾军华.jpg" />
+    <Resource Include="Resources\马建红.jpg" />
+    <Resource Include="Resources\高雪冬.jpg" />
+    <Resource Include="Resources\魏玮.png" />
+    <Resource Include="Resources\齐巧玲.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\ChenJiChuan\rooms.png" />
+    <Resource Include="Faculty\AssociateProfessor\ChenJiChuan\陈冀川.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\FuKun\富坤.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\FuLingLi\傅灵丽.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\FuLingLi\傅灵丽.png" />
+    <Resource Include="Faculty\AssociateProfessor\GuoYingChun\郭迎春.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\HePing\何平.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\HouXiangDan\侯向丹.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\LiangYanHong\梁艳红.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\LiJianWei\李建伟.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\LiNaNa\李娜娜.png" />
+    <Resource Include="Faculty\AssociateProfessor\LiuEnHai\刘恩海.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\LiuJingYu\刘靖宇.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\ShiQiaoShuo\史巧硕.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\TianHongLi\田红丽.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\TianHongLi\田红丽.png" />
+    <Resource Include="Faculty\AssociateProfessor\WangPeng\汪鹏.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\WanYanPing\宛艳萍.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\XiaoGuoXi\肖国玺.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\XuZhiHong\许智宏.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\YanGang\阎刚.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\YangSuMei\杨素梅.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\ZhangHongMei\张红梅.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\ZhangJun\张军.png" />
+    <Resource Include="Faculty\AssociateProfessor\ZhangManDun\张满囤.jpg" />
+    <Resource Include="Faculty\AssociateProfessor\ZhangManDun\张满囤.png" />
+    <Resource Include="Faculty\Lecturer\CaoBin\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Lecturer\CaoBin\曹斌.png" />
+    <Resource Include="Faculty\Lecturer\GuoYongFang\guoyongfang.jpg" />
+    <Resource Include="Faculty\Lecturer\GuoYongFang\郭永芳.jpg" />
+    <Resource Include="Faculty\Lecturer\LinXiaoJing\linxiaojing.jpg" />
+    <Resource Include="Faculty\Lecturer\LinXiaoJing\林晓静.png" />
+    <Resource Include="Faculty\Lecturer\LiuHongPu\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Lecturer\LiuHongPu\刘洪普.png" />
+    <Resource Include="Faculty\Lecturer\LiuYi\liuyi.jpg" />
+    <Resource Include="Faculty\Lecturer\LiuYi\刘依.jpg" />
+    <Resource Include="Faculty\Lecturer\LuJing\路静.jpg" />
+    <Resource Include="Faculty\Lecturer\LvHua\吕华.jpg" />
+    <Resource Include="Faculty\Lecturer\ShiShuo\shishuo.jpg" />
+    <Resource Include="Faculty\Lecturer\ShiShuo\师硕.png" />
+    <Resource Include="Faculty\Lecturer\WangLiPeng\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Lecturer\WangLiQin\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Lecturer\WangLiQin\王立芹.png" />
+    <Resource Include="Faculty\Lecturer\WuHongTao\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Lecturer\XueGuiXiang\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Lecturer\XueGuiXiang\薛桂香.png" />
+    <Resource Include="Faculty\Lecturer\YuanYuQian\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Lecturer\ZhaiYanDong\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Lecturer\ZhangJianNan\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Lecturer\ZhuHuaiZhong\ProfilePicture.jpg" />
+    <Resource Include="Faculty\NoContent\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\ChaiXin\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\DongYongFeng\down.jpeg" />
+    <Resource Include="Faculty\Professor\DongYongFeng\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\DongYongFeng\up.jpeg" />
+    <Resource Include="Faculty\Professor\GengHengShan\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\GuJunHua\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\LinTao\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\LinTao\林涛.png" />
+    <Resource Include="Faculty\Professor\LiuJing\down.jpg" />
+    <Resource Include="Faculty\Professor\LiuJing\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\LiuJing\up.jpg" />
+    <Resource Include="Faculty\Professor\MaJianHong\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\PengYuQing\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\PengYuQing\彭玉青.JPG" />
+    <Resource Include="Faculty\Professor\ShenXiTing\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\ShenXiTing\沈西挺.jpg" />
+    <Resource Include="Faculty\Professor\ShiLuKui\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\ShiLuKui\石陆魁.png" />
+    <Resource Include="Faculty\Professor\WangYuanQuan\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\WeiWei\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\WeiWei\魏玮.png" />
+    <Resource Include="Faculty\Professor\WuQing\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\WuQing\吴清.jpg" />
+    <Resource Include="Faculty\Professor\WuYouXi\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\YuMing\ProfilePicture.jpg" />
+    <Resource Include="Faculty\Professor\YuMing\开会.jpg" />
+    <Resource Include="Faculty\Professor\YuMing\开会2.jpg" />
+    <Content Include="Map\BMap.html" />
+    <Content Include="Map\BMap3D.html" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

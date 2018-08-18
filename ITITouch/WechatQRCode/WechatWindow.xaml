@@ -12,7 +12,7 @@
                 <Image Source="/Resources/logo.png" Height="90" Width="90"/>
             </StackPanel>
             <StackPanel HorizontalAlignment="Center"  Margin="0,950,0,0">
-                <Button Width="30" Height="30" Name="bt_return" Style="{StaticResource ReturnButton}" Click="bt_return_Click"/>
+                <Button Width="50" Height="50" Name="bt_return" Style="{StaticResource ReturnButton}" Click="bt_return_Click"/>
                 <Label FontWeight="Bold" Style="{StaticResource smallText3}" >返回主界面</Label>
             </StackPanel>
         </Grid>

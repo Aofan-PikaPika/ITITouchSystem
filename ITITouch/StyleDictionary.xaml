@@ -286,6 +286,237 @@
             </Setter.Value>
         </Setter>
     </Style>
+    <!--本科生-->
+    <Style x:Key="BachelorStyle" TargetType="{x:Type RadioButton}">
+        <Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RadioButton}">
+                    <Border>
+                        <Path x:Name="btnPath" Stretch="Fill" StrokeThickness="1" Stroke="Gray" Fill="WhiteSmoke">
+                            <Path.Data>
+                                <GeometryGroup>
+                                    <PathGeometry Figures="M 167.512,140.258L 322.004,189.756L 325.004,419.244L 167.512,371.246L 167.512,140.258 Z" />
+                                    <PathGeometry Figures="M 331.003,189.755L 486.996,146.258L 488.496,378.746L 331.003,419.244L 331.003,189.755 Z "/>
+                                </GeometryGroup>
+                            </Path.Data>
+                        </Path>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="true">
+                            <Setter Property="Fill" Value="#46A3FF" TargetName="btnPath"/>
+                            <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked"  Value="true"/>
+                                <Condition Property="IsMouseOver" Value="true"/>
+                            </MultiTrigger.Conditions>
+                            <MultiTrigger.Setters>
+                                <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                            </MultiTrigger.Setters>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--研究生-->
+    <Style x:Key="MasterStyle" TargetType="{x:Type RadioButton}">
+        <Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RadioButton}">
+                    <Border>
+                        <Path x:Name="btnPath" Stretch="Fill" StrokeThickness="1" Stroke="Gray" Fill="WhiteSmoke">
+                            <Path.Data>
+                                <GeometryGroup>
+                                    <PathGeometry Figures="M 221.509,129.758L 343.004,129.758L 469.484,228.754L 470.496,434.243L 221.509,434.243L 221.509,129.758 Z " />                                   
+                                </GeometryGroup>
+                            </Path.Data>
+                        </Path>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="true">
+                            <Setter Property="Fill" Value="#46A3FF" TargetName="btnPath"/>
+                            <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked"  Value="true"/>
+                                <Condition Property="IsMouseOver" Value="true"/>
+                            </MultiTrigger.Conditions>
+                            <MultiTrigger.Setters>
+                                <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                            </MultiTrigger.Setters>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    
+    
+    <!--学院地图-->
+    <Style x:Key="CollegeStyle" TargetType="{x:Type RadioButton}">
+        <Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RadioButton}">
+                    <Border>
+                        <Path x:Name="btnPath" Stretch="Fill" StrokeThickness="1" Stroke="Gray" Fill="WhiteSmoke">
+                            <Path.Data>
+                                <GeometryGroup>
+                                    <PathGeometry Figures="M 0.5,10.9995L 1.99992,238.988L 60.497,279.486L 58.9971,45.4978L 0.5,10.9995 Z" />
+                                    <PathGeometry Figures="M 169.992,0.499985L 171.491,243.773L 229.989,286.986L 228.489,37.311L 169.992,0.499985 Z "/>
+                                    <PathGeometry Figures="M 72.4964,43.0476L 153.492,6.49974L 153.492,241.25L 93.4953,269.364L 76.9962,274.986L 72.4964,43.0476 Z"/>
+                                </GeometryGroup>
+                            </Path.Data>
+                        </Path>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="true">
+                            <Setter Property="Fill" Value="#46A3FF" TargetName="btnPath"/>
+                            <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked"  Value="true"/>
+                                <Condition Property="IsMouseOver" Value="true"/>
+                            </MultiTrigger.Conditions>
+                            <MultiTrigger.Setters>
+                                <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                            </MultiTrigger.Setters>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+    <!--百度地图-->
+    <Style x:Key="BaiduStyle" TargetType="{x:Type RadioButton}">
+        <Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RadioButton}">
+                    <Border>
+                        <Path x:Name="btnPath" Stretch="Uniform" StrokeThickness="1" Stroke="Gray" Fill="WhiteSmoke">
+                            <Path.Data>
+                                <GeometryGroup>
+                                    <PathGeometry Figures="M 146.451,433.108L 38.9081,231.797C 19.1554,194.751 -0.597366,157.704 0.5,122.405C 1.59738,87.1056 23.5449,53.5539 53.9056,31.1861C 84.2663,8.81826 123.04,-2.36567 161.083,1.12933C 199.125,4.62429 236.436,22.7982 259.115,46.564C 281.794,70.3298 289.841,99.6876 287.281,128.346C 284.72,157.005 271.552,184.965 258.383,212.925L 146.451,433.108 Z " />                                 
+                                </GeometryGroup>
+                            </Path.Data>
+                        </Path>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="true">
+                            <Setter Property="Fill" Value="#46A3FF" TargetName="btnPath"/>
+                            <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="true"/>
+                                <Condition Property="IsMouseOver" Value="true"/>
+                            </MultiTrigger.Conditions>
+                            <MultiTrigger.Setters>
+                                <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                            </MultiTrigger.Setters>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--教职工-->
+    <Style x:Key="FacultyStyle" TargetType="{x:Type RadioButton}">
+        <Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="BorderBrush" Value="Transparent"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type RadioButton}">
+                    <Border>
+                        <Path x:Name="btnPath" Stretch="Fill" StrokeThickness="1" Stroke="Gray" Fill="WhiteSmoke">
+                            <Path.Data>
+                                <GeometryGroup>
+                                    <PathGeometry Figures="M 12,30 A 6,10 0 1 1 18,30 L 30,40 L 30,45 L 0,45 L 0,40Z" />
+                                  
+                                </GeometryGroup>
+                            </Path.Data>
+                        </Path>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsChecked" Value="true">
+                            <Setter Property="Fill" Value="#46A3FF" TargetName="btnPath"/>
+                            <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                        </Trigger>
+                        <Trigger Property="IsMouseOver" Value="true">
+                            <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                        </Trigger>
+                        <MultiTrigger>
+                            <MultiTrigger.Conditions>
+                                <Condition Property="IsChecked" Value="true"/>
+                                <Condition Property="IsMouseOver" Value="true"/>
+                            </MultiTrigger.Conditions>
+                            <MultiTrigger.Setters>
+                                <Setter Property="Stroke" Value="#46A3FF" TargetName="btnPath"/>
+                            </MultiTrigger.Setters>
+                        </MultiTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
 
     <!--通讯录的样式-->
     <Style x:Key="FriendStyle" TargetType="{x:Type RadioButton}">
@@ -371,7 +602,25 @@
             </DataTrigger>
         </Style.Triggers>
     </Style>
-    
+
+    <Style x:Key="smallText4" TargetType="{x:Type Label}">
+        <Setter Property="Foreground" Value="Gray"></Setter>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding ElementName=rb3, Path=IsChecked}" Value="true">
+                <Setter Property="Foreground" Value="#46A3FF"></Setter>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+    <Style x:Key="smallText5" TargetType="{x:Type Label}">
+        <Setter Property="Foreground" Value="Gray"></Setter>
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding ElementName=rb4, Path=IsChecked}" Value="true">
+                <Setter Property="Foreground" Value="#46A3FF"></Setter>
+            </DataTrigger>
+        </Style.Triggers>
+    </Style>
+
+
     <!--返回按钮-->
     <Style x:Key="ReturnButton" TargetType="{x:Type Button}">
         <Setter Property="FocusVisualStyle" Value="{StaticResource ButtonFocusVisual}"/>
