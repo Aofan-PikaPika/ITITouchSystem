@@ -31,7 +31,6 @@ namespace ITITouch.Faculty
             // 开始就跳转到给定的教师页面
             this.uri = uri;
             twb.Navigate(uri);
-
         }
 
         private void twb_Navigated(object sender, WebBrowserNavigatedEventArgs e)
@@ -40,6 +39,7 @@ namespace ITITouch.Faculty
             {
                 twb.Navigate(this.uri);
             }
+
         }
 
         private void twb_NewWindow(object sender, System.ComponentModel.CancelEventArgs e)

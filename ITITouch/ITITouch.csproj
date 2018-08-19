@@ -2062,6 +2062,9 @@
     <Folder Include="Faculty\VisitingLecturer\" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\杨鹏_C.png" />
+    <Resource Include="Resources\logo_ort.png" />
+    <Resource Include="Resources\董砚.png" />
     <Resource Include="Resources\logo.png" />
     <Resource Include="Resources\footer_weixin.jpg" />
     <Resource Include="Resources\logologo.png" />
