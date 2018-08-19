@@ -21,7 +21,7 @@
             </Grid.RowDefinitions>
             <!--计算机软件学院图片-->
             <StackPanel HorizontalAlignment="Center" Grid.RowSpan="2" Background="#FF0079C1">
-                <Image Source="/ITITouch;component/Resources/mi.png"  Width="1500" Height="314" />
+                <Image Source="/ITITouch;component/Resources/mi.png"  Width="1500" Height="314"/>
             </StackPanel>
             <!--黑边-->
             <Grid Grid.Row="2">

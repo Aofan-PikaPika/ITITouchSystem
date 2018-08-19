@@ -12,8 +12,10 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Grid Grid.Row="0" >
-            <StackPanel HorizontalAlignment="Center" >
-                <Image Source="/ITITouch;component/Resources/mi.png"  Width="1500" Height="410" Stretch="Fill" />
+            <Canvas Background="#FF0384C8"> </Canvas>
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+                
+                <Image Source="/ITITouch;component/Resources/mi_center.png" Height="200" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </StackPanel>
         </Grid>
         <Grid Grid.Row="1" Background="White">
@@ -24,31 +26,28 @@
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="1">
                 <StackPanel Height="620" Width="750" Margin="0,50,0,0" >
-                    <Label Content="计算机科学与软件学院" HorizontalAlignment="Left" FontSize="27" Height="45"  VerticalAlignment="Top" Width="750" Foreground="Black" />
+                    <Label Content="人工智能与数据科学学院" HorizontalAlignment="Left" FontSize="27" Height="45"  VerticalAlignment="Top" Width="750" Foreground="Black" />
                     <Label MaxWidth="750" HorizontalAlignment="Left" FontSize="15" Foreground="Gray" Margin="0,25,0,0" VerticalAlignment="Top" Width="750">
                         <TextBlock TextWrapping="Wrap"
-                                   Text="河北工业大学计算机科学与软件学院前身是1985年成立的计算机科学与工程系，2002年与计算中心合并成立学院。" />
+                                   Text="人工智能与数据科学学院（简称智能学院）于2018年4月成立，由控制科学与工程学院和计算机科学与软件学院合并而成。成立&quot;人工智能与数据科学学院&quot;，是学校在人工智能发展进入新阶段的时代背景下，顺应国家的科技发展战略，切合智能产业发展对科技和人才的需求做出的重要决策，旨在充分发挥控制和计算机学科在人工智能领域学科基础和人才培养优势，形成高端人才积聚效应，培养人工智能专业新工科人才，探索智能产业产学研合作的新模式，形成新的学科增长点。" />
                     </Label>
                     <Label MaxWidth="750" HorizontalAlignment="Left" FontSize="15" Foreground="Gray" Margin="0,15,0,0" VerticalAlignment="Top" Width="750">
                         <TextBlock TextWrapping="Wrap"
-                                   Text="学院有计算机科学与技术、软件工程、网络工程、物联网工程4个本科专业；计算机科学与技术、控制科学与工程两个一级硕士点，计算机技术、软件工程两个二级硕士点；计算机科学与技术系、网络工程系、软件工程系、基础教学部、计算机实验中心、嵌入式技术及其应用实验室、软件工程研究中心、信息技术研究所等教学和科研机构，在智能信息处理、网络信息安全、并行处理与智能计算、图像处理与多媒体、计算机智能控制等研究方向和领域具有很好的科研基础，与法国巴黎高等计算机专科学院(supinfo)、新西兰梅西大学等国外知名大学和IT公司在教学、科研和人才培养方面展开合作。" />
+                                   Text="目前学院有教职工130多人，其中专任教师94人，教授25 人，副教授33 人，博士教师 69人。拥有控制理论与控制工程河北省重点学科，控制科学与工程博士后流动站，控制科学与工程博士点和硕士点，计算机科学与技术硕士点，以及计算机技术、软件工程和控制工程3个专业学位硕士点近5年来共承担国家及省部级以上课题96项，获科技奖励9项，发表SCI、EI高水平论文131篇，其中4篇为ESI高被引论文。" />
                     </Label>
                     <Label MaxWidth="750" HorizontalAlignment="Left" FontSize="15" Foreground="Gray" Margin="0,15,0,0" VerticalAlignment="Top" Width="750">
                         <TextBlock TextWrapping="Wrap"
-                                   Text="&quot;以人为本，育人为先&quot;是学院坚持的人才培养理念，拥有一支教学经验丰富、科研能力强、结构合理的师资队伍，其中教授 13 名，副教授21名，具有博士学位和在读博士的教师 38 名，专任教师60名。" />
+                                   Text="学院设有自动化、计算机科学与技术、软件工程、网络工程、物联网工程、智能科学与技术、新能源科学与工程等七个本科专业；并开设计算机科学与技术、信息与计算科学双学位班，侧重大数据培养；同时，围绕学校&quot;双一流&quot;建设任务，依托计算机科学与技术、智能科学与技术开设新工科试点班，重点打造人工智能新特色。" />
                     </Label>
                     <Label MaxWidth="750" HorizontalAlignment="Left" FontSize="15" Foreground="Gray" Margin="0,15,0,0" VerticalAlignment="Top" Width="750">
                         <TextBlock TextWrapping="Wrap"
-                                   Text="青年教师多人次在天津市高校青年教师基本功竞赛、青年管理干部基本功竞赛中获奖。 近年来，学院教师承担国家和省、部级自然科学科研课题40余项，社会科学科研课题10余项，获省、部级以上奖励10余项，在智能信息处理、网络信息安全、并行处理与智能计算、图像处理与多媒体、计算机智能控制等研究方向取得多项研究成果，出版专著、教材40多部，在国内外刊物和会议上发表论文400余篇。" />
+                                   Text="学院现有博士生32人，硕士生506人，本科生2279人，学生工作以学习为重心，以育人为主线，以培养在专业领域具有较强创新能力的高级工程技术人才为目标，在思想政治教育、科技创新、社会实践、校园文化等一系列活动中取得了优异成绩，近三年来，获&quot;河北省思想政治先进集体&quot;2次，获&quot;河北省先进班集体&quot;2次，&quot;天津市五四红旗团支部&quot;1次。学院共有3513人次参与科技创新竞赛活动，获国家级奖项198项，省市级奖项315项，学院&quot;大学生科技协会&quot;团队荣获全国首批大学生&quot;小平科技创新团队&quot;。" />
                     </Label>
                     <Label MaxWidth="750" HorizontalAlignment="Left" FontSize="15" Foreground="Gray" Margin="0,15,0,0" VerticalAlignment="Top" Width="750">
                         <TextBlock TextWrapping="Wrap"
-                                   Text="河北工业大学计算机科学与软件学院秉承学校&quot;勤慎公忠&quot;的校训，在人才培养中坚持&quot;厚实基础、深化专业、注重理论、突出实践&quot;的办学特色。" />
+                                   Text="学院现有中共党员507人，其中教工党员97人，学生党员410人；现有党支部21个，其中教工党支部9个，学生党支部12个。 近年来，合并前的两个学院党建工作均取得了突出成绩，先后获得2011年度天津市五一劳动先进集体、2012年度河北省教育系统先进基层党组织、2016年度天津市教育系统先进党组织等荣誉称号。" />
                     </Label>
-                    <Label MaxWidth="750" HorizontalAlignment="Left" FontSize="15" Foreground="Gray" Margin="0,15,0,0" VerticalAlignment="Top" Width="750">
-                        <TextBlock TextWrapping="Wrap"
-                                   Text="近五年来，学生中共有47人次获得国家级专业竞赛奖励， 87人荣获省级以上专业竞赛奖励，学院毕业生就业形势良好，年均就业率高达91%。" />
-                    </Label>
+                   
                 </StackPanel>          
             </Grid>
         </Grid>

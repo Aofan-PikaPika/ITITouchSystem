@@ -2062,6 +2062,9 @@
     <Folder Include="Faculty\VisitingLecturer\" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\mi.png" />
+    <Resource Include="Resources\art.png" />
+    <Resource Include="Resources\mi_center.png" />
     <Resource Include="Resources\杨鹏_C.png" />
     <Resource Include="Resources\logo_ort.png" />
     <Resource Include="Resources\董砚.png" />
@@ -2072,7 +2075,6 @@
     <Resource Include="Resources\19da.jpg" />
     <Resource Include="Resources\address.png" />
     <Resource Include="Resources\app.png" />
-    <Resource Include="Resources\art.png" />
     <Resource Include="Resources\back.jpg" />
     <Resource Include="Resources\back.png" />
     <Resource Include="Resources\back01.png" />
@@ -2106,7 +2108,6 @@
     <Resource Include="Resources\logooo.png" />
     <Resource Include="Resources\map.png" />
     <Resource Include="Resources\mapicon.png" />
-    <Resource Include="Resources\mi.png" />
     <Resource Include="Resources\MSNFemale.png" />
     <Resource Include="Resources\MSNMale.png" />
     <Resource Include="Resources\net.png" />
