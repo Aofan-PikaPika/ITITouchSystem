@@ -101,7 +101,8 @@ namespace ITITouch
         public void showcollageNews() 
         {
             System.Windows.Forms.WebBrowser web = new System.Windows.Forms.WebBrowser();
-            web.Navigate("http://www.scse.hebut.edu.cn");
+            web.ScriptErrorsSuppressed = true;
+            web.Navigate("http://ai.hebut.edu.cn/category/info/news");
             web.DocumentCompleted += new WebBrowserDocumentCompletedEventHandler(web_DocumentCompleted);
         }
 
@@ -113,9 +114,10 @@ namespace ITITouch
 
         private void web_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
         {
+            
             System.Windows.Forms.WebBrowser web = (System.Windows.Forms.WebBrowser)sender;
             //获得新闻标题
-            HtmlElementCollection ElementCollection = web.Document.GetElementsByTagName("header");
+            HtmlElementCollection ElementCollection = web.Document.GetElementsByTagName("article");
             List<string> listTitle = new List<string>();
             foreach (HtmlElement item in ElementCollection)
             {
@@ -123,48 +125,75 @@ namespace ITITouch
                 //用两个控制符来正则匹配出新闻标题
                 Regex rFindBack = new Regex(@"\n(.*)\r");
                 MatchCollection m = rFindBack.Matches(rawStr);
-                string findBack = m[0].ToString();
+                string findBack = m[2].ToString();
                 //再用正则匹配取消两个控制符
                 Regex rThrowNR = new Regex(@"[^\n].*[^\r]");
                 Match mfinal = rThrowNR.Match(findBack);
                 string throwNR = mfinal.ToString();
                 listTitle.Add(throwNR);
             }
-            //获得图片路径
-            HtmlElementCollection webImageCollection = web.Document.GetElementsByTagName("image");
-            List<string> listImage = new List<string>();
-            for (int i = 0; i < webImageCollection.Count; i++)
-            {
-                string imgUrl = webImageCollection[i].GetAttribute("src");
-                listImage.Add(imgUrl);
-            }
 
+            //获得图片路径
+            List<string> listImage = new List<string>();
+            foreach (HtmlElement item in ElementCollection)
+            {
+                string rawStr = item.InnerHtml;
+                Regex rFindBack = new Regex(@"src=""(.*)""");
+                Match m = rFindBack.Match(rawStr);
+                if (m.Success)
+                {
+                    Regex rFindlink = new Regex(@"http://([\w-]+\.)+[\w-]+(/[\w- ./?%&=]*)?"); // 匹配出超链接的正则表达式
+                    Match mc = rFindlink.Match(m.Value);
+                    listImage.Add(mc.Value);
+                }
+                else
+                    listImage.Add("");
+             
+            }
+            
             //获得新闻链接
             List<string> listHref = new List<string>();
-            HtmlElementCollection webHrefCollection = web.Document.GetElementsByTagName("a");
-            for (int i = 0; i < webHrefCollection.Count; i++)
+            for (int i = 0; i < ElementCollection.Count; i++)
             {
-                string href = webHrefCollection[i].GetAttribute("href");
-                listHref.Add(href);
+                HtmlElementCollection hrefs = ElementCollection[i].GetElementsByTagName("a");
+                if (hrefs.Count > 0)
+                {
+                    Regex rFindlink = new Regex(@"http://([\w-]+\.)+[\w-]+(/[\w- ./?%&=]*)?");
+                    Match m = rFindlink.Match(hrefs[0].OuterHtml);
+                    listHref.Add(m.Value);
+                }
             }
-            //加载文本、图片
-            txt1.Text = listTitle[1];
-            txt2.Text = listTitle[2];
-            
-            //图，小红旗，文字，都有链接的
-            //两新闻的超链接应该给隔两个
-            this.newsUrl1 = listHref[11];
-            this.newsUrl2 = listHref[14];
+            try
+            {
+                //加载文本、图片
+                txt1.Text = listTitle[0];
+                txt2.Text = listTitle[1];
 
-            image1.Source = new BitmapImage(new Uri(listImage[6]));
-            image2.Source = new BitmapImage(new Uri(listImage[7]));
+                this.newsUrl1 = listHref[0];
+                this.newsUrl2 = listHref[1];
 
-
-
+                SetImageSource(image1, listImage[0]);
+                SetImageSource(image2, listImage[1]);
+            }
+            catch { }
+           
 
         }
         public string newsUrl1 = "";
         public string newsUrl2 = "";
+
+        // 设定图片源的函数
+        public void SetImageSource(Image i, string picSource)
+        {
+            if (String.IsNullOrEmpty(picSource)) // 为空，则设定以前计算机学院的徽标
+            {
+                i.Source = new BitmapImage(new Uri("http://www.scse.hebut.edu.cn/wp-content/uploads/2018/05/thumb.png"));
+            }
+            else // 不空，则设定图片里面的徽标
+            {
+                i.Source = new BitmapImage(new Uri(picSource));
+            }
+        }
         
 
 
@@ -255,20 +284,26 @@ namespace ITITouch
 
         private void organzition_Click(object sender, RoutedEventArgs e)
         {
-            OranizationWindow ozw = new OranizationWindow();
-            ozw.ShowDialog();
+            MsgInPreparation mip = new MsgInPreparation();
+            mip.ShowDialog();
+            //OranizationWindow ozw = new OranizationWindow();
+            //ozw.ShowDialog();
         }
 
         private void teach_Click(object sender, RoutedEventArgs e)
         {
-            EducationWindow ew = new EducationWindow();
-            ew.ShowDialog();
+            MsgInPreparation mip = new MsgInPreparation();
+            mip.ShowDialog();
+            //EducationWindow ew = new EducationWindow();
+            //ew.ShowDialog();
         }
 
         private void teacher_Click(object sender, RoutedEventArgs e)
         {
-            FacultyWindow fw = new FacultyWindow();
-            fw.ShowDialog();
+            MsgInPreparation mip = new MsgInPreparation();
+            mip.ShowDialog();
+            //FacultyWindow fw = new FacultyWindow();
+            //fw.ShowDialog();
         }
 
         private void close_MouseDoubleClick(object sender, MouseButtonEventArgs e)

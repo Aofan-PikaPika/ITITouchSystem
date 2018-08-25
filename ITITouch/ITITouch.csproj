@@ -810,6 +810,9 @@
     <Compile Include="Map\NaviPage2.xaml.cs">
       <DependentUpon>NaviPage2.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MsgInPreparation.xaml.cs">
+      <DependentUpon>MsgInPreparation.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MsgNotFinish.xaml.cs">
       <DependentUpon>MsgNotFinish.xaml</DependentUpon>
     </Compile>
@@ -1930,6 +1933,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Map\NaviPage2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MsgInPreparation.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
