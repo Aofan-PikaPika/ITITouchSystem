@@ -130,7 +130,18 @@ namespace ITITouch
                 Regex rThrowNR = new Regex(@"[^\n].*[^\r]");
                 Match mfinal = rThrowNR.Match(findBack);
                 string throwNR = mfinal.ToString();
-                listTitle.Add(throwNR);
+                if (String.IsNullOrEmpty(throwNR))
+                {
+                    Regex rFindTitle = new Regex(@"title=""(.*?)""");
+                    rawStr = item.InnerHtml;
+                    Match mm = rFindTitle.Match(rawStr);
+                    String rawText = mm.Value;
+                    rThrowNR = new Regex(@"[^title=""].*[^""]");
+                    mfinal = rThrowNR.Match(rawText);
+                    listTitle.Add(mfinal.Value);
+                }
+                else 
+                    listTitle.Add(throwNR);
             }
 
             //获得图片路径
@@ -175,7 +186,9 @@ namespace ITITouch
                 SetImageSource(image1, listImage[0]);
                 SetImageSource(image2, listImage[1]);
             }
-            catch { }
+            catch {
+                //web_DocumentCompleted(sender, null);
+            }
            
 
         }
