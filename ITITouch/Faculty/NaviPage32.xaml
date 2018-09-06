@@ -8,112 +8,126 @@
 	Title="NaviPage32">
 
     <Grid>
-        <StackPanel Background="Transparent" Margin="0,25,0,0">
-            <Label Foreground="White" Background="#87CEFA" FontSize="30"  Width="300" Height="100" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" >选择</Label>
-            <Canvas Height="60" Margin="0,10,0,0">
+        <StackPanel Background="Transparent" Margin="0,0,0,0">
+
+            <Canvas Height="105" Margin="0,0,0,0">
+                <Button Height="105" Width="300" Panel.ZIndex="1" Name="btUp" Style="{StaticResource TransparentButtonStyle}" Click="btUp_Click" Background="#FF19196B" />
+                <WrapPanel Background="#FF2394BC" Width="300" Height="105" Name="wUp">
+                    <Label Foreground="White" FontSize="30" Height="105" Width="300" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" >上一页</Label>
+                </WrapPanel>
+            </Canvas>
+            
+            <Canvas Height="60" Margin="0,15,0,0">
                 <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt1" Style="{StaticResource TransparentButtonStyle}" Click="bt1_Click" />
                 <WrapPanel Background="White" Width="300" Height="60" Name="w1">
                     <Image Source="/ITITouch;component/Resources/MSNfeMale.png" Height=" 50" Width="50" Margin="15,5"/>
-                    <Label FontSize="20" VerticalContentAlignment="Center">师硕</Label>
+                    <Label FontSize="20" VerticalContentAlignment="Center">路静
+                    </Label>
                 </WrapPanel>
             </Canvas>
             <Canvas Height="60" Margin="0,5,0,0">
                 <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt2" Style="{StaticResource TransparentButtonStyle}" Click="bt2_Click" />
                 <WrapPanel Background="White" Width="300" Height="60" Name="w2">
-                    <Image Source="/ITITouch;component/Resources/MSNMale.png" Height=" 50" Width="50" Margin="15,5"/>
-                    <Label FontSize="20" VerticalContentAlignment="Center">王建勋</Label>
+                    <Image Source="/ITITouch;component/Resources/MSNFemale.png" Height=" 50" Width="50" Margin="15,5"/>
+                    <Label FontSize="20" VerticalContentAlignment="Center">吕华
+                    </Label>
                 </WrapPanel>
             </Canvas>
             <Canvas Height="60" Margin="0,5,0,0">
                 <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt3" Style="{StaticResource TransparentButtonStyle}" Click="bt3_Click" />
                 <WrapPanel Background="White" Width="300" Height="60" Name="w3">
-                    <Image Source="/ITITouch;component/Resources/MSNmale.png" Height=" 50" Width="50" Margin="15,5"/>
-                    <Label FontSize="20" VerticalContentAlignment="Center">王力鹏</Label>
+                    <Image Source="/ITITouch;component/Resources/MSNFemale.png" Height=" 50" Width="50" Margin="15,5"/>
+                    <Label FontSize="20" VerticalContentAlignment="Center">马梁
+                    </Label>
                 </WrapPanel>
             </Canvas>
             <Canvas Height="60" Margin="0,5,0,0">
                 <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt4" Style="{StaticResource TransparentButtonStyle}" Click="bt4_Click" />
                 <WrapPanel Background="White" Width="300" Height="60" Name="w4">
                     <Image Source="/ITITouch;component/Resources/MSNFemale.png" Height=" 50" Width="50" Margin="15,5"/>
-                    <Label FontSize="20" VerticalContentAlignment="Center">王利琴</Label>
+                    <Label FontSize="20" VerticalContentAlignment="Center">师硕
+                    </Label>
                 </WrapPanel>
             </Canvas>
             <Canvas Height="60" Margin="0,5,0,0">
                 <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt5" Style="{StaticResource TransparentButtonStyle}" Click="bt5_Click" />
                 <WrapPanel Background="White" Width="300" Height="60" Name="w5">
-                    <Image Source="/ITITouch;component/Resources/MSNFemale.png" Height=" 50" Width="50" Margin="15,5"/>
-                    <Label FontSize="20" VerticalContentAlignment="Center">王小芳</Label>
+                    <Image Source="/ITITouch;component/Resources/MSNMale.png" Height=" 50" Width="50" Margin="15,5"/>
+                    <Label FontSize="20" VerticalContentAlignment="Center">王建勋
+                    </Label>
                 </WrapPanel>
             </Canvas>
             <Canvas Height="60" Margin="0,5,0,0">
                 <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt6" Style="{StaticResource TransparentButtonStyle}" Click="bt6_Click" />
                 <WrapPanel Background="White" Width="300" Height="60" Name="w6">
-                    <Image Source="/ITITouch;component/Resources/MSNmale.png" Height=" 50" Width="50" Margin="15,5"/>
-                    <Label FontSize="20" VerticalContentAlignment="Center">吴鸿韬</Label>
+                    <Image Source="/ITITouch;component/Resources/MSNFemale.png" Height=" 50" Width="50" Margin="15,5"/>
+                    <Label FontSize="20" VerticalContentAlignment="Center">王婕
+                    </Label>
                 </WrapPanel>
             </Canvas>
             <Canvas Height="60" Margin="0,5,0,0">
                 <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt7" Style="{StaticResource TransparentButtonStyle}" Click="bt7_Click" />
                 <WrapPanel Background="White" Width="300" Height="60" Name="w7">
-                    <Image Source="/ITITouch;component/Resources/MSNfeMale.png" Height=" 50" Width="50" Margin="15,5"/>
-                    <Label FontSize="20" VerticalContentAlignment="Center">薛桂香</Label>
+                    <Image Source="/ITITouch;component/Resources/MSNMale.png" Height=" 50" Width="50" Margin="15,5"/>
+                    <Label FontSize="20" VerticalContentAlignment="Center">王立鹏
+                    </Label>
                 </WrapPanel>
             </Canvas>
 
             <Canvas Height="60" Margin="0,5,0,0">
                 <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt8" Style="{StaticResource TransparentButtonStyle}" Click="bt8_Click" />
                 <WrapPanel Background="White" Width="300" Height="60" Name="w8">
-                    <Image Source="/ITITouch;component/Resources/MSNmale.png" Height=" 50" Width="50" Margin="15,5"/>
-                    <Label FontSize="20" VerticalContentAlignment="Center">闫文杰</Label>
+                    <Image Source="/ITITouch;component/Resources/MSNFemale.png" Height=" 50" Width="50" Margin="15,5"/>
+                    <Label FontSize="20" VerticalContentAlignment="Center">王利琴
+                    </Label>
                 </WrapPanel>
             </Canvas>
 
             <Canvas Height="60" Margin="0,5,0,0">
                 <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt9" Style="{StaticResource TransparentButtonStyle}" Click="bt9_Click" />
                 <WrapPanel Background="White" Width="300" Height="60" Name="w9">
-                    <Image Source="/ITITouch;component/Resources/MSNmale.png" Height=" 50" Width="50" Margin="15,5"/>
-                    <Label FontSize="20" VerticalContentAlignment="Center">于洋</Label>
+                    <Image Source="/ITITouch;component/Resources/MSNFemale.png" Height=" 50" Width="50" Margin="15,5"/>
+                    <Label FontSize="20" VerticalContentAlignment="Center">王小芳
+                    </Label>
                 </WrapPanel>
             </Canvas>
             <Canvas Height="60" Margin="0,5,0,0">
                 <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt10" Style="{StaticResource TransparentButtonStyle}" Click="bt10_Click" />
                 <WrapPanel Background="White" Width="300" Height="60" Name="w10">
-                    <Image Source="/ITITouch;component/Resources/MSNfeMale.png" Height=" 50" Width="50" Margin="15,5"/>
-                    <Label FontSize="20" VerticalContentAlignment="Center">袁玉倩</Label>
+                    <Image Source="/ITITouch;component/Resources/MSNMale.png" Height=" 50" Width="50" Margin="15,5"/>
+                    <Label FontSize="20" VerticalContentAlignment="Center">吴鸿韬
+                    </Label>
                 </WrapPanel>
             </Canvas>
             <Canvas Height="60" Margin="0,5,0,0">
                 <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt11" Style="{StaticResource TransparentButtonStyle}" Click="bt11_Click" />
                 <WrapPanel Background="White" Width="300" Height="60" Name="w11">
-                    <Image Source="/ITITouch;component/Resources/MSNMale.png" Height=" 50" Width="50" Margin="15,5"/>
-                    <Label FontSize="20" VerticalContentAlignment="Center">翟艳东</Label>
+                    <Image Source="/ITITouch;component/Resources/MSNFemale.png" Height=" 50" Width="50" Margin="15,5"/>
+                    <Label FontSize="20" VerticalContentAlignment="Center">薛桂香
+                    </Label>
                 </WrapPanel>
             </Canvas>
             <Canvas Height="60" Margin="0,5,0,0">
                 <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt12" Style="{StaticResource TransparentButtonStyle}" Click="bt12_Click" />
                 <WrapPanel Background="White" Width="300" Height="60" Name="w12">
-                    <Image Source="/ITITouch;component/Resources/MSNmale.png" Height=" 50" Width="50" Margin="15,5"/>
-                    <Label FontSize="20" VerticalContentAlignment="Center">张健楠</Label>
+                    <Image Source="/ITITouch;component/Resources/MSNMale.png" Height=" 50" Width="50" Margin="15,5"/>
+                    <Label FontSize="20" VerticalContentAlignment="Center">闫文杰
+                    </Label>
                 </WrapPanel>
             </Canvas>
             <Canvas Height="60" Margin="0,5,0,0">
                 <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt13" Style="{StaticResource TransparentButtonStyle}" Click="bt13_Click" />
                 <WrapPanel Background="White" Width="300" Height="60" Name="w13">
-                    <Image Source="/ITITouch;component/Resources/MSNFemale.png" Height=" 50" Width="50" Margin="15,5"/>
-                    <Label FontSize="20" VerticalContentAlignment="Center">张亚娟</Label>
+                    <Image Source="/ITITouch;component/Resources/MSNMale.png" Height=" 50" Width="50" Margin="15,5"/>
+                    <Label FontSize="20" VerticalContentAlignment="Center">于洋
+                    </Label>
                 </WrapPanel>
             </Canvas>
-            <Canvas Height="60" Margin="0,5,0,0">
-                <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt14" Style="{StaticResource TransparentButtonStyle}" Click="bt14_Click" />
-                <WrapPanel Background="White" Width="300" Height="60" Name="w14">
-                    <Image Source="/ITITouch;component/Resources/MSNmale.png" Height=" 50" Width="50" Margin="15,5"/>
-                    <Label FontSize="20" VerticalContentAlignment="Center">朱怀忠</Label>
-                </WrapPanel>
-            </Canvas>
-            <Canvas Height="25" Margin="0,10,0,0">
-                <Button Height="25" Width="300" Panel.ZIndex="1" Name="btUp" Style="{StaticResource TransparentButtonStyle}" Click="btUp_Click" Background="#FF19196B" />
-                <WrapPanel Background="#FF2394BC" Width="300" Height="25" Name="wDown">
-                    <Label Foreground="White" FontSize="15" Height="30" Width="300" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" >上一页</Label>
+
+            <Canvas Height="105" Margin="0,15,0,0">
+                <Button Height="105" Width="300" Panel.ZIndex="1" Name="btDown" Style="{StaticResource TransparentButtonStyle}" Click="btDown_Click" Background="#FF19196B" />
+                <WrapPanel Background="#FF2394BC" Width="300" Height="105" Name="wDown">
+                    <Label Foreground="White" FontSize="30" Height="105" Width="300" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" >下一页</Label>
                 </WrapPanel>
             </Canvas>
 

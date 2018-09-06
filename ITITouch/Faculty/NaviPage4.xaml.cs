@@ -21,9 +21,6 @@ namespace ITITouch.Faculty
     public delegate void Visitingbt5Handle();
     public delegate void Visitingbt6Handle();
     public delegate void Visitingbt7Handle();
-
-
-
     /// <summary>
     /// NaviPage4.xaml 的交互逻辑
     /// </summary>
@@ -36,6 +33,8 @@ namespace ITITouch.Faculty
         public Visitingbt5Handle showVistingbt5Function;
         public Visitingbt6Handle showVistingbt6Function;
         public Visitingbt7Handle showVistingbt7Function;
+        public event pageDelegate sendPage;
+
         public NaviPage4()
         {
             InitializeComponent();
@@ -126,6 +125,11 @@ namespace ITITouch.Faculty
             w5.Background = oldbrush;
             w6.Background = oldbrush;
             w1.Background = oldbrush;
+        }
+
+        private void btDown_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

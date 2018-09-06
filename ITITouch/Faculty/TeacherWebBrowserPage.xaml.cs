@@ -12,6 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace ITITouch.Faculty
 {
@@ -33,12 +34,31 @@ namespace ITITouch.Faculty
             twb.Navigate(uri);
         }
 
+        public string Uri
+        {
+            get
+            {
+                return this.uri;
+            }
+            set
+            {
+                this.uri = value;
+                this.twb.Navigate(uri);
+            }
+        }
+
+        public bool IsBusy
+        {
+            get { return this.twb.IsBusy; }
+        }
+
         private void twb_Navigated(object sender, WebBrowserNavigatedEventArgs e)
         {
             if (!String.Equals(e.Url.ToString(), this.uri))
             {
                 twb.Navigate(this.uri);
             }
+            twb.Refresh();
 
         }
 
@@ -54,5 +74,6 @@ namespace ITITouch.Faculty
                 e.Cancel = true;
             }
         }
+        
     }
 }

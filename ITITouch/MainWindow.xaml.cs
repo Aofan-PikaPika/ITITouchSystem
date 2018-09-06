@@ -313,10 +313,10 @@ namespace ITITouch
 
         private void teacher_Click(object sender, RoutedEventArgs e)
         {
-            MsgInPreparation mip = new MsgInPreparation();
-            mip.ShowDialog();
-            //FacultyWindow fw = new FacultyWindow();
-            //fw.ShowDialog();
+            //MsgInPreparation mip = new MsgInPreparation();
+            //mip.ShowDialog();
+            FacultyWindow fw = new FacultyWindow();
+            fw.ShowDialog();
         }
 
         private void close_MouseDoubleClick(object sender, MouseButtonEventArgs e)

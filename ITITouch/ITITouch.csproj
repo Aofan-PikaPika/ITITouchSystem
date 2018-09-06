@@ -573,17 +573,26 @@
     <Compile Include="Faculty\NaviPage12.xaml.cs">
       <DependentUpon>NaviPage12.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Faculty\NaviPage13.xaml.cs">
+      <DependentUpon>NaviPage13.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Faculty\NaviPage2.xaml.cs">
       <DependentUpon>NaviPage2.xaml</DependentUpon>
     </Compile>
     <Compile Include="Faculty\NaviPage22.xaml.cs">
       <DependentUpon>NaviPage22.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Faculty\NaviPage23.xaml.cs">
+      <DependentUpon>NaviPage23.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Faculty\NaviPage3.xaml.cs">
       <DependentUpon>NaviPage3.xaml</DependentUpon>
     </Compile>
     <Compile Include="Faculty\NaviPage32.xaml.cs">
       <DependentUpon>NaviPage32.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Faculty\NaviPage33.xaml.cs">
+      <DependentUpon>NaviPage33.xaml</DependentUpon>
     </Compile>
     <Compile Include="Faculty\NaviPage4.xaml.cs">
       <DependentUpon>NaviPage4.xaml</DependentUpon>
@@ -1558,6 +1567,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Faculty\NaviPage13.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Faculty\NaviPage2.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -1566,11 +1579,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Faculty\NaviPage23.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Faculty\NaviPage3.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Faculty\NaviPage32.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Faculty\NaviPage33.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
