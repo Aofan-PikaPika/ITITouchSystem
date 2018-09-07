@@ -3,3 +3,6 @@
 ################################################################################
 
 /ITITouch/obj
+/*.suo
+/ITITouch/bin/Release/ITITouch.exe
+/ITITouch/bin/Release/ITITouch.pdb
