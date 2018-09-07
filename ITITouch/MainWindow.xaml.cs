@@ -297,18 +297,18 @@ namespace ITITouch
 
         private void organzition_Click(object sender, RoutedEventArgs e)
         {
-            MsgInPreparation mip = new MsgInPreparation();
-            mip.ShowDialog();
-            //OranizationWindow ozw = new OranizationWindow();
-            //ozw.ShowDialog();
+            //MsgInPreparation mip = new MsgInPreparation();
+            //mip.ShowDialog();
+            OranizationWindow ozw = new OranizationWindow();
+            ozw.ShowDialog();
         }
 
         private void teach_Click(object sender, RoutedEventArgs e)
         {
-            MsgInPreparation mip = new MsgInPreparation();
-            mip.ShowDialog();
-            //EducationWindow ew = new EducationWindow();
-            //ew.ShowDialog();
+            //MsgInPreparation mip = new MsgInPreparation();
+            //mip.ShowDialog();
+            EducationWindow ew = new EducationWindow();
+            ew.ShowDialog();
         }
 
         private void teacher_Click(object sender, RoutedEventArgs e)

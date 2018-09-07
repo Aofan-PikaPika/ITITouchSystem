@@ -13,13 +13,16 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace ITITouch.Faculty
+
 {
+    public delegate void Professorbt13Handle();
    
     /// <summary>
     /// NaviPage23.xaml 的交互逻辑
     /// </summary>
     public partial class NaviPage23 : Page
     {
+        public Professorbt13Handle showProfessorbt13Function;
 
         public ProUpPageHandle showProUpFunction;
 
@@ -92,7 +95,7 @@ namespace ITITouch.Faculty
             w13.Background = oldbrush;
         }
 
-        private void bt4_Click(object sender, RoutedEventArgs e)    //王华军
+        private void bt4_Click(object sender, RoutedEventArgs e)    //王华君
         {
             sendPage(("http://ai.hebut.edu.cn/staff/teachers/e7-8e-8b-e5-8d-8e-e5-90-9b.html"));
             w4.Background = brush;
@@ -256,7 +259,7 @@ namespace ITITouch.Faculty
 
         private void bt13_Click(object sender, RoutedEventArgs e)    //周建伟
         {
-            sendPage((""));
+            showProfessorbt13Function();
             w13.Background = brush;
             w2.Background = oldbrush;
             w3.Background = oldbrush;

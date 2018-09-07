@@ -77,7 +77,7 @@
             </Canvas>
 
             <Canvas Height="60" Margin="0,5,0,0">
-                <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt9" Style="{StaticResource TransparentButtonStyle}" Click="bt9_Click" Canvas.Top="-33" />
+                <Button Height="60" Width="300" Panel.ZIndex="1" Name="bt9" Style="{StaticResource TransparentButtonStyle}" Click="bt9_Click" />
                 <WrapPanel Background="White" Width="300" Height="60" Name="w9">
                     <Image Source="/ITITouch;component/Resources/MSNFemale.png" Height=" 50" Width="50" Margin="15,5"/>
                     <Label FontSize="20" VerticalContentAlignment="Center">李娜娜

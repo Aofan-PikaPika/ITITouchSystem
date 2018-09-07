@@ -43,7 +43,7 @@ namespace ITITouch.Faculty
             set
             {
                 this.uri = value;
-                this.twb.Navigate(uri);
+                this.twb.Navigate(uri);     
             }
         }
 
@@ -52,7 +52,7 @@ namespace ITITouch.Faculty
             get { return this.twb.IsBusy; }
         }
 
-        private void twb_Navigated(object sender, WebBrowserNavigatedEventArgs e)
+        private void twb_Navigated(object sender, WebBrowserNavigatedEventArgs e)    //如果不是此地址则转回此地址
         {
             if (!String.Equals(e.Url.ToString(), this.uri))
             {
@@ -62,12 +62,12 @@ namespace ITITouch.Faculty
 
         }
 
-        private void twb_NewWindow(object sender, System.ComponentModel.CancelEventArgs e)
+        private void twb_NewWindow(object sender, System.ComponentModel.CancelEventArgs e)   //不可以弹新窗口
         {
             e.Cancel = true;
         }
 
-        private void twb_Navigating(object sender, WebBrowserNavigatingEventArgs e)
+        private void twb_Navigating(object sender, WebBrowserNavigatingEventArgs e)    //介面内不可跳转其他页面
         {
             if (!String.Equals(e.Url.ToString(), this.uri))
             {

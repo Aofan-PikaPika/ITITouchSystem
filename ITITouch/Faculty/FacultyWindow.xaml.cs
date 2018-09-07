@@ -21,6 +21,7 @@ namespace ITITouch.Faculty
     /// </summary>
     public partial class FacultyWindow : Window
     {
+
         public FacultyWindow()
         {
             InitializeComponent();
@@ -33,6 +34,7 @@ namespace ITITouch.Faculty
             this.Close();
         }
 
+        InitialPage itip = new InitialPage();
         private void rb1_Click(object sender, RoutedEventArgs e)
         {
             NaviPage2 nv2 = new NaviPage2();
@@ -55,7 +57,7 @@ namespace ITITouch.Faculty
             nv2.sendPage += GetPage;
             
         }
-        InitialPage itip = new InitialPage();
+       
         private void rb2_Click(object sender, RoutedEventArgs e)
         {
             NaviPage1 nv1 = new NaviPage1();
@@ -118,29 +120,21 @@ namespace ITITouch.Faculty
         }
 
         TeacherWebBrowserPage twpF = new TeacherWebBrowserPage("");
+
         private void GetPage(String url)
         {
-            //if (typeof(this.frameShow.Content) == typeof(TeacherWebBrowserPage))
-            //{
-            //    TeacherWebBrowserPage twp = new TeacherWebBrowserPage(url);
-            //    this.frameShow.Content = twp;
-            //}
-            //else
+            twpF.Uri = url;
+            this.frameShow.Content = twpF;
+            //try
             //{
             //    TeacherWebBrowserPage twp = (TeacherWebBrowserPage)this.frameShow.Content;
             //    twp.Uri = url;
-            //    twp.Navigate(url);
             //}
-            try
-            {
-                TeacherWebBrowserPage twp = (TeacherWebBrowserPage)this.frameShow.Content;
-                twp.Uri = url;
-            }
-            catch
-            {
-                twpF.Uri = url;
-                this.frameShow.Content = twpF;
-            }
+            //catch
+            //{
+            //    twpF.Uri = url;
+            //    this.frameShow.Content = twpF;
+            //}
         }
        
         #region 副教授-委托
@@ -308,8 +302,8 @@ namespace ITITouch.Faculty
             this.frameShow.Content = itip; 
             nv22.showProUpFunction += new ProUpPageHandle(showProUp);
             nv22.showproNextFunction += new ProfessorShowNextHandle(ShowProNextPage1);
-            //nv22.showBt1Function += new ProBt1Handle(PBt1);
-            //nv22.showBt2Function += new ProBt2Handle(PBt2);
+            nv22.showBt1Function += new ProBt1Handle(PBt1);
+            nv22.showBt2Function += new ProBt2Handle(PBt2);
             //nv22.showBt3Function += new ProBt3Handle(PBt3);
             //nv22.showBt4Function += new ProBt4Handle(PBt4);
             nv22.showBt5Function += new ProBt5Handle(Pbt5);
@@ -324,6 +318,7 @@ namespace ITITouch.Faculty
             this.frameNavi.Content = nv23;
             this.frameShow.Content = itip;
             nv23.showProUpFunction += new ProUpPageHandle(showProUp1);
+            nv23.showProfessorbt13Function += new Professorbt13Handle(PBt4);
             nv23.sendPage += GetPage;
 
         }
@@ -338,26 +333,26 @@ namespace ITITouch.Faculty
             this.ShowProNextPage();
         }   //用于从第三张到显示第二张
 
-        //private void PBt1()
-        //{
-        //    Professor.WeiWei.MainPage ww = new Professor.WeiWei.MainPage();
-        //    this.frameShow.Content = ww;
-        //}
-        //private void PBt2()
-        //{
-        //    Professor.WuQing.MainPage wq = new Professor.WuQing.MainPage();
-        //    this.frameShow.Content = wq;
-        //}
+        private void PBt1()
+        {
+            EmptyPage sj = new EmptyPage("宋洁", "教授");
+            this.frameShow.Content = sj.Page;
+        }
+        private void PBt2()
+        {
+            EmptyPage ncl = new EmptyPage("牛存良", "教授");
+            this.frameShow.Content = ncl.Page;
+        }
         //private void PBt3()
         //{
         //    Professor.WuYouXi.MainPage wyx = new Professor.WuYouXi.MainPage();
         //    this.frameShow.Content = wyx;
         //}
-        //private void PBt4()
-        //{
-        //    EmptyPage zjw = new EmptyPage("周建伟", "教授");
-        //    this.frameShow.Content = zjw.Page;
-        //}
+        private void PBt4()
+        {
+            EmptyPage zjw = new EmptyPage("周建伟", "教授");
+            this.frameShow.Content = zjw.Page;
+        }
         //private void PBt5()
         //{
         //    Professor.ShiLuKui.MainPage slk = new Professor.ShiLuKui.MainPage();

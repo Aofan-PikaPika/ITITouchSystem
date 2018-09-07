@@ -17,9 +17,9 @@ namespace ITITouch.Faculty
     
     public delegate void ProUpPageHandle();
 
-    
-    //public delegate void ProBt1Handle();
-    //public delegate void ProBt2Handle();
+
+    public delegate void ProBt1Handle();
+    public delegate void ProBt2Handle();
     //public delegate void ProBt3Handle();
     //public delegate void ProBt4Handle();
     public delegate void ProBt5Handle();
@@ -34,8 +34,8 @@ namespace ITITouch.Faculty
         public ProUpPageHandle showProUpFunction;
 
         public ProfessorShowNextHandle showproNextFunction;
-        //public ProBt1Handle showBt1Function;
-        //public ProBt2Handle showBt2Function;
+        public ProBt1Handle showBt1Function;
+        public ProBt2Handle showBt2Function;
         //public ProBt3Handle showBt3Function;
 
         //public ProBt4Handle showBt4Function;
@@ -76,7 +76,7 @@ namespace ITITouch.Faculty
         private void bt2_Click(object sender, RoutedEventArgs e)    //梁涛
         {
             //showBt2Function();
-            sendPage(("http://ai.hebut.edu.cn/staff/teachers/e9-83-ad-e6-ac-a3.htmlhttp://ai.hebut.edu.cn/staff/teachers/e6-a2-81-e6-b6-9b.html"));  
+            sendPage(("http://ai.hebut.edu.cn/staff/teachers/e6-a2-81-e6-b6-9b.html"));  
             w2.Background = brush;
             w10.Background = oldbrush;
             w3.Background = oldbrush;
@@ -206,7 +206,7 @@ namespace ITITouch.Faculty
 
         private void bt9_Click(object sender, RoutedEventArgs e)    //牛存良
         {
-            sendPage((""));  
+            showBt2Function();
             w9.Background = brush;
             w2.Background = oldbrush;
             w3.Background = oldbrush;
@@ -278,7 +278,7 @@ namespace ITITouch.Faculty
 
         private void bt13_Click(object sender, RoutedEventArgs e)    //宋洁
         {
-            sendPage((""));  
+            showBt1Function();
             w13.Background = brush;
             w2.Background = oldbrush;
             w3.Background = oldbrush;
