@@ -1,0 +1,85 @@
+﻿<Page x:Class="ITITouch.Organization.showIntelligentScienceAndTechnology"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1500"  ShowsNavigationUI="False"
+	Title="showIntelligentScienceAndTechnology">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="670"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--这里调整虚化的时候会虚化边缘，背景色设置为白色-->
+        <Grid Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.1*"></ColumnDefinition>
+                <ColumnDefinition Width="0.35*"></ColumnDefinition>
+                <ColumnDefinition ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.3*"></RowDefinition>
+                <!--灵活的布局，随着字的多少而改变-->
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <!--遮罩与图片-->
+            <Canvas Grid.ColumnSpan="3" Grid.RowSpan="3" ></Canvas>
+            <Image Grid.ColumnSpan="3" Grid.RowSpan="3" Source="/ITITouch;component/Resources/智能.jpg" Stretch="UniformToFill">
+                <Image.Effect>
+                    <BlurEffect Radius="15"></BlurEffect>
+                </Image.Effect>
+            </Image>
+
+            <StackPanel Panel.ZIndex="2" Grid.Row="1" Grid.Column="1">
+                <Label MaxWidth="550" HorizontalAlignment="Left" Margin="0,15,0,10" FontSize="33"   VerticalAlignment="Top" >
+                    <TextBlock  TextWrapping="Wrap"
+                                   Text="智能科学与技术简介" FontFamily="微软雅黑" Foreground="White" />
+                </Label>
+                <Label MaxWidth="450" HorizontalAlignment="Left" FontSize="20"  VerticalAlignment="Top" Height="auto" FontFamily="微软雅黑">
+                    <TextBlock  TextWrapping="Wrap"  LineHeight="30"
+                                   Text="“智能科学与技术”是面向前沿高新技术的基础性本科专业，覆盖面很广。经过近几十年的发展，智能技术及其应用已经成为IT行业创新的重要生长点，其广泛的应用前景日趋明显，如，智能机器人、智能化机器、智能化电器、智能化楼宇、智能化社区、智能化物流等等，对人类生活的方方面面产生了重要的影响。" Foreground="White"/>
+                </Label>
+            </StackPanel>
+            <!--下半部分-->
+        </Grid>
+        <Grid  Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Background="WhiteSmoke">
+
+                <!--左边页面-->
+                <StackPanel Background="#FF1F9ABE" Margin="25">
+                    <Label  HorizontalAlignment="Center" Margin="0,15,0,5" FontSize="33" Foreground="Black"   VerticalAlignment="Top" >
+                        <TextBlock  TextWrapping="Wrap"
+                                   Text="培养目标" Foreground="White" />
+                    </Label>
+                    <Label MaxWidth="700" HorizontalAlignment="Left" FontSize="20" Foreground="Black"   VerticalAlignment="Top" Width="700">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock  Margin="50,30" LineHeight="50" TextWrapping="Wrap" FontSize="25" Foreground="White">在工业生产第一线从事智能化系统和开发<LineBreak/>从事科学研究、行业管理等方面的工作<LineBreak/>具备进一步深造的素质和终生的自主学习能力</TextBlock>
+                        </StackPanel>
+                    </Label>
+                </StackPanel>
+            </Grid>
+            <!--右边页面-->
+            <Grid Grid.Column="1" Background="WhiteSmoke">
+
+                <StackPanel Background="#FF1F9ABE" Margin="25">
+                    <Label MaxWidth="700" HorizontalAlignment="Center" Margin="0,15,0,5" FontSize="33" Foreground="Black"   VerticalAlignment="Top" Width="150">
+                        <TextBlock  TextWrapping="Wrap"
+                                   Text="基本要求" Foreground="White" />
+                    </Label>
+                    <Label  HorizontalAlignment="Left" FontSize="20" Foreground="Black"   VerticalAlignment="Top" >
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Margin="50,30" LineHeight="50" TextWrapping="Wrap" FontSize="25" Foreground="White">扎实的数学、物理、计算机和信息处理的基础知识<LineBreak/>多学科交叉知识的基础或者认知能力<LineBreak/>具有良好的科学思维、科学实验和科学研究的精神</TextBlock>
+                        </StackPanel>
+                    </Label>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

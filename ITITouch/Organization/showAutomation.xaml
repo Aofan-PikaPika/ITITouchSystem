@@ -1,0 +1,86 @@
+﻿<Page x:Class="ITITouch.Organization.showAutomation"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1500"  ShowsNavigationUI="False"
+	Title="showAutomation">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="670"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--这里调整虚化的时候会虚化边缘，背景色设置为白色-->
+        <Grid Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.6*"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="1.7*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.4*"></RowDefinition>
+                <!--灵活的布局，随着字的多少而改变-->
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <!--遮罩与图片-->
+            <Canvas Grid.ColumnSpan="3" Grid.RowSpan="3" ></Canvas>
+            <Image Grid.ColumnSpan="3" Grid.RowSpan="3" Source="/ITITouch;component/Resources/自动化系.jpg" Stretch="UniformToFill">
+                <Image.Effect>
+                    <BlurEffect Radius="10"></BlurEffect>
+                </Image.Effect>
+            </Image>
+
+            <StackPanel Panel.ZIndex="2" Grid.Row="1" Grid.Column="1">
+                <Label MaxWidth="550" HorizontalAlignment="Left" Margin="0,15,0,10" FontSize="33"   VerticalAlignment="Top" >
+                    <TextBlock  TextWrapping="Wrap"
+                                   Text="自动化系简介" FontFamily="微软雅黑" Foreground="Black" />
+                </Label>
+                <Label MaxWidth="450" HorizontalAlignment="Left" FontSize="20"   VerticalAlignment="Top" Height="auto" FontFamily="微软雅黑">
+                    <TextBlock  TextWrapping="Wrap"  LineHeight="30"
+                                   Text="本专业致力于培养掌握自动控制理论与应用领域的相关数学、自然科学、工程基础与专业知识；能够分析与解决自动控制系统复杂工程问题；具有较强的创新意识和工程实践能力；具有国际视野和跟踪自动化领域发展的能力；具有较高的工程素养、人文社会科学素养、社会责任感、道德修养和良好的团队精神；能够从事面向工业4.0和中国制造2025的自动控制系统分析与设计、研究与开发、集成与运行、管理与决策等工作的高级工程技术人才。" Foreground="Black"/>
+                </Label>
+            </StackPanel>
+            <!--下半部分-->
+        </Grid>
+        <Grid  Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0" Background="WhiteSmoke">
+
+                <!--左边页面-->
+                <StackPanel Background="#FFBEBEBE" Margin="25">
+                    <Label  HorizontalAlignment="Center" Margin="0,15,0,5" FontSize="33" Foreground="Black"   VerticalAlignment="Top" >
+                        <TextBlock  TextWrapping="Wrap"
+                                   Text="培养目标" Foreground="#FF040404" />
+                    </Label>
+                    <Label MaxWidth="700" HorizontalAlignment="Left" FontSize="20" Foreground="Black"   VerticalAlignment="Top" Width="700">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock  Margin="50,30" LineHeight="50" TextWrapping="Wrap" FontSize="25" Foreground="Black">能在工业生产第一线工作<LineBreak/>在科研院所等单位从事自动化领域的复杂工程设计<LineBreak/>科学研究、新产品开发及相关的行业管理等方面的工作<LineBreak/>具备进一步深造的素质和终生的自主学习能力</TextBlock>
+                        </StackPanel>
+                    </Label>
+                </StackPanel>
+            </Grid>
+            <!--右边页面-->
+            <Grid Grid.Column="1" Background="WhiteSmoke">
+
+                <StackPanel Background="#FFBEBEBE" Margin="25">
+                    <Label MaxWidth="700" HorizontalAlignment="Center" Margin="0,15,0,5" FontSize="33" Foreground="Black"   VerticalAlignment="Top" Width="150">
+                        <TextBlock  TextWrapping="Wrap"
+                                   Text="基本要求" Foreground="Black" />
+                    </Label>
+                    <Label  HorizontalAlignment="Left" FontSize="20" Foreground="Black"   VerticalAlignment="Top" >
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock  Margin="50,30" LineHeight="50" TextWrapping="Wrap" FontSize="25" Foreground="Black">学习电工技术、电子技术、控制理论等<LineBreak/>与应用和网络技术等较宽广领域的工程技术知识<LineBreak/>具有自动化系统分析、设计、开发与研究的基本能力 <LineBreak/> 综合素质高，具有坚实理论基础和创新能力</TextBlock>
+                        </StackPanel>
+
+                    </Label>
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

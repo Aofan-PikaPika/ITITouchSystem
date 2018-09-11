@@ -48,12 +48,37 @@ namespace ITITouch.Organization
             n2.showSoftwareFunction += new showFramebt3Handle(Software);
             n2.showIOTFunction += new showFramebt4Handle(IOT);
             n2.showTeachFunction += new showFramebt5Handle(Teach);
-            n2.showCenterFunction += new showFramebt6Handle(Center);
             n2.showLabFunction += new showFramebt7Handle(Lab);
+            n2.showNewEnergyScienceAndEngineering += new showFramebt8Handle(NewEnergy);
+            n2.showAutomation += new showFramebt9Handle(Automation);
+            n2.showIntelligentScienceAndTechnology += new showFramebt10Handle(TST);
+            n2.showComputerExperimentCenter += new showFramebt11Handle(LCP);
             n2.Initialization();
             
         }
+        private void LCP()
+        {
+            LabCenterPage lcp = new LabCenterPage();
+            this.frameShow.Content = lcp;
+        }
 
+        private void TST()
+        {
+            showIntelligentScienceAndTechnology tst = new showIntelligentScienceAndTechnology();
+            this.frameShow.Content = tst;
+        }
+
+        private void Automation()
+        {
+            showAutomation auto = new showAutomation();
+            this.frameShow.Content = auto;
+        }
+
+        private void NewEnergy() 
+        {
+            showNewEnergyScienceAndEngineering nese = new showNewEnergyScienceAndEngineering();
+            this.frameShow.Content = nese;
+        }
         private void FunctionDepartment() 
         {
             FunctionDepartmentPage fdp = new FunctionDepartmentPage();

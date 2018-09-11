@@ -37,7 +37,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="0" Background="WhiteSmoke">
-                <StackPanel Background="#FFFBE3DB" Margin="25" Height="360" Width="700">
+                <StackPanel Background="#FFE3D6D4" Margin="25" Height="360" Width="700">
                     <Label MaxWidth="700" HorizontalAlignment="Center" Margin="0,15,0,10" FontSize="33" Foreground="Black"   VerticalAlignment="Top" Width="150">
                         <TextBlock  TextWrapping="Wrap"
                                    Text="系部介绍" />
@@ -49,7 +49,7 @@
                 </StackPanel>
             </Grid>
             <Grid Grid.Column="1" Background="WhiteSmoke">
-                <StackPanel Background="#FFFBE3DB" Margin="25" Height="360" Width="700">
+                <StackPanel Background="#FFE3D6D4" Margin="25" Height="360" Width="700">
                     <Label MaxWidth="700" HorizontalAlignment="Center" Margin="0,15,0,10" FontSize="33" Foreground="Black"   VerticalAlignment="Top" Width="150">
                         <TextBlock  TextWrapping="Wrap"
                                    Text="培养目标" />

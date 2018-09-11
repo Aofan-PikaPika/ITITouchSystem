@@ -19,8 +19,11 @@ namespace ITITouch.Organization
         public delegate void showFramebt3Handle();
         public delegate void showFramebt4Handle();
         public delegate void showFramebt5Handle();
-        public delegate void showFramebt6Handle();
         public delegate void showFramebt7Handle();
+        public delegate void showFramebt8Handle();
+        public delegate void showFramebt9Handle();
+        public delegate void showFramebt10Handle();
+        public delegate void showFramebt11Handle();
     /// <summary>
     /// NaviPage2.xaml 的交互逻辑
     /// </summary>
@@ -31,8 +34,11 @@ namespace ITITouch.Organization
         public showFramebt3Handle showSoftwareFunction;
         public showFramebt4Handle showIOTFunction;
         public showFramebt5Handle showTeachFunction;
-        public showFramebt6Handle showCenterFunction;
         public showFramebt7Handle showLabFunction;
+        public showFramebt8Handle showNewEnergyScienceAndEngineering;
+        public showFramebt9Handle showAutomation;
+        public showFramebt10Handle showIntelligentScienceAndTechnology;
+        public showFramebt11Handle showComputerExperimentCenter;
         public NaviPage2()
         {
             
@@ -52,6 +58,10 @@ namespace ITITouch.Organization
             w4.Background = oldbrush;
             w5.Background = oldbrush;
             w7.Background = oldbrush;
+            w8.Background = oldbrush;
+            w9.Background = oldbrush;
+            w10.Background = oldbrush;
+            w11.Background = oldbrush;
         }
 
         private void bt2_Click(object sender, RoutedEventArgs e)
@@ -64,8 +74,11 @@ namespace ITITouch.Organization
             w3.Background = oldbrush;
             w4.Background = oldbrush;
             w5.Background = oldbrush;
-
             w7.Background = oldbrush;
+            w8.Background = oldbrush;
+            w9.Background = oldbrush;
+            w10.Background = oldbrush;
+            w11.Background = oldbrush;
         }
 
         private void bt3_Click(object sender, RoutedEventArgs e)
@@ -78,8 +91,11 @@ namespace ITITouch.Organization
             w1.Background = oldbrush;
             w4.Background = oldbrush;
             w5.Background = oldbrush;
-
             w7.Background = oldbrush;
+            w8.Background = oldbrush;
+            w9.Background = oldbrush;
+            w10.Background = oldbrush;
+            w11.Background = oldbrush;
         }
 
         private void bt4_Click(object sender, RoutedEventArgs e)
@@ -92,8 +108,11 @@ namespace ITITouch.Organization
             w3.Background = oldbrush;
             w1.Background = oldbrush;
             w5.Background = oldbrush;
-
             w7.Background = oldbrush;
+            w8.Background = oldbrush;
+            w9.Background = oldbrush;
+            w10.Background = oldbrush;
+            w11.Background = oldbrush;
         }
 
         private void bt5_Click(object sender, RoutedEventArgs e)
@@ -106,8 +125,11 @@ namespace ITITouch.Organization
             w3.Background = oldbrush;
             w1.Background = oldbrush;
             w4.Background = oldbrush;
-
             w7.Background = oldbrush;
+            w8.Background = oldbrush;
+            w9.Background = oldbrush;
+            w10.Background = oldbrush;
+            w11.Background = oldbrush;
         }
 
 
@@ -123,6 +145,84 @@ namespace ITITouch.Organization
             w1.Background = oldbrush;
             w4.Background = oldbrush;
             w5.Background = oldbrush;
+            w8.Background = oldbrush;
+            w9.Background = oldbrush;
+            w10.Background = oldbrush;
+            w11.Background = oldbrush;
+
+        }
+
+
+
+        private void bt8_Click(object sender, RoutedEventArgs e)
+        {
+            showNewEnergyScienceAndEngineering();
+            SolidColorBrush brush = new SolidColorBrush(Colors.LightSkyBlue);
+            SolidColorBrush oldbrush = new SolidColorBrush(Colors.White);
+            w8.Background = brush;
+            w2.Background = oldbrush;
+            w3.Background = oldbrush;
+            w1.Background = oldbrush;
+            w4.Background = oldbrush;
+            w5.Background = oldbrush;
+            w7.Background = oldbrush;
+            w9.Background = oldbrush;
+            w10.Background = oldbrush;
+            w11.Background = oldbrush;
+
+        }
+
+        private void bt9_Click(object sender, RoutedEventArgs e)
+        {
+            showAutomation();
+            SolidColorBrush brush = new SolidColorBrush(Colors.LightSkyBlue);
+            SolidColorBrush oldbrush = new SolidColorBrush(Colors.White);
+            w9.Background = brush;
+            w2.Background = oldbrush;
+            w3.Background = oldbrush;
+            w1.Background = oldbrush;
+            w4.Background = oldbrush;
+            w5.Background = oldbrush;
+            w8.Background = oldbrush;
+            w7.Background = oldbrush;
+            w10.Background = oldbrush;
+            w11.Background = oldbrush;
+
+        }
+
+        private void bt10_Click(object sender, RoutedEventArgs e)
+        {
+            showIntelligentScienceAndTechnology();
+            SolidColorBrush brush = new SolidColorBrush(Colors.LightSkyBlue);
+            SolidColorBrush oldbrush = new SolidColorBrush(Colors.White);
+            w10.Background = brush;
+            w2.Background = oldbrush;
+            w3.Background = oldbrush;
+            w1.Background = oldbrush;
+            w4.Background = oldbrush;
+            w5.Background = oldbrush;
+            w8.Background = oldbrush;
+            w9.Background = oldbrush;
+            w7.Background = oldbrush;
+            w11.Background = oldbrush;
+
+        }
+
+        private void bt11_Click(object sender, RoutedEventArgs e)
+        {
+            showComputerExperimentCenter();
+            SolidColorBrush brush = new SolidColorBrush(Colors.LightSkyBlue);
+            SolidColorBrush oldbrush = new SolidColorBrush(Colors.White);
+            w11.Background = brush;
+            w2.Background = oldbrush;
+            w3.Background = oldbrush;
+            w1.Background = oldbrush;
+            w4.Background = oldbrush;
+            w5.Background = oldbrush;
+            w8.Background = oldbrush;
+            w9.Background = oldbrush;
+            w10.Background = oldbrush;
+            w7.Background = oldbrush;
 
         }
 

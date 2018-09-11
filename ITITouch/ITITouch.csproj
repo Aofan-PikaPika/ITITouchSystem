@@ -864,6 +864,15 @@
     <Compile Include="Organization\PageYouth.xaml.cs">
       <DependentUpon>PageYouth.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Organization\showAutomation.xaml.cs">
+      <DependentUpon>showAutomation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Organization\showIntelligentScienceAndTechnology.xaml.cs">
+      <DependentUpon>showIntelligentScienceAndTechnology.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Organization\showNewEnergyScienceAndEngineering.xaml.cs">
+      <DependentUpon>showNewEnergyScienceAndEngineering.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Organization\SoftwareEngineering.xaml.cs">
       <DependentUpon>SoftwareEngineering.xaml</DependentUpon>
     </Compile>
@@ -2017,6 +2026,18 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Organization\showAutomation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Organization\showIntelligentScienceAndTechnology.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Organization\showNewEnergyScienceAndEngineering.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Organization\SoftwareEngineering.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -2090,19 +2111,11 @@
     <Folder Include="Faculty\VisitingLecturer\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\mi.png" />
-    <Resource Include="Resources\art.png" />
-    <Resource Include="Resources\mi_center.png" />
-    <Resource Include="Resources\杨鹏_C.png" />
-    <Resource Include="Resources\logo_ort.png" />
-    <Resource Include="Resources\董砚.png" />
-    <Resource Include="Resources\logo.png" />
-    <Resource Include="Resources\footer_weixin.jpg" />
-    <Resource Include="Resources\logologo.png" />
     <Resource Include="Resources\1.jpg" />
     <Resource Include="Resources\19da.jpg" />
     <Resource Include="Resources\address.png" />
     <Resource Include="Resources\app.png" />
+    <Resource Include="Resources\art.png" />
     <Resource Include="Resources\back.jpg" />
     <Resource Include="Resources\back.png" />
     <Resource Include="Resources\back01.png" />
@@ -2121,6 +2134,7 @@
     <Resource Include="Resources\floor1.PNG" />
     <Resource Include="Resources\floor2.PNG" />
     <Resource Include="Resources\floor3.PNG" />
+    <Resource Include="Resources\footer_weixin.jpg" />
     <Resource Include="Resources\forward.png" />
     <Resource Include="Resources\forward01.png" />
     <Resource Include="Resources\history.png" />
@@ -2132,10 +2146,15 @@
     <Resource Include="Resources\leader.png" />
     <Resource Include="Resources\library.png" />
     <Resource Include="Resources\location.png" />
+    <Resource Include="Resources\logo.png" />
+    <Resource Include="Resources\logologo.png" />
     <Resource Include="Resources\logoNotFinish.png" />
     <Resource Include="Resources\logooo.png" />
+    <Resource Include="Resources\logo_ort.png" />
     <Resource Include="Resources\map.png" />
     <Resource Include="Resources\mapicon.png" />
+    <Resource Include="Resources\mi.png" />
+    <Resource Include="Resources\mi_center.png" />
     <Resource Include="Resources\MSNFemale.png" />
     <Resource Include="Resources\MSNMale.png" />
     <Resource Include="Resources\net.png" />
@@ -2186,7 +2205,12 @@
     <Resource Include="Resources\张军.png" />
     <Resource Include="Resources\张茜茜.jpg" />
     <Resource Include="Resources\彭玉青.JPG" />
+    <Resource Include="Resources\新能源.jpg" />
+    <Resource Include="Resources\新能源.png" />
+    <Resource Include="Resources\智能.jpg" />
+    <Resource Include="Resources\智能科学.png" />
     <Resource Include="Resources\李妍.jpg" />
+    <Resource Include="Resources\杨鹏_C.png" />
     <Resource Include="Resources\柴欣.png" />
     <Resource Include="Resources\武优西.png" />
     <Resource Include="Resources\沈西挺.jpg" />
@@ -2201,9 +2225,14 @@
     <Resource Include="Resources\职能.png" />
     <Resource Include="Resources\职能部门人像.png" />
     <Resource Include="Resources\肖国玺.jpg" />
+    <Resource Include="Resources\自动化.png" />
+    <Resource Include="Resources\自动化系.jpg" />
     <Resource Include="Resources\董永峰工作照小版.jpg" />
+    <Resource Include="Resources\董砚.png" />
     <Resource Include="Resources\计科.png" />
     <Resource Include="Resources\计算机基础教学部.jpg" />
+    <Resource Include="Resources\计算机实验中心.jpg" />
+    <Resource Include="Resources\计算机实验中心.png" />
     <Resource Include="Resources\计算机科学与技术.jpg" />
     <Resource Include="Resources\许智宏.jpg" />
     <Resource Include="Resources\证件照.jpg" />

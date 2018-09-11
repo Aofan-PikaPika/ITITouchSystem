@@ -28,7 +28,7 @@
         </Grid>
          
 
-        <!--再采用一个Grid切分图片的下半部分，将下半部分切分成六个小块-->
+        <!--再采用一个Grid切分图片的下半部分，将下半部分切分成八个小块-->
         <Grid Background="WhiteSmoke " Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
@@ -66,7 +66,7 @@
                 </Ellipse>
                 -->
                 <StackPanel Grid.ColumnSpan="5" Grid.Row="2" Grid.RowSpan="3" Background="White" />
-                <Image Height="120" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="2" Grid.Row="1" Source="/ITITouch;component/Resources/职能部门人像.png" >
+                <Image Height="120" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="2" Grid.Row="1" Source="/ITITouch;component/Resources/王靖鑫.jpg" >
                     <Image.Clip>
                         <EllipseGeometry Center="60,60" RadiusX="60" RadiusY="60"></EllipseGeometry>
                     </Image.Clip>
@@ -85,16 +85,17 @@
                     <TextBlock FontSize="25">负责办公室全面工作</TextBlock>
                 </Label>
                 <Label Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1" >
-                    <StackPanel> 
-                        <TextBlock FontSize="15">办公室：306</TextBlock>
+                    <StackPanel>
+                        <TextBlock FontSize="15">办公室：西教一306</TextBlock>
                         <TextBlock FontSize="15">电话：022-60435867</TextBlock>
                         <TextBlock FontSize="15" Margin="0,0,0,6">邮箱：wangjingxin@scse.hebut.edu.cn</TextBlock>
                     </StackPanel>
                     
                 </Label>
 
-
             </Grid>
+           
+            
             <!--李妍-->
             <Grid Grid.Column="1" Grid.Row="0" Margin="20" >
                 <Grid.ColumnDefinitions>
@@ -128,15 +129,16 @@
                 </Label>
                 <Label Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1" Margin="0,0,0,10"  >
                     <StackPanel>
-                        <TextBlock FontSize="15">办公室：306</TextBlock>
+                        <TextBlock FontSize="15">办公室：西教一306</TextBlock>
                         <TextBlock FontSize="15">电话：022-60435864</TextBlock>
                         <TextBlock FontSize="15">邮箱：liyan@scse.hebut.edu.cn</TextBlock>
                     </StackPanel>
 
                 </Label>
 
-
             </Grid>
+           
+            
             <!--王晓芳-->
             <Grid Grid.Column="2" Grid.Row="0" Margin="20" >
                 <Grid.ColumnDefinitions>
@@ -162,7 +164,7 @@
                 <!--利用标签设置horizentalAligenment-->
                 <Label Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2">
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock FontSize="20">科研干事</TextBlock>
+                        <TextBlock FontSize="20">科研秘书</TextBlock>
                         <!--在WPF图形编辑界面直接输入空格就会出现这种表示法-->
                         <TextBlock FontSize="20" FontWeight="Bold" ><Run Text="  "/><Run Text="王晓芳"/></TextBlock>
                     </StackPanel>
@@ -172,15 +174,16 @@
                 </Label>
                 <Label Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1"  Margin="0,0,0,10" >
                     <StackPanel>
-                        <TextBlock FontSize="15">办公室：306</TextBlock>
+                        <TextBlock FontSize="15">办公室：西教一306</TextBlock>
                         <TextBlock FontSize="15">电话：022-60435864</TextBlock>
                         <TextBlock FontSize="15">邮箱：wxf@scse.hebut.edu.cn</TextBlock>
                     </StackPanel>
 
                 </Label>
 
-
             </Grid>
+           
+            
             <!--于巍-->
             <Grid Grid.Column="0" Grid.Row="1" Margin="20" >
                 <Grid.ColumnDefinitions>
@@ -214,15 +217,16 @@
                 </Label>
                 <Label Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1" Margin="0,0,0,10" >
                     <StackPanel>
-                        <TextBlock FontSize="15">办公室：306</TextBlock>
+                        <TextBlock FontSize="15">办公室：西教一306</TextBlock>
                         <TextBlock FontSize="15">电话：022-60435865</TextBlock>
                         <TextBlock FontSize="15">邮箱：yuwei@scse.hebut.edu.cn</TextBlock>
                     </StackPanel>
 
                 </Label>
-
-
+                
             </Grid>
+           
+            
             <!--张辉-->
             <Grid Grid.Column="1" Grid.Row="1" Margin="20" >
                 <Grid.ColumnDefinitions>
@@ -256,8 +260,8 @@
                 </Label>
                 <Label Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1" Margin="0,0,0,10" >
                     <StackPanel>
-                        <TextBlock FontSize="15">办公室：306</TextBlock>
-                        <TextBlock FontSize="15">电话：022-604358657</TextBlock>
+                        <TextBlock FontSize="15">办公室：西教一306</TextBlock>
+                        <TextBlock FontSize="15">电话：022-60435865</TextBlock>
                         <TextBlock FontSize="15">邮箱：zhanghui@scse.hebut.edu.cn</TextBlock>
                     </StackPanel>
 
@@ -265,7 +269,9 @@
 
 
             </Grid>
-            <Grid Grid.Column="0" Grid.Row="0" Margin="20" >
+
+            <!--孙研-->
+            <Grid Grid.Column="2" Grid.Row="1" Margin="20" >
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="0.2*"></ColumnDefinition>
                     <ColumnDefinition Width="2*"></ColumnDefinition>
@@ -287,7 +293,7 @@
                 </Ellipse>
                 -->
                 <StackPanel Grid.ColumnSpan="5" Grid.Row="2" Grid.RowSpan="3" Background="White" />
-                <Image Height="120" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="2" Grid.Row="1" Source="/ITITouch;component/Resources/王靖鑫.jpg" >
+                <Image Height="120" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="2" Grid.Row="1" Source="/ITITouch;component/Resources/职能部门人像.png" >
                     <Image.Clip>
                         <EllipseGeometry Center="60,60" RadiusX="60" RadiusY="60"></EllipseGeometry>
                     </Image.Clip>
@@ -295,25 +301,113 @@
                 <!--利用标签设置horizentalAligenment-->
                 <Label Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2">
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock FontSize="20">办公室主任</TextBlock>
+                        <TextBlock FontSize="20">研究生教务</TextBlock>
                         <!--在WPF图形编辑界面直接输入空格就会出现这种表示法-->
-                        <TextBlock FontSize="20" FontWeight="Bold" ><Run Text="  "/><Run Text="王靖鑫"/></TextBlock>
+                        <TextBlock FontSize="20" FontWeight="Bold" ><Run Text="  "/><Run Text="孙研"/></TextBlock>
                     </StackPanel>
                 </Label>
                 <Label Grid.Row="3" Grid.ColumnSpan="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
-                    <TextBlock FontSize="25">负责办公室全面工作</TextBlock>
+                    <TextBlock FontSize="25">负责研究生教务工作</TextBlock>
                 </Label>
                 <Label Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1" Margin="0,0,0,10" >
                     <StackPanel>
-                        <TextBlock FontSize="15">办公室：306</TextBlock>
-                        <TextBlock FontSize="15">电话：022-60435867</TextBlock>
-                        <TextBlock FontSize="15">邮箱：wangjingxin@scse.hebut.edu.cn</TextBlock>
+                        <TextBlock FontSize="15">办公室：西教一306</TextBlock>
+                        <TextBlock FontSize="15">电话：022-60435865</TextBlock>
+                        <TextBlock FontSize="15">邮箱：</TextBlock>
                     </StackPanel>
                     
                 </Label>
 
+            </Grid>
+            
+            
+            <!--高志-->
+            <Grid Grid.Column="3" Grid.Row="0" Margin="20" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="0.3*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.2*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition ></RowDefinition>
+                    <RowDefinition  Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.ColumnSpan="5" Grid.Row="2" Grid.RowSpan="3" Background="White" />
+                <Image Height="120" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="2" Grid.Row="1" Source="/ITITouch;component/Resources/职能部门人像.png" >
+                    <Image.Clip>
+                        <EllipseGeometry Center="60,60" RadiusX="60" RadiusY="60"></EllipseGeometry>
+                    </Image.Clip>
+                </Image>
+                <Label Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontSize="20"></TextBlock>
+                        <TextBlock FontSize="20" FontWeight="Bold" ><Run Text="  "/><Run Text="高志"/></TextBlock>
+                    </StackPanel>
+                </Label>
+                <Label Grid.Row="3" Grid.ColumnSpan="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontSize="25">负责平台管理和人才引进</TextBlock>
+                </Label>
+                <Label Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1" Margin="0,0,0,10" >
+                    <StackPanel>
+                        <TextBlock FontSize="15">办公室：西教一306</TextBlock>
+                        <TextBlock FontSize="15">电话：022-60435865</TextBlock>
+                        <TextBlock FontSize="15">邮箱：</TextBlock>
+                    </StackPanel>
+
+                </Label>
 
             </Grid>
+
+
+            <!--齐玲-->
+            <Grid Grid.Column="3" Grid.Row="1" Margin="20" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="0.3*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.2*"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition ></RowDefinition>
+                    <RowDefinition  Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+                <StackPanel Grid.ColumnSpan="5" Grid.Row="2" Grid.RowSpan="3" Background="White" />
+                <Image Height="120" Grid.ColumnSpan="2" Grid.RowSpan="2" Grid.Column="2" Grid.Row="1" Source="/ITITouch;component/Resources/职能部门人像.png" >
+                    <Image.Clip>
+                        <EllipseGeometry Center="60,60" RadiusX="60" RadiusY="60"></EllipseGeometry>
+                    </Image.Clip>
+                </Image>
+                <Label Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock FontSize="20">教学干事</TextBlock>
+                        <TextBlock FontSize="20" FontWeight="Bold" ><Run Text="  "/><Run Text="齐玲"/></TextBlock>
+                    </StackPanel>
+                </Label>
+                <Label Grid.Row="3" Grid.ColumnSpan="3" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock FontSize="25">负责本科生教务工作</TextBlock>
+                </Label>
+                <Label Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="1" Margin="0,0,0,10" >
+                    <StackPanel>
+                        <TextBlock FontSize="15">办公室：东院7-1030</TextBlock>
+                        <TextBlock FontSize="15">电话：022-60202856</TextBlock>
+                        <TextBlock FontSize="15">邮箱：</TextBlock>
+                    </StackPanel>
+
+                </Label>
+            </Grid>
+
+
+
+
         </Grid>
     </Grid>
 </Page>
